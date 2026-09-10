@@ -10,7 +10,9 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  # O robo grava o resultado da publicacao de volta na fila, entao precisa escrever.
+  # Usamos a chave temporaria da propria execucao, que expira ao fim do job.
+  contents: write
 
 jobs:
   publicar:
@@ -50,7 +52,7 @@ jobs:
           PQD_IG_BUSINESS_ID: ${{ secrets.PQD_IG_BUSINESS_ID }}
           PQD_FB_PAGE_ACCESS_TOKEN: ${{ secrets.PQD_FB_PAGE_ACCESS_TOKEN }}
           PQD_FB_PAGE_ID: ${{ secrets.PQD_FB_PAGE_ID }}
-          PQD_GITHUB_CONTENTS_TOKEN: ${{ secrets.PQD_GITHUB_CONTENTS_TOKEN }}
+          PQD_GITHUB_CONTENTS_TOKEN: ${{ secrets.PQD_GITHUB_CONTENTS_TOKEN || secrets.GITHUB_TOKEN }}
           PQD_GITHUB_BRANCH: main
           PQD_GITHUB_VISIBILIDADE_ATUAL: ${{ github.event.repository.visibility }}
           PQD_MEDIA_CACHE_DIR: ${{ runner.temp }}/palavra-que-desperta-meta
