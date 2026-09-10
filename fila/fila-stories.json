@@ -5,8 +5,8 @@
   "limite_parte_segundos": 59,
   "pacotes": [
     {
-      "id": "story-20260911-ba5a705139",
-      "data": "2026-09-11",
+      "id": "story-20260910-ba5a705139",
+      "data": "2026-09-10",
       "horario": "09:00",
       "status": "pendente",
       "origem": {
@@ -89,5 +89,5 @@
     }
   ],
   "estoque_minimo_dias": 1,
-  "estoque_alvo_dias": 2
+  "estoque_alvo_dias": 3
 }
