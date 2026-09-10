@@ -398,8 +398,9 @@ class PoliticaTests(unittest.TestCase):
                 politica_agenda.carregar_politica(caminho)
 
     def test_flags_versionadas_e_invariantes_da_rampa_bloqueiam_alteracao(self) -> None:
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "publicacao_habilitada=false"):
-            politica_agenda.carregar_politica()
+        # A checagem da politica real do repositorio saiu daqui em 10/09/2026, quando
+        # a publicacao foi ligada. O que este teste protege de verdade e a logica
+        # abaixo, com politicas de mentira: trava desligada e teto de rampa alterado.
         with tempfile.TemporaryDirectory() as pasta:
             regra = politica()
             regra["publicacao_habilitada"] = True
@@ -596,7 +597,10 @@ class CoordenadorTests(unittest.TestCase):
             with patch.object(coordenar, "FILA_REELS", reels), patch.object(
                 coordenar, "FILA_STORIES", stories
             ):
-                with self.assertRaisesRegex(politica_agenda.PoliticaErro, "publicacao_habilitada=false"):
+                # O que importa aqui e que a politica barra ANTES de falar com a Meta.
+                # A mensagem exata mudou quando a publicacao foi ligada em 10/09/2026,
+                # entao o teste checa o bloqueio, nao o texto.
+                with self.assertRaises(politica_agenda.PoliticaErro):
                     coordenar.executar(cliente)
             self.assertEqual(cliente.chamadas, [])
 
@@ -997,9 +1001,17 @@ class LimpezaTests(unittest.TestCase):
 
 
 class EstruturaTests(unittest.TestCase):
-    def test_filas_nascem_vazias(self) -> None:
-        self.assertEqual(comum.carregar_json(ROOT / "fila" / "fila-reels.json")["conteudos"], [])
-        self.assertEqual(comum.carregar_json(ROOT / "fila" / "fila-stories.json")["pacotes"], [])
+    def test_filas_tem_formato_valido(self) -> None:
+        # Ate 10/09/2026 este teste exigia fila vazia, para provar que nada estava
+        # ligado. Com a automacao no ar a fila tem conteudo, entao o que se verifica
+        # agora e o formato: listas de itens, cada um com data e horario.
+        reels = comum.carregar_json(ROOT / "fila" / "fila-reels.json")["conteudos"]
+        stories = comum.carregar_json(ROOT / "fila" / "fila-stories.json")["pacotes"]
+        self.assertIsInstance(reels, list)
+        self.assertIsInstance(stories, list)
+        for item in list(reels) + list(stories):
+            self.assertIn("data", item)
+            self.assertIn("horario", item)
 
     def test_workflow_unico_pinado_e_sem_credencial_git(self) -> None:
         workflows = list((ROOT / ".github" / "workflows").glob("*.yml"))
