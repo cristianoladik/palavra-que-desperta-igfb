@@ -14,7 +14,7 @@
   "data_inicio_rampa": "2026-09-10",
   "reels": {
     "duracao_minima_segundos": 3.0,
-    "duracao_maxima_segundos": 90.0,
+    "duracao_maxima_segundos": 180.0,
     "horarios_por_semana": {
       "1": [
         "09:00"
