@@ -67,8 +67,35 @@
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20260910-0900-0d9f4beaeb",
+      "data": "2026-09-10",
+      "horario": "13:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "001 - TESTE REEL DE TRES MINUTOS.mp4",
+        "caminho_relativo": "001 - TESTE REEL DE TRES MINUTOS.mp4",
+        "sha256": "0d9f4beaeb756f2596fc076c7eb982d09fe460192940b767d8e4c32efb419eaf",
+        "tamanho_bytes": 80323857
+      },
+      "midia": {
+        "asset": "001.-.TESTE.REEL.DE.TRES.MINUTOS.mp4",
+        "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/001.-.TESTE.REEL.DE.TRES.MINUTOS.mp4",
+        "sha256": "0d9f4beaeb756f2596fc076c7eb982d09fe460192940b767d8e4c32efb419eaf",
+        "tamanho_bytes": 80323857,
+        "duracao_segundos": 143.36
+      },
+      "instagram": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_minimo_dias": 1,
-  "estoque_alvo_dias": 3
+  "estoque_alvo_dias": 2
 }
