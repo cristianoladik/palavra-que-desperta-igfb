@@ -595,3 +595,22 @@ def executar_plataforma(
             )
         print(f"ERRO {plataforma}: {erro}")
         return ResultadoRede(plataforma, "erro", erro)
+
+
+def token_pagina_facebook(cliente, ambiente: Mapping[str, str] | None = None) -> str:
+    """Troca a chave do usuario do sistema pela chave da propria Pagina.
+
+    A Meta recusa publicar video na Pagina com a chave do usuario do sistema:
+    devolve "(#190) This method must be called with a Page Access Token" e
+    "(#200) Subject does not have permission to post videos on this target".
+    A chave da Pagina e obtida sob demanda e nunca fica guardada em lugar nenhum.
+    """
+    ambiente = os.environ if ambiente is None else ambiente
+    fornecida = obrigatoria("PQD_FB_PAGE_ACCESS_TOKEN", ambiente)
+    page_id = obrigatoria("PQD_FB_PAGE_ID", ambiente)
+    obter = getattr(cliente, "get", None)
+    if obter is None:
+        # Clientes de teste nao expoem GET; nesses casos a chave fornecida basta.
+        return fornecida
+    resposta = obter(page_id, {"fields": "access_token", "access_token": fornecida})
+    return str(resposta.get("access_token") or fornecida)

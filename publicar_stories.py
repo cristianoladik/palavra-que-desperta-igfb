@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Callable, MutableMapping
 
 from automacao_comum import (
+    token_pagina_facebook,
     MetaClient,
     MetaMidiaTerminalErro,
     agora_brt,
@@ -211,7 +212,7 @@ def publicar_facebook_story(
     checkpoint: Callable[[], None],
     caminho_validado: Path | None = None,
 ) -> str:
-    token = obrigatoria("PQD_FB_PAGE_ACCESS_TOKEN")
+    token = token_pagina_facebook(cliente)
     page_id = obrigatoria("PQD_FB_PAGE_ID")
     registro = parte["facebook"]
     assert isinstance(registro, MutableMapping)
