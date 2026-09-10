@@ -63,8 +63,9 @@ def carregar_politica(caminho: Path = POLITICA_FILE) -> dict:
     reels = politica.get("reels", {})
     if not isinstance(reels, Mapping):
         raise PoliticaErro("Seção reels inválida na política.")
-    if reels.get("duracao_minima_segundos") != 3.0 or reels.get("duracao_maxima_segundos") != 90.0:
-        raise PoliticaErro("Limites de duração de Reels divergem de 3–90 s.")
+    # Regra do Cristiano em 10/09/2026: Reels de ate 3 minutos em todos os projetos.
+    if reels.get("duracao_minima_segundos") != 3.0 or reels.get("duracao_maxima_segundos") != 180.0:
+        raise PoliticaErro("Limites de duração de Reels divergem de 3–180 s.")
     if reels.get("horarios_por_semana") != HORARIOS_REELS_APROVADOS:
         raise PoliticaErro("horarios_por_semana divergem da rampa 1/2/3/4/5 aprovada.")
     if reels.get("maximo_diario_por_semana") != LIMITES_REELS_APROVADOS:
@@ -334,9 +335,9 @@ def validar_fila_reels(fila: dict, politica: dict) -> None:
             duracao = float(midia.get("duracao_segundos", 0))
         except (TypeError, ValueError):
             raise PoliticaErro("Duração de Reel inválida na fila.") from None
-        if not math.isfinite(duracao) or duracao < 3.0 or duracao > 90.0:
+        if not math.isfinite(duracao) or duracao < 3.0 or duracao > 180.0:
             raise PoliticaErro(
-                f"Reel {item.get('id', 'sem-id')} fora do intervalo de duração 3–90 s."
+                f"Reel {item.get('id', 'sem-id')} fora do intervalo de duração 3–180 s."
             )
         for plataforma in ("instagram", "facebook"):
             registro = item.get(plataforma)

@@ -483,7 +483,7 @@ class PoliticaTests(unittest.TestCase):
     def test_duracao_nao_finita_e_ordem_invalida_sao_bloqueadas(self) -> None:
         item = reel(1)
         item["midia"]["duracao_segundos"] = float("nan")
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "duração 3–90"):
+        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "duração 3–180"):
             politica_agenda.validar_fila_reels(fila_reels([item]), politica())
         pacote_ruim = pacote(2)
         pacote_ruim["partes"][1]["ordem"] = 3
