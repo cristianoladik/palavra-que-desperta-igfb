@@ -7,7 +7,7 @@
       "id": "reel-20260910-0900-6e7e7e1b3c",
       "data": "2026-09-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "001 - Não importa a intensidade do teu inverno, tem uma pessoa que tá passeando.mp4",
         "caminho_relativo": "001 - Não importa a intensidade do teu inverno, tem uma pessoa que tá passeando.mp4",
@@ -37,7 +37,8 @@
         "upload_concluido": true,
         "id": "1626878699064759",
         "publicado_em": "2026-09-10T19:24:22.106367-03:00"
-      }
+      },
+      "concluido_em": "2026-09-10T19:24:23.360119-03:00"
     },
     {
       "id": "reel-20260912-0900-43b81efe2f",
