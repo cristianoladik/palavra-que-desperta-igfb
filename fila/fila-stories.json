@@ -36,10 +36,7 @@
             "publicado_em": "2026-09-10T19:18:55.074259-03:00"
           },
           "facebook": {
-            "status": "revisao_manual",
-            "publicacao_iniciada_em": "2026-09-10T19:18:56.023689-03:00",
-            "erro": "Meta HTTP 400: {\"error\":{\"message\":\"(#190) This method must be called with a Page Access Token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"A0j8F6g33ZX2U_HN6Ilig13\"}}",
-            "ultima_tentativa_em": "2026-09-10T19:18:57.326762-03:00"
+            "status": "pendente"
           }
         }
       ],
