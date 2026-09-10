@@ -3,5 +3,91 @@
   "canal": "instagram-facebook-stories",
   "timezone": "America/Sao_Paulo",
   "limite_parte_segundos": 59,
-  "pacotes": []
+  "pacotes": [
+    {
+      "id": "story-20260911-ba5a705139",
+      "data": "2026-09-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "084 - O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
+        "sha256": "ba5a705139231d653c75d30eb658a5a418da88dc5675505e7fef87727bc433e0"
+      },
+      "manifesto": {
+        "sha256": "578e8cbf9972ec9d68e95c3781840dd3ca345fe46b4f817d68d9e7b76cc0e727",
+        "tamanho_bytes": 783
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "001-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/001-parte-01.mp4",
+            "sha256": "b6d84bf33b44581b4a8d8c88a56177403d99c7950107f63c91c54166ac565c5d",
+            "tamanho_bytes": 8022096,
+            "duracao_segundos": 28.2
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260912-2dc7a41704",
+      "data": "2026-09-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "085 - Por que o DIABO tenta te PARAR agora？ O que ELE NÃO QUER que VOCÊ SAIBA.mp4",
+        "sha256": "2dc7a41704e9d4f5d55baf6620721ece8934b2b9b019ded3d14958945d81a235"
+      },
+      "manifesto": {
+        "sha256": "e01f399beea073cc616fcb4976eae20fc858da4abe013643224ea2b1b20a9eb1",
+        "tamanho_bytes": 1035
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "002-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/002-parte-01.mp4",
+            "sha256": "7c90774106521734da1ad2ff29545a27de4fe128f12a8361d1d0c2aacab798f1",
+            "tamanho_bytes": 7618205,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "002-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/002-parte-02.mp4",
+            "sha256": "92ea829920d7b1b504222a6fe0228a33db134aa1fd2541b762f3f96cffd1fbf6",
+            "tamanho_bytes": 7716048,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    }
+  ],
+  "estoque_minimo_dias": 1,
+  "estoque_alvo_dias": 2
 }

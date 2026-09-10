@@ -2,5 +2,62 @@
   "schema_version": 1,
   "canal": "instagram-facebook-reels",
   "timezone": "America/Sao_Paulo",
-  "conteudos": []
+  "conteudos": [
+    {
+      "id": "reel-20260911-0900-6e7e7e1b3c",
+      "data": "2026-09-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "001 - Não importa a intensidade do teu inverno, tem uma pessoa que tá passeando.mp4",
+        "caminho_relativo": "001 - Não importa a intensidade do teu inverno, tem uma pessoa que tá passeando.mp4",
+        "sha256": "6e7e7e1b3c987fe0dd5cf0f96b3e327879b3d6b7383a77da3068f955e18979d1",
+        "tamanho_bytes": 10483383
+      },
+      "midia": {
+        "asset": "001.-.Nao.importa.a.intensidade.do.teu.inverno.tem.uma.pessoa.que.ta.passeando.mp4",
+        "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/001.-.Nao.importa.a.intensidade.do.teu.inverno.tem.uma.pessoa.que.ta.passeando.mp4",
+        "sha256": "6e7e7e1b3c987fe0dd5cf0f96b3e327879b3d6b7383a77da3068f955e18979d1",
+        "tamanho_bytes": 10483383,
+        "duracao_segundos": 41.2
+      },
+      "instagram": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20260912-0900-43b81efe2f",
+      "data": "2026-09-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "002 - A gratidão não tem prazo de validade, a gratidão atrai o favor do senhor e expulsa a obra do mal.mp4",
+        "caminho_relativo": "002 - A gratidão não tem prazo de validade, a gratidão atrai o favor do senhor e expulsa a obra do mal.mp4",
+        "sha256": "43b81efe2ffa42867ea0f66c66f5880f06620c6e1f30ba47a43e14e364b1446b",
+        "tamanho_bytes": 7701152
+      },
+      "midia": {
+        "asset": "002.-.A.gratidao.nao.tem.prazo.de.validade.a.gratidao.atrai.o.favor.do.senhor.e.expulsa.a.obra.do.mal.mp4",
+        "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/002.-.A.gratidao.nao.tem.prazo.de.validade.a.gratidao.atrai.o.favor.do.senhor.e.expulsa.a.obra.do.mal.mp4",
+        "sha256": "43b81efe2ffa42867ea0f66c66f5880f06620c6e1f30ba47a43e14e364b1446b",
+        "tamanho_bytes": 7701152,
+        "duracao_segundos": 29.6
+      },
+      "instagram": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      }
+    }
+  ],
+  "estoque_minimo_dias": 1,
+  "estoque_alvo_dias": 2
 }

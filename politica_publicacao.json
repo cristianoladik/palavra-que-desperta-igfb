@@ -1,8 +1,8 @@
 {
   "versao": 1,
   "projeto": "Palavra Que Desperta",
-  "publicacao_habilitada": false,
-  "autoridade_unica_confirmada": false,
+  "publicacao_habilitada": true,
+  "autoridade_unica_confirmada": true,
   "timezone": "America/Sao_Paulo",
   "instagram_username": "palavraquedesperta_br",
   "legenda_reels": "siga @palavraquedesperta_br",
@@ -10,7 +10,7 @@
   "release_tag": "fila-instagram-facebook",
   "repositorio_esperado": "cristianoladik/palavra-que-desperta-igfb",
   "github_visibilidade": "publico",
-  "exposicao_midias_futuras_confirmada": false,
+  "exposicao_midias_futuras_confirmada": true,
   "data_inicio_rampa": "2026-09-11",
   "reels": {
     "duracao_minima_segundos": 3.0,
