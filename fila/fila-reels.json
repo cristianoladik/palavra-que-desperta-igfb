@@ -30,11 +30,13 @@
         "publicado_em": "2026-09-10T19:19:42.562916-03:00"
       },
       "facebook": {
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "legenda": "siga @palavraquedesperta_br",
         "publicacao_iniciada_em": "2026-09-10T19:24:06.753228-03:00",
         "video_id": "1626878699064759",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "1626878699064759",
+        "publicado_em": "2026-09-10T19:24:22.106367-03:00"
       }
     },
     {
