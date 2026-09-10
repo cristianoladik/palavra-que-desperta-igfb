@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "canal": "instagram-facebook-stories",
+  "timezone": "America/Sao_Paulo",
+  "limite_parte_segundos": 59,
+  "pacotes": []
+}

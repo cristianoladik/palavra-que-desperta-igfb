@@ -1,0 +1,24 @@
+.env
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+config.local.json
+
+# Este repositório deve conter somente código e estado leve. Mídia nunca entra no Git.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.partial
+*.tmp
