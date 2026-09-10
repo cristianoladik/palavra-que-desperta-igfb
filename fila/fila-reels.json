@@ -72,7 +72,7 @@
       "id": "reel-20260910-0900-0d9f4beaeb",
       "data": "2026-09-10",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "001 - TESTE REEL DE TRES MINUTOS.mp4",
         "caminho_relativo": "001 - TESTE REEL DE TRES MINUTOS.mp4",
@@ -102,7 +102,8 @@
         "upload_concluido": true,
         "id": "1466352601986146",
         "publicado_em": "2026-09-10T19:50:51.169925-03:00"
-      }
+      },
+      "concluido_em": "2026-09-10T19:50:52.343280-03:00"
     }
   ],
   "estoque_minimo_dias": 1,
