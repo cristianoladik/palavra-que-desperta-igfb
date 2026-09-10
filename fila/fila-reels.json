@@ -31,8 +31,10 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
-        "publicacao_iniciada_em": "2026-09-10T19:19:43.524101-03:00"
+        "status": "revisao_manual",
+        "publicacao_iniciada_em": "2026-09-10T19:19:43.524101-03:00",
+        "erro": "Meta HTTP 403: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AewI_yrTd_P03sebrHXlRb6\"}}",
+        "ultima_tentativa_em": "2026-09-10T19:19:44.533047-03:00"
       }
     },
     {
