@@ -30,8 +30,9 @@
         "publicado_em": "2026-09-10T19:19:42.562916-03:00"
       },
       "facebook": {
-        "status": "pendente",
-        "legenda": "siga @palavraquedesperta_br"
+        "status": "publicacao_iniciada",
+        "legenda": "siga @palavraquedesperta_br",
+        "publicacao_iniciada_em": "2026-09-10T19:24:06.753228-03:00"
       }
     },
     {
