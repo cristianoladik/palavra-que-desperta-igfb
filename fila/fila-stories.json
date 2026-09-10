@@ -41,11 +41,11 @@
         }
       ],
       "ultima_consulta_cota_instagram": {
-        "consultado_em": "2026-09-10T19:18:09.897739-03:00",
+        "consultado_em": "2026-09-10T19:23:44.780004-03:00",
         "confiavel": true,
-        "necessarias": 1,
-        "restantes": 100,
-        "mensagem": "Cota Instagram: 100 criações restantes; 1 necessárias."
+        "necessarias": 0,
+        "restantes": null,
+        "mensagem": "Nenhuma nova parte do Instagram é necessária."
       },
       "publicacao_iniciada_em": "2026-09-10T19:18:10.837762-03:00",
       "erro": "Uma parte ficou em estado ambíguo; reenvio automático bloqueado.",
