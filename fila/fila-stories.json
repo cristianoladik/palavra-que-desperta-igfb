@@ -8,7 +8,7 @@
       "id": "story-20260910-ba5a705139",
       "data": "2026-09-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "084 - O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "sha256": "ba5a705139231d653c75d30eb658a5a418da88dc5675505e7fef87727bc433e0"
@@ -42,7 +42,8 @@
         "necessarias": 1,
         "restantes": 100,
         "mensagem": "Cota Instagram: 100 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-09-10T19:18:10.837762-03:00"
     },
     {
       "id": "story-20260912-2dc7a41704",
