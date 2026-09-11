@@ -45,7 +45,7 @@
       "id": "reel-20260911-0900-43b81efe2f",
       "data": "2026-09-11",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "002 - A gratidão não tem prazo de validade, a gratidão atrai o favor do senhor e expulsa a obra do mal.mp4",
         "caminho_relativo": "002 - A gratidão não tem prazo de validade, a gratidão atrai o favor do senhor e expulsa a obra do mal.mp4",
@@ -75,7 +75,8 @@
         "upload_concluido": true,
         "id": "1076873714924637",
         "publicado_em": "2026-09-11T19:36:57.534916-03:00"
-      }
+      },
+      "concluido_em": "2026-09-11T19:36:58.759715-03:00"
     },
     {
       "id": "reel-20260910-0900-0d9f4beaeb",
