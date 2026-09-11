@@ -671,6 +671,1895 @@
           }
         }
       ]
+    },
+    {
+      "id": "story-20260923-25a70281bf",
+      "data": "2026-09-23",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "003 - No livro de Tiago, apóstolo Tiago.mp4",
+        "sha256": "25a70281bfb6f18485789afc3a56a9bc0c8d5bf46c0f0896eb7d529438044a29"
+      },
+      "manifesto": {
+        "sha256": "94fc49ee75aca09a988decb405a77742a8ff7db75d539363aafa25ff884973d1",
+        "tamanho_bytes": 699
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "014-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/014-parte-01.mp4",
+            "sha256": "08b9689144185a08b59621bd2ffc37e154b83f5446577b156bccd6b797f24c85",
+            "tamanho_bytes": 9997935,
+            "duracao_segundos": 35.4
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260924-6acedd9068",
+      "data": "2026-09-24",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "004 - Se por acaso, gente, você abrir uma brecha por causa de palavras.mp4",
+        "sha256": "6acedd906824428dc0a1e231a02e39bf49540d6fcdcabc5ab7328d73bc3e186d"
+      },
+      "manifesto": {
+        "sha256": "da779acde48b319c310b088451415d44e695ded0fea6481d84532f586ab1a31b",
+        "tamanho_bytes": 764
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "015-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/015-parte-01.mp4",
+            "sha256": "d5aee9a0add099d7035c50e6f73cb82c590af98f7d0369cd02197851c4813e18",
+            "tamanho_bytes": 5390917,
+            "duracao_segundos": 24.84
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260925-fb13ef65fb",
+      "data": "2026-09-25",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "005 - É muito difícil lhe dar com calúnia, estão falando de você e nem é verdade.mp4",
+        "sha256": "fb13ef65fb96043bdf5590a729fea7c88f5b87c8a0ee50f8bac5bc471770871a"
+      },
+      "manifesto": {
+        "sha256": "52cbe351d7e0b24d82b75a303298a95dae3629ff52cd1120f48e30a82c81dba0",
+        "tamanho_bytes": 794
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "016-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/016-parte-01.mp4",
+            "sha256": "06761a3d2ac91428f19f199549a9c2b5870f8910a299651331854aed58c5dbef",
+            "tamanho_bytes": 5886902,
+            "duracao_segundos": 32.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260926-db15491b69",
+      "data": "2026-09-26",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "006 - Se você fechar as portas.mp4",
+        "sha256": "db15491b69d190cb7cc68914d113b773be2fe0a1883916b97e8256d9576da261"
+      },
+      "manifesto": {
+        "sha256": "e8a8c8456fa949f0270b0b04bb516db41568792797b6d4f422ef77df4427e9b3",
+        "tamanho_bytes": 681
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "017-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/017-parte-01.mp4",
+            "sha256": "2b5ac6e42f937fdc3e07ba25c4a599d7ba6203404f5555c0de6fe92a79372183",
+            "tamanho_bytes": 6833571,
+            "duracao_segundos": 34.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260927-f720d2c9e9",
+      "data": "2026-09-27",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "007 - Quem trai é quem está perto.mp4",
+        "sha256": "f720d2c9e90db53fe9d80f503ee9edf79604fc4a919a41712809405c70f8c9a6"
+      },
+      "manifesto": {
+        "sha256": "3daa33460b6e928676f74725caa9fbf2a58a4e3d86c99dc5b3542f04b217746e",
+        "tamanho_bytes": 692
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "018-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/018-parte-01.mp4",
+            "sha256": "01fe24649ce086f732423126afa26ece9d59108d59e030880195c84f81f7a073",
+            "tamanho_bytes": 6414563,
+            "duracao_segundos": 38.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260928-241bb0e211",
+      "data": "2026-09-28",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "008 - O poder de você imaginar as coisas.mp4",
+        "sha256": "241bb0e211a15b92f80dd7a78ae2285ca02f659f1d25a9545b742a77c471f9d0"
+      },
+      "manifesto": {
+        "sha256": "d7454a6f7522f2671dcc4d63bf6918b189ff05d14ff303902cac53b1f2159a39",
+        "tamanho_bytes": 701
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "019-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/019-parte-01.mp4",
+            "sha256": "eaffc009337644e5ad5d153caf528506590dc03c20982f0c2d26f2e7bc17cdd7",
+            "tamanho_bytes": 6152694,
+            "duracao_segundos": 56.6
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260929-2598e83238",
+      "data": "2026-09-29",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "009 - Não existe herói. Ah, tem sim, o fulano de tal.mp4",
+        "sha256": "2598e8323873e17273652828cf00c0c2c33864f44abf643ab3812f1abcf21a17"
+      },
+      "manifesto": {
+        "sha256": "ebe9de26348bcb3c54ed60ac98301aef1c668b996d06a56f6be61b8903af41da",
+        "tamanho_bytes": 730
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "020-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/020-parte-01.mp4",
+            "sha256": "ca2fa1ba019384ac7fe87b002621ea270b5f057051741a4357e7e900a00919f2",
+            "tamanho_bytes": 2417328,
+            "duracao_segundos": 29.32
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20260930-99a11cf095",
+      "data": "2026-09-30",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "010 - Pessoas que vivem desanimadas.mp4",
+        "sha256": "99a11cf095e1db62b62331e114a6ca3a95606c5105a25c177fb6113b2cbdfd7d"
+      },
+      "manifesto": {
+        "sha256": "1cf04a10e246317f1942dae0136b7ed575a74deac955707f99bd22ff856a94c0",
+        "tamanho_bytes": 692
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "021-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/021-parte-01.mp4",
+            "sha256": "ff456e8005c2ee04f522b91eb3696367b28899f210633a81dfb9bb9290c8f595",
+            "tamanho_bytes": 6112952,
+            "duracao_segundos": 37.16
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261001-3cd3389bd7",
+      "data": "2026-10-01",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "011 - A morte e a vida, provérbios 8 e 21, a morte e a vida estão no poder da língua.mp4",
+        "sha256": "3cd3389bd7f7a41568b96a15a21e39022f86db7773e2ba1e293f585d73279be4"
+      },
+      "manifesto": {
+        "sha256": "72381d7d8d431316f2b5fdbaa6e7083dd2a5fbfe5164645393cba0ec0d10a739",
+        "tamanho_bytes": 796
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "022-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/022-parte-01.mp4",
+            "sha256": "654a55df958a7307e5cfb2929e87a5726c959dfb17d8b0d4c0677a93d374ee27",
+            "tamanho_bytes": 5076607,
+            "duracao_segundos": 30.64
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261002-cd152b820e",
+      "data": "2026-10-02",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "012 - O próprio Jesus, que nos ensinou fé.mp4",
+        "sha256": "cd152b820eca9bc6e93cd4adf70598241c2b22b4b3f3acf5b9c6c7c68622ba9e"
+      },
+      "manifesto": {
+        "sha256": "19ac942286f43b0e83300c2c1765831944161c4f4d6d97a8b20fa48a6c0f3e80",
+        "tamanho_bytes": 708
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "023-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/023-parte-01.mp4",
+            "sha256": "8240e62e7ccea15efb434bd10324e11a89fb14b4b6feedc23f659fd72599b611",
+            "tamanho_bytes": 5495325,
+            "duracao_segundos": 37.84
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261003-84486d79d5",
+      "data": "2026-10-03",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "013 - A pior coisa que você pode fazer é deixar alguém saber que tem poder emocional sobre você Ou seja.mp4",
+        "sha256": "84486d79d5f7dcbf22268b12ece7e45e9b5310f4976ae2dd2809cfa168d245b9"
+      },
+      "manifesto": {
+        "sha256": "14a7606a1139a13e934dc2443f5eda2c7e8bb45b8c06de1489c2d78b3246e357",
+        "tamanho_bytes": 818
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "024-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/024-parte-01.mp4",
+            "sha256": "0ed2cfaff188ed6fbaee807ec69b39e7b2f78f610f77b5d93dc41cf9c76ec3be",
+            "tamanho_bytes": 3192056,
+            "duracao_segundos": 20.92
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261004-4105ca4a6a",
+      "data": "2026-10-04",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "014 - O importante do tempo com Deus não é a quantidade de horas, mas a motivação do coração.mp4",
+        "sha256": "4105ca4a6a405ac31afb9a473a66e6a2c8870012a8f165ed28d3dd9d3850085a"
+      },
+      "manifesto": {
+        "sha256": "544e3dadcf67fdd8316877b6c8a59fba2733d6011dda0256b14abdfd570cf449",
+        "tamanho_bytes": 810
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "025-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/025-parte-01.mp4",
+            "sha256": "3fe1feae76231b477dacb8fea500503fff5dada2922e2d5097f925500793e945",
+            "tamanho_bytes": 8657852,
+            "duracao_segundos": 53.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261005-427a4e237a",
+      "data": "2026-10-05",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "015 - Eu dou muito valor ao meu tempo porque eu conheço bem o meu propósito.mp4",
+        "sha256": "427a4e237aa35671df646fce9a44ace690ddb852611e7906fd823cc8d9b55a7a"
+      },
+      "manifesto": {
+        "sha256": "642a6f2a0c21331de91b99e50b600eb0d6dc5941bdb3079002dacc52f9f839dc",
+        "tamanho_bytes": 776
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "026-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/026-parte-01.mp4",
+            "sha256": "74f4b13a865b6c92a93b30473672be2a2a0a2ee1bfe3ba48199dc5496bea7eb5",
+            "tamanho_bytes": 8626864,
+            "duracao_segundos": 52.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261006-0afbb868a0",
+      "data": "2026-10-06",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "016 - A vida não é fácil, não.mp4",
+        "sha256": "0afbb868a0487164a43251d44fd10ec272a47d927e9b763a97d33fe6cede7079"
+      },
+      "manifesto": {
+        "sha256": "1aafa4df761c29090f81cca981efa987f949f2b16e769d1d7486b4c0d1b7cd4d",
+        "tamanho_bytes": 688
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "027-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/027-parte-01.mp4",
+            "sha256": "830b8ee7b65e68f82406162675ee084031598ef859301ad156a76ed4d022ed64",
+            "tamanho_bytes": 3243191,
+            "duracao_segundos": 24.96
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261007-03a458cb08",
+      "data": "2026-10-07",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "017 - Jogar tempo fora é pecado.mp4",
+        "sha256": "03a458cb0874daf770d7d5159948517e613748bba025a0181889df23b4355ac7"
+      },
+      "manifesto": {
+        "sha256": "6c129c2a6eb585005524235aec61da3d9148ac52430b8c2f36a6b8c2f5012920",
+        "tamanho_bytes": 686
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "028-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/028-parte-01.mp4",
+            "sha256": "b08f5a5c5d6d8abcac165f8a1009494c54199246a97f3b336762ade2989b869f",
+            "tamanho_bytes": 3167689,
+            "duracao_segundos": 24.76
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261008-9af0351f63",
+      "data": "2026-10-08",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "018 - Ninguém pode derrubar um homem que já está de joelhos.mp4",
+        "sha256": "9af0351f635ab3c4ff67b0b0e76d078b66234596a723a8ef8c8d3637c6b4305f"
+      },
+      "manifesto": {
+        "sha256": "508c64dd20c529c9062eaca9925f868972f275099a1125167eb5d3b24e2c571d",
+        "tamanho_bytes": 746
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "029-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/029-parte-01.mp4",
+            "sha256": "cb1ba1dbe8310dd7a63a08cfb5cf7caca8253c71c43766b899a5e1d5402453ce",
+            "tamanho_bytes": 6221813,
+            "duracao_segundos": 45.48
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261009-13d68c8b6b",
+      "data": "2026-10-09",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "019 - Como impressionante da fé.mp4",
+        "sha256": "13d68c8b6b1708079a5c6b5ba21cda3da6f30a75b7812fe1a72d12c3d717ebcb"
+      },
+      "manifesto": {
+        "sha256": "154f2babfdcc592eeaf3adfcfd39a497cef98e2ed04dda8a836bc88b2056e6f4",
+        "tamanho_bytes": 686
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "030-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/030-parte-01.mp4",
+            "sha256": "b32f1b7d108c00dfb347a0822a16c4214ada6102c81da728362bf9abaf6c4713",
+            "tamanho_bytes": 8323445,
+            "duracao_segundos": 44.92
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261010-05712d5a59",
+      "data": "2026-10-10",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "020 - Fazer as coisas no tempo certo é muito importante no mundo espiritual.mp4",
+        "sha256": "05712d5a59f410d555a85ceefaf604512840107bdea109bf07f35f3fa0457fe1"
+      },
+      "manifesto": {
+        "sha256": "bc39c1592e2ccd34ca397bba562999754ca4bc29e662214060c6337b77873cd6",
+        "tamanho_bytes": 774
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "031-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/031-parte-01.mp4",
+            "sha256": "8a96c9bbded3c837f2ba05f11ff80cdb9e827b359218a2d22247974e9618df38",
+            "tamanho_bytes": 5673857,
+            "duracao_segundos": 33.92
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261011-61c971b7ae",
+      "data": "2026-10-11",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "021 - A vida só tem dois lados, prosperidade ou escassez.mp4",
+        "sha256": "61c971b7ae96a5ad749239df845233376d63c191f1eaaa95f3070e0a186f974c"
+      },
+      "manifesto": {
+        "sha256": "9beb86732f4c803065fd2b819407400c018f82ddd78331962579f75bfd90fa98",
+        "tamanho_bytes": 736
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "032-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/032-parte-01.mp4",
+            "sha256": "35cfdb45273ead8897c3fceb6e2489f46074fb63c3f7469f0961914e4bf3a2ed",
+            "tamanho_bytes": 9451720,
+            "duracao_segundos": 39.08
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261012-fd18317f63",
+      "data": "2026-10-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "024 - Por que o DIABO tenta te PARAR agora？ O que ELE NÃO QUER que VOCÊ SAIBA.mp4",
+        "sha256": "fd18317f632307c8d3e906c7a9f37e9eafb8b6c3504c53b15270bc052856d8ee"
+      },
+      "manifesto": {
+        "sha256": "4680c12aceb306c0b8f2b82b7088e453bc2600fc16d14ae41f97001ca9bf77a3",
+        "tamanho_bytes": 1035
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "033-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/033-parte-01.mp4",
+            "sha256": "7b2fb9d65e39f6b9de952e54f0e5ecd0c9c4d0265f1b251efb81854703f4c22f",
+            "tamanho_bytes": 7610246,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "033-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/033-parte-02.mp4",
+            "sha256": "e7cae5f567dd518c46c0fcf40ed5561f3169d4347af338c64721ab0bbdf95e75",
+            "tamanho_bytes": 7711725,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261013-e47215a08c",
+      "data": "2026-10-13",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "025 - Sua VERGONHA será seu TESTEMUNHO e vai MUDAR sua HISTÓRIA!.mp4",
+        "sha256": "e47215a08c493c37a039c4e5ba7c3d6282242a51b63b5a590ad921eecc2b5ca0"
+      },
+      "manifesto": {
+        "sha256": "8d373cc912946267043d62e821caa21e7a11fa8c13ce9800133eb793685111d6",
+        "tamanho_bytes": 1007
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "034-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/034-parte-01.mp4",
+            "sha256": "7b75e27496b04202fc0d9dc3bd18ad38b7f871901f32086cee4514f2115b165f",
+            "tamanho_bytes": 7328038,
+            "duracao_segundos": 43.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "034-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/034-parte-02.mp4",
+            "sha256": "107767e4e19e492ebb629c0dab2812a35bede9c236e30f596f70cc7e4c6be3a2",
+            "tamanho_bytes": 7574669,
+            "duracao_segundos": 43.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261014-73157ef3e2",
+      "data": "2026-10-14",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "026 - PROMESSA de ISAÍAS 45_2 que VAI ABRIR PORTAS na SUA VIDA HOJE!.mp4",
+        "sha256": "73157ef3e2978b30597eb781890aa383232f2d9b3e9a6eb19232f28eb0f9c5a1"
+      },
+      "manifesto": {
+        "sha256": "694a42ff69589dc464a229a9b620853555e97e436231eb168d6b22cc104a4c8e",
+        "tamanho_bytes": 1016
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "035-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/035-parte-01.mp4",
+            "sha256": "02e367c9b2963a926fea54cd56659117b6e12fea014b1f03a43b3d5b1b2ebe7d",
+            "tamanho_bytes": 6794184,
+            "duracao_segundos": 31.24
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "035-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/035-parte-02.mp4",
+            "sha256": "08352e28c483f69a324c63a558fb87f8da8bdfcc906579d28f1e8135402267d4",
+            "tamanho_bytes": 5976049,
+            "duracao_segundos": 31.24
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261015-a708f7db78",
+      "data": "2026-10-15",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "027 - SIMPLICIDADE não IMPEDE o AGIR de DEUS.mp4",
+        "sha256": "a708f7db78467f73918dbeb3f39d8e445809248a16f7a0efe2e4d44b67d63721"
+      },
+      "manifesto": {
+        "sha256": "a559c8d6450d84e634f5c9c44058a77040c52ef141a3de344c2eb6334eaa352f",
+        "tamanho_bytes": 972
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "036-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/036-parte-01.mp4",
+            "sha256": "b39f2acd8b9c0ef091fa018748c299ee85f82370ab75d272115b2de827510206",
+            "tamanho_bytes": 8406647,
+            "duracao_segundos": 46.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "036-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/036-parte-02.mp4",
+            "sha256": "5324a6d4186a9045a0d744d7c6b83ead0b0510692e9fb9d8246d9446e9d2db33",
+            "tamanho_bytes": 8380123,
+            "duracao_segundos": 46.417
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261016-3963448a96",
+      "data": "2026-10-16",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "028 - VOCÊ não está SOZINHO no VALE.mp4",
+        "sha256": "3963448a96d580fc540f02e7fd9682ecb7d5e9544556954ded2946351275344d"
+      },
+      "manifesto": {
+        "sha256": "9e0c6cfe64eca8ebb97ff695685d1ae1ede5ace96daf9286850aa04e66c9ae28",
+        "tamanho_bytes": 951
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "037-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/037-parte-01.mp4",
+            "sha256": "ca6654a3f525fc94711f501a11d54f6cef5d8439cdda7d22c30a8e9455f79f98",
+            "tamanho_bytes": 7289226,
+            "duracao_segundos": 43.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "037-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/037-parte-02.mp4",
+            "sha256": "675d6a2b68294fbcc04ba3dc84454061bcf7c8c5ab00147fedc87592e8872ec6",
+            "tamanho_bytes": 7541002,
+            "duracao_segundos": 43.72
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261017-8709533129",
+      "data": "2026-10-17",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "029 - SUA VERGONHA será seu MAIOR TESTEMUNHO.mp4",
+        "sha256": "87095331297e979d476a3b26dbfcda24eff36bc12598ff91958619547a051c9d"
+      },
+      "manifesto": {
+        "sha256": "53d5b3e4d6f5dd8037b0f90d748201d2a5427dfa30dff68abd0e090db376e474",
+        "tamanho_bytes": 963
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "038-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/038-parte-01.mp4",
+            "sha256": "03704106e40a728b105dcd0ce12956427a865e5905108136ba60c6cb6351a55e",
+            "tamanho_bytes": 7580358,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "038-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/038-parte-02.mp4",
+            "sha256": "a57e2ee73887a17c94c2a9c99f4b39b9c6500ceac1474893c341b262d81e61b1",
+            "tamanho_bytes": 7660924,
+            "duracao_segundos": 42.8
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261018-b3e3e8828a",
+      "data": "2026-10-18",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "030 - OUÇA a VOZ de DEUS, não o DESTINO.mp4",
+        "sha256": "b3e3e8828a3bd49e7dd600e81ad0f650db9e1c056af937065fe9819d619eb815"
+      },
+      "manifesto": {
+        "sha256": "aa3c5e85f5514099313e15867978651e93122daab56ad04d187651672e1c17d3",
+        "tamanho_bytes": 960
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "039-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/039-parte-01.mp4",
+            "sha256": "dc4a5fc1e3defbbcc9ffe86ac8bdab774879d27140960a87849b79deef7d2130",
+            "tamanho_bytes": 8297819,
+            "duracao_segundos": 47.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "039-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/039-parte-02.mp4",
+            "sha256": "d783af005dc2ad12180f77278cd9a2369511872361cdaf60bad4828aed7d440c",
+            "tamanho_bytes": 8230976,
+            "duracao_segundos": 47.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261019-916f2224cb",
+      "data": "2026-10-19",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "031 - VOCÊ VIVERÁ o MELHOR de DEUS： o que Ele reservou para a sua vida!.mp4",
+        "sha256": "916f2224cb87888893cc8cc692c87d931fe689ddf06062e5f3cc65ef82a72d7f"
+      },
+      "manifesto": {
+        "sha256": "a5d92039c1231f64d498cfb3035972450d49895a93a0725b490f29ba8dca4d35",
+        "tamanho_bytes": 1028
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "040-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/040-parte-01.mp4",
+            "sha256": "43b7b1b4d7136fd3c6543011efef2fc8e76b4daaf872d0ddfd5a328d09180016",
+            "tamanho_bytes": 8307172,
+            "duracao_segundos": 42.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "040-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/040-parte-02.mp4",
+            "sha256": "cfdc0f32d5c188c442a048d8f22da53a1b56ae56847a09d0ca7934e2b92440e5",
+            "tamanho_bytes": 8752869,
+            "duracao_segundos": 42.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261020-98542ca43e",
+      "data": "2026-10-20",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "032 - NATUREZA do MOVER de DEUS： Ele se Manifesta ONDE Há FOME ESPIRITUAL!.mp4",
+        "sha256": "98542ca43e1c1572e9ceebf03d4ada091aaa617638d2035b1c13be1a53f6090c"
+      },
+      "manifesto": {
+        "sha256": "f831516629b24a98c6fcd802fc0f4e5b2639a6375f91a5317ccc147720c95faa",
+        "tamanho_bytes": 1034
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "041-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/041-parte-01.mp4",
+            "sha256": "2183404624acb73545d320c876e3591f60178810d8f860894a927197cfd875cc",
+            "tamanho_bytes": 9320398,
+            "duracao_segundos": 57.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "041-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/041-parte-02.mp4",
+            "sha256": "ce9884abce7e94ad66e3b35dd92629cb2c84d63ec133ea1fae873c98020b9983",
+            "tamanho_bytes": 10693922,
+            "duracao_segundos": 57.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261021-5d3bcdeb3c",
+      "data": "2026-10-21",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "033 - Como TRATAR o IMPOSSÍVEL com FÉ mesmo nas MAIORES TRIBULAÇÕES!.mp4",
+        "sha256": "5d3bcdeb3cf83630b2c3b6c288ca0e152afb5b5b47bbeee7b46d7fdac560d04c"
+      },
+      "manifesto": {
+        "sha256": "70ab4c7d8f57f854d02b3a5ee51c72da07bc53ef8a802e3e81bd9b36b16029a5",
+        "tamanho_bytes": 1022
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "042-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/042-parte-01.mp4",
+            "sha256": "caba551779401337ad07b98ee54cb301e5c7cc1b2c538c619b56302fffeda880",
+            "tamanho_bytes": 7634650,
+            "duracao_segundos": 42.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "042-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/042-parte-02.mp4",
+            "sha256": "c00205a65e3c78c8690cabc1fe7936439e8223f7011271d1e49875c4bae0dc01",
+            "tamanho_bytes": 7892560,
+            "duracao_segundos": 42.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261022-0a111ecefc",
+      "data": "2026-10-22",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "034 - AUTORIDADE PROFÉTICA que MUDA AMBIENTES com a VOZ de DEUS.mp4",
+        "sha256": "0a111ecefcd7ebe50eabe2373302bdada21a26530bcb49bb773325d4d86547fc"
+      },
+      "manifesto": {
+        "sha256": "82def5d8469f642c534af1fd7ae0018ed68b2d22c9fb2a2a1c4cba56fbca0f0a",
+        "tamanho_bytes": 1006
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "043-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/043-parte-01.mp4",
+            "sha256": "fa4e67ff74d3fbd5712e2888750cef3bef31efb7417e07f8c6f83452eb9a9273",
+            "tamanho_bytes": 7506923,
+            "duracao_segundos": 46.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "043-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/043-parte-02.mp4",
+            "sha256": "58425f1629a1da44fe38ed1d9a89f23f3d7f6368f493242b1cd2dc443867f829",
+            "tamanho_bytes": 8756510,
+            "duracao_segundos": 46.12
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261023-a834b11b64",
+      "data": "2026-10-23",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "035 - Deus Jamais Se Esquecerá De Você.mp4",
+        "sha256": "a834b11b644053a4d0133e9d8e56bf9062ec4b0ebd68eb7753d856c205cf77f5"
+      },
+      "manifesto": {
+        "sha256": "2e95b6c65b265d883f8a5a96ff2c8d86a5878314525c4a2a9902559b814e1313",
+        "tamanho_bytes": 958
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "044-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/044-parte-01.mp4",
+            "sha256": "c3581179de4bacdc297bd6854c59ccd2caf81047d3459787d1b0e3e1e987f1ee",
+            "tamanho_bytes": 7075500,
+            "duracao_segundos": 40.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "044-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/044-parte-02.mp4",
+            "sha256": "830551ecb1954b2c0f8014f10a5827aa28cf93706f7ba5c77a7660a8532af567",
+            "tamanho_bytes": 7533437,
+            "duracao_segundos": 40.68
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261024-b29899f804",
+      "data": "2026-10-24",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "036 - Por Que Você Ainda Não Viveu O Milagre？.mp4",
+        "sha256": "b29899f8041a00c795ee2a56f4e55ddb949b187ea55f47795488d620c22db27d"
+      },
+      "manifesto": {
+        "sha256": "9a48dc6655f0f00ef7ab58064a5c5cca12b282393a6bfc3a6f5ead932b91ec84",
+        "tamanho_bytes": 976
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "045-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/045-parte-01.mp4",
+            "sha256": "f746c38a60e2776c9c24fb46fd545941cf23e81015e8d7f683ff6b09006b8257",
+            "tamanho_bytes": 7498472,
+            "duracao_segundos": 47.64
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "045-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/045-parte-02.mp4",
+            "sha256": "e0b124e498c6446e0ced8b0bd94f9f5f11c7e963960b61be97ff46f02b2df459",
+            "tamanho_bytes": 7575529,
+            "duracao_segundos": 47.64
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261025-d25aa18161",
+      "data": "2026-10-25",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "037 - QUEM OUVE o CÉU GOVERNA na TERRA.mp4",
+        "sha256": "d25aa1816190fad807129075c45f5406a8e4fc6f4ba33cc8b060fd8009dd73a4"
+      },
+      "manifesto": {
+        "sha256": "3405583d793874e74b608489b1d653e139372e544306aff60d4fc549ec461716",
+        "tamanho_bytes": 956
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "046-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/046-parte-01.mp4",
+            "sha256": "608d4730d26a017e8bf9f4c825d7a7f5a38cf2bbae6276d6cb89c97534646eb5",
+            "tamanho_bytes": 8745508,
+            "duracao_segundos": 46.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "046-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/046-parte-02.mp4",
+            "sha256": "360ed4617d57bfb01a399ad8863d80f89cd0536bfa96677eda228b40465d56ae",
+            "tamanho_bytes": 6704633,
+            "duracao_segundos": 46.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261026-5abad21a8a",
+      "data": "2026-10-26",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "038 - O DIABO só ATACA quando sabe da PROMESSA de DEUS em VOCÊ.mp4",
+        "sha256": "5abad21a8a3af4c942706cfbb2125d84beb26e61abe14b698b7c9278f72b7928"
+      },
+      "manifesto": {
+        "sha256": "a81579a290c7fc8d93835bc0b8d9ee1410e2f8b727824a6291d0c44c643ffceb",
+        "tamanho_bytes": 1004
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "047-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/047-parte-01.mp4",
+            "sha256": "3e3553f15864aa563c53308103f606e6d2d9a9974358835cd3de37573b06d3ae",
+            "tamanho_bytes": 7777755,
+            "duracao_segundos": 45.4
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "047-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/047-parte-02.mp4",
+            "sha256": "3dd74267b4f6c6c572e3e6282215dbc67ceb6dfaf4d789e7ef7fec34fc031506",
+            "tamanho_bytes": 8004942,
+            "duracao_segundos": 45.4
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261027-3b4bda3ae8",
+      "data": "2026-10-27",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "039 - O DESTINO PROFÉTICO de JOSÉ.mp4",
+        "sha256": "3b4bda3ae8eaeb685347a3415e372854e26d89a33a44e789907a71bee4f98c5f"
+      },
+      "manifesto": {
+        "sha256": "f3880047354580a41dcb3c7fa19cef0707a72191497cbb7d084d631a5f2109bc",
+        "tamanho_bytes": 948
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "048-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/048-parte-01.mp4",
+            "sha256": "67bad0976b386c1a55f5279127818a5df2f6ad07718636b3e82faa124dfb2bfb",
+            "tamanho_bytes": 7164587,
+            "duracao_segundos": 45.88
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        },
+        {
+          "ordem": 2,
+          "status": "pendente",
+          "midia": {
+            "asset": "048-parte-02.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/048-parte-02.mp4",
+            "sha256": "6953ad04d3a652cd4be04d96f5918aad99f85bc6a3c6603e4ee05110e41ab43a",
+            "tamanho_bytes": 7663442,
+            "duracao_segundos": 45.88
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261028-f8c8287839",
+      "data": "2026-10-28",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "040 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
+        "sha256": "f8c828783931a2db69cc2e72eeb6fabf61ff5dfcce3bb82da396f21638d64d33"
+      },
+      "manifesto": {
+        "sha256": "a8757e208118b357761833e59257b1b890e2458683ced27a5456b2dc7ca7265f",
+        "tamanho_bytes": 737
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "049-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/049-parte-01.mp4",
+            "sha256": "fd02fcb15814d8e2790682604a752c3af1c3002b8a9e04554f07e1a8d3dafd84",
+            "tamanho_bytes": 7478200,
+            "duracao_segundos": 33.4
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261029-e8d4407477",
+      "data": "2026-10-29",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "041 - A Maior Loucura Do Evangelho.mp4",
+        "sha256": "e8d440747796f0ab1ea5365cf2fc1ce7f075d3af93c290e6de5c4952a9579918"
+      },
+      "manifesto": {
+        "sha256": "77e377c391007886b4b1fe077408500bea4c19df4daa6be91d3320dbc13eb675",
+        "tamanho_bytes": 690
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "050-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/050-parte-01.mp4",
+            "sha256": "0e1a39a8579d43620dc3998bc0018afb3b3d252e58c72fd41a09c00d87439e4b",
+            "tamanho_bytes": 4389567,
+            "duracao_segundos": 24.16
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261030-76bd12f145",
+      "data": "2026-10-30",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "042 - ATENÇÃO： DEUS NÃO se ESQUECEU de VOCÊ! O SILÊNCIO tem um PROPÓSITO - DESCUBRA AGORA.mp4",
+        "sha256": "76bd12f1453f2ebfac2d1296916d399f0c3fe303d38c15c51e379155588edb58"
+      },
+      "manifesto": {
+        "sha256": "ff50f5048cd54eb5ea87d97e86a8ab3b055918a2422bb47fd505f7b894780aec",
+        "tamanho_bytes": 813
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "051-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/051-parte-01.mp4",
+            "sha256": "873414cbeb265643444f4bee1214fe52214946d720384a510162e35648c158f9",
+            "tamanho_bytes": 6851400,
+            "duracao_segundos": 35.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261031-a8c0e99daf",
+      "data": "2026-10-31",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "043 - PARE TUDO： Como a APROVAÇÃO e REJEIÇÃO Controlam Sua Vida! VEJA ISSO URGENTE.mp4",
+        "sha256": "a8c0e99daf160e6c51d27fd8ba272f264443c1149f6307ff98e0437baca021a8"
+      },
+      "manifesto": {
+        "sha256": "79da9e508a46abb48982dc4d36a470964ba223af8966d8e4de533e9a6f89bbb5",
+        "tamanho_bytes": 795
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "052-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/052-parte-01.mp4",
+            "sha256": "214eea62c166b025997fab3ab7c898c65072d06a4f8329d739ef1310fcd3fac4",
+            "tamanho_bytes": 1789332,
+            "duracao_segundos": 11.4
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261101-d4c1211617",
+      "data": "2026-11-01",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "044 - ANDRÉ FERNANDES Revela O PODER DA FÉ que MUDOU TUDO.mp4",
+        "sha256": "d4c1211617e30caa7259dbec51ce04690f747ec96a1a8da2f70eaf417e335281"
+      },
+      "manifesto": {
+        "sha256": "2b60341904ccda0e7325996d9c67807605738b103321d717a523ceb0242b231b",
+        "tamanho_bytes": 740
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "053-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/053-parte-01.mp4",
+            "sha256": "d77d714fcddd37b8b0362158ff46110cb3dce145f7c64ec6e27923aa38c95f5f",
+            "tamanho_bytes": 7804444,
+            "duracao_segundos": 49.96
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261102-3ea5b78851",
+      "data": "2026-11-02",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "045 - ESTEJA À ALTURA do Seu CHAMADO!.mp4",
+        "sha256": "3ea5b788516f87daf863077c5adfef3e183708d170c80eb206680d8e014fee3b"
+      },
+      "manifesto": {
+        "sha256": "ac69a595046167789616e1ae0827f64e23bdc2ec38a5e49544700fbacb2cc34e",
+        "tamanho_bytes": 699
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "054-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/054-parte-01.mp4",
+            "sha256": "913f701cd902950cfef9be210ef28a23c2c9ec66e4c053510612404e11327b53",
+            "tamanho_bytes": 11995934,
+            "duracao_segundos": 52.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261103-253d48e129",
+      "data": "2026-11-03",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "046 - PARE AGORA： NÃO VIVA REFÉM DAS CIRCUNSTÂNCIAS com André Fernandes! DESCUBRA COMO.mp4",
+        "sha256": "253d48e129060759a5d5d2db8fa0b93bf891f7494f62d3b7a17b8b005c99b9df"
+      },
+      "manifesto": {
+        "sha256": "ac5f4b30b97e3516f7f7824962109aeb96d199540e9816825f94cbbf0fa2875d",
+        "tamanho_bytes": 806
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "055-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/055-parte-01.mp4",
+            "sha256": "902ae5b7b4162ab4a6682f3c84e4e5a68022705ca8f8cd53605f006526a8afec",
+            "tamanho_bytes": 5136335,
+            "duracao_segundos": 30.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261104-c3b2474f18",
+      "data": "2026-11-04",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "047 - DEUS NÃO DESISTIU DE VOCÊ! André Fernandes REVELA a Verdade que Poucos Sabem - ASSISTA JÁ.mp4",
+        "sha256": "c3b2474f18539066a5fb2a3f8aee00ce7ac8b9667d7946a92fe221da5901d260"
+      },
+      "manifesto": {
+        "sha256": "113fe6f74222e23b52762b8d074cff73ec4431df3ed168c1a20b997dabef156f",
+        "tamanho_bytes": 810
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "056-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/056-parte-01.mp4",
+            "sha256": "6f6e0c41a242c12f0505967a43f49b821a8833ab068ce2263715171132910fc5",
+            "tamanho_bytes": 8214998,
+            "duracao_segundos": 34.56
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261105-0f4f30f5dd",
+      "data": "2026-11-05",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "048 - A VERDADE Sobre ATALHOS Que Ninguém Te Conta ｜ André Fernandes REVELA AGORA.mp4",
+        "sha256": "0f4f30f5dd0e622131013e8f8abcb821218924f018128fbc2fa97c5ceecd8369"
+      },
+      "manifesto": {
+        "sha256": "94488339507a895a9936085bf0d7ba7e12e772179c86287e0941847e830581f2",
+        "tamanho_bytes": 792
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "057-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/057-parte-01.mp4",
+            "sha256": "4c2a199caf069593aeb987566a03743877ca5d4a150daf1e1d00f5c7889178cb",
+            "tamanho_bytes": 3594607,
+            "duracao_segundos": 19.04
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261106-6ed70f2f32",
+      "data": "2026-11-06",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "049 - Como MUDAR SUA MENTALIDADE e ALCANÇAR O SUCESSO com André Fernandes!.mp4",
+        "sha256": "6ed70f2f32dceae5886be4d640f05530610de8befd66ab25b2b60861d8826534"
+      },
+      "manifesto": {
+        "sha256": "daa830d2784bf6f501b0e05fd3bc2927251f550db9dc72e647c45f0d2bd42f2a",
+        "tamanho_bytes": 774
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "058-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/058-parte-01.mp4",
+            "sha256": "6dc7a91ea97b635f60af24b7309125031f120cb5e1ea72c6e43ff33e0d0e8e44",
+            "tamanho_bytes": 8432356,
+            "duracao_segundos": 44.28
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261107-907ca82175",
+      "data": "2026-11-07",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "050 - CRUZADA INCENDIÁRIOS EM FORTALEZA Revela a VERDADE! VEJA ANTES QUE REMOVAM.mp4",
+        "sha256": "907ca82175fd0a185a20a56ff3530e0c93c2a6611ef6ed625c0609eb697180e4"
+      },
+      "manifesto": {
+        "sha256": "848f5f53edbca7edb2d5716d64431557cb2964445db8925e72444c0d7d980498",
+        "tamanho_bytes": 785
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "059-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/059-parte-01.mp4",
+            "sha256": "bb0bdafdb1ccbc9f1407cf3ae80bc379009fd25a2a81fd1eb400b27b829820f6",
+            "tamanho_bytes": 10887062,
+            "duracao_segundos": 39.32
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261108-46c6375431",
+      "data": "2026-11-08",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "051 - URGENTE： ESTEJA À ALTURA do Seu CHAMADO! O Segredo que Vai TRANSFORMAR Sua Vida! VEJA AQUI.mp4",
+        "sha256": "46c63754311acc7136baa1ed995c5a584629938a3f709e7d33c7e195fc1a20a1"
+      },
+      "manifesto": {
+        "sha256": "25054cdd8c5c1aeed756703bb14167134592462c02821598d27779d9f6d20288",
+        "tamanho_bytes": 811
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "060-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/060-parte-01.mp4",
+            "sha256": "a13d43200c0e9b839a0cb50f24a286c1474e137b412b8a9e96505fe46f333ab1",
+            "tamanho_bytes": 12409076,
+            "duracao_segundos": 52.52
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261109-6ae87af002",
+      "data": "2026-11-09",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "052 - O Motivo Real de VOCÊ NÃO PODER DESISTIR em 2026! DESCUBRA JÁ.mp4",
+        "sha256": "6ae87af002775c1ec9f2d2e7bcc7ca9ba8be5f817b55d4ca37deb498c2ef6259"
+      },
+      "manifesto": {
+        "sha256": "0c9ec7bc94e2791279865e1d5bac8e24b99d610bccb60656f1d1d772e77f3298",
+        "tamanho_bytes": 762
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "061-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/061-parte-01.mp4",
+            "sha256": "4b67482a3fcebe4499628a9970a0f7ceb66d0d6f727d5715f29c039fb7eb77a3",
+            "tamanho_bytes": 7160049,
+            "duracao_segundos": 35.84
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-20261110-91700b6fc4",
+      "data": "2026-11-10",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "053 - Por Que DEUS NÃO UNGE PERSONAGENS Mas Sim PESSOAS Reais! VEJA AQUI.mp4",
+        "sha256": "91700b6fc47c30b7bc3b2972f0f8c96a4c927e539c5a74539bc3c89eb03808aa"
+      },
+      "manifesto": {
+        "sha256": "72b8540c5652239b9ef65013c5d5b66b3383139744eda0fa99728c74eac2c79f",
+        "tamanho_bytes": 768
+      },
+      "partes": [
+        {
+          "ordem": 1,
+          "status": "pendente",
+          "midia": {
+            "asset": "062-parte-01.mp4",
+            "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/062-parte-01.mp4",
+            "sha256": "dfebe575e99c1dd56284bc43d0a4ead9dd4e772c69b4ea0849d4726a92a625d0",
+            "tamanho_bytes": 3207757,
+            "duracao_segundos": 16.44
+          },
+          "instagram": {
+            "status": "pendente"
+          },
+          "facebook": {
+            "status": "pendente"
+          }
+        }
+      ]
     }
   ],
   "estoque_minimo_dias": 30,

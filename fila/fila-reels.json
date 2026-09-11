@@ -6461,6 +6461,60 @@
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
       }
+    },
+    {
+      "id": "reel-20260912-0900-40c486cad3",
+      "data": "2026-09-12",
+      "horario": "09:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "241 - As palavras deste vídeo podem mudar sua vida.mp4",
+        "caminho_relativo": "241 - As palavras deste vídeo podem mudar sua vida.mp4",
+        "sha256": "40c486cad3150eb0ca30cefe34950d77d975ec1c1eebb2343581ac5d7b45435c",
+        "tamanho_bytes": 7851035
+      },
+      "midia": {
+        "asset": "241.-.As.palavras.deste.video.podem.mudar.sua.vida.mp4",
+        "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/241.-.As.palavras.deste.video.podem.mudar.sua.vida.mp4",
+        "sha256": "40c486cad3150eb0ca30cefe34950d77d975ec1c1eebb2343581ac5d7b45435c",
+        "tamanho_bytes": 7851035,
+        "duracao_segundos": 38.4
+      },
+      "instagram": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "reel-20261110-1700-7c4d5da2af",
+      "data": "2026-11-10",
+      "horario": "17:00",
+      "status": "pendente",
+      "origem": {
+        "arquivo": "242 - As palavras deste vídeo podem mudar sua vida.mp4",
+        "caminho_relativo": "242 - As palavras deste vídeo podem mudar sua vida.mp4",
+        "sha256": "7c4d5da2af80ac1c373418b81fc14ec2a6d1c39c8277504b76bfad170a08ec64",
+        "tamanho_bytes": 6674755
+      },
+      "midia": {
+        "asset": "242.-.As.palavras.deste.video.podem.mudar.sua.vida.mp4",
+        "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/242.-.As.palavras.deste.video.podem.mudar.sua.vida.mp4",
+        "sha256": "7c4d5da2af80ac1c373418b81fc14ec2a6d1c39c8277504b76bfad170a08ec64",
+        "tamanho_bytes": 6674755,
+        "duracao_segundos": 29.84
+      },
+      "instagram": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      },
+      "facebook": {
+        "legenda": "siga @palavraquedesperta_br",
+        "status": "pendente"
+      }
     }
   ],
   "estoque_minimo_dias": 30,
