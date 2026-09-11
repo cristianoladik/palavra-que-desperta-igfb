@@ -240,6 +240,19 @@ def _data_item(item: Mapping[str, object]) -> date:
         raise PoliticaErro("Item de fila com data ausente ou inválida.") from None
 
 
+def _e_historico(item: Mapping[str, object], data_item: date) -> bool:
+    """Diz se o item já saiu e por isso não responde mais pela rampa.
+
+    A rampa governa o que ainda vai ao ar. Um item concluído em dia passado é
+    fato consumado: reprová-lo aqui travaria a fila inteira para sempre por
+    causa de algo que já aconteceu, como uma publicação manual de teste fora
+    do horário da semana.
+    """
+    if str(item.get("status", "")) != "concluido":
+        return False
+    return data_item < datetime.now(BRT).date()
+
+
 def _validar_cabecalho_fila(
     fila: dict,
     politica: dict,
@@ -323,8 +336,9 @@ def validar_fila_reels(fila: dict, politica: dict) -> None:
             limite = int(limites_semana[chave])
         except (KeyError, TypeError, ValueError):
             raise PoliticaErro(f"Política de Reels incompleta para a semana {semana}.") from None
+        historico = _e_historico(item, data_item)
         horario = str(item.get("horario", ""))
-        if horario not in permitidos:
+        if horario not in permitidos and not historico:
             raise PoliticaErro(
                 f"Reel {item.get('id', 'sem-id')} usa {horario or 'horário ausente'}, "
                 f"fora da rampa da semana {semana}: {', '.join(permitidos)}."
@@ -347,10 +361,11 @@ def validar_fila_reels(fila: dict, politica: dict) -> None:
                 raise PoliticaErro(
                     f"{identificador} possui legenda de {plataforma} divergente da política."
                 )
-        data_texto = data_item.isoformat()
-        slots[(data_texto, horario)] += 1
-        por_dia[data_texto] += 1
-        limite_por_dia[data_texto] = limite
+        if not historico:
+            data_texto = data_item.isoformat()
+            slots[(data_texto, horario)] += 1
+            por_dia[data_texto] += 1
+            limite_por_dia[data_texto] = limite
 
     duplicados = [f"{data} {hora}" for (data, hora), total in slots.items() if total > 1]
     if duplicados:
@@ -405,7 +420,7 @@ def validar_fila_stories(fila: dict, politica: dict) -> None:
         data_pacote = _data_item(pacote)
         _semana(data_pacote, inicio)
         horario = str(pacote.get("horario", horario_oficial))
-        if horario != horario_oficial:
+        if horario != horario_oficial and not _e_historico(pacote, data_pacote):
             raise PoliticaErro(
                 f"Pacote {pacote.get('id', 'sem-id')} está em {horario}; Stories somente às 09:00."
             )
