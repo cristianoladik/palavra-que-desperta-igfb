@@ -112,7 +112,7 @@
       "id": "story-20260911-34b603249d",
       "data": "2026-09-11",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "086 - Sua VERGONHA será seu TESTEMUNHO e vai MUDAR sua HISTÓRIA!.mp4",
         "sha256": "34b603249d525959c98cf39da73dfb7a8bfe29911a6885cf6e3e0b4bf4d5edb5"
@@ -184,7 +184,8 @@
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 2 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-11T09:19:52.920941-03:00"
+      "publicacao_iniciada_em": "2026-09-11T09:19:52.920941-03:00",
+      "concluido_em": "2026-09-11T09:22:37.861045-03:00"
     }
   ],
   "estoque_minimo_dias": 1,
