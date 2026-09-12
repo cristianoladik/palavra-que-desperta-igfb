@@ -117,10 +117,12 @@
             "publicado_em": "2026-09-12T14:14:07.752485-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-09-12T14:14:09.212023-03:00",
             "video_id": "3267891630061496",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "1952194652405324",
+            "publicado_em": "2026-09-12T14:14:25.158760-03:00"
           }
         }
       ],
