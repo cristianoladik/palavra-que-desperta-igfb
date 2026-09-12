@@ -62,7 +62,7 @@
       "id": "story-20260912-2dc7a41704",
       "data": "2026-09-12",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "085 - Por que o DIABO tenta te PARAR agora？ O que ELE NÃO QUER que VOCÊ SAIBA.mp4",
         "sha256": "2dc7a41704e9d4f5d55baf6620721ece8934b2b9b019ded3d14958945d81a235"
@@ -134,7 +134,8 @@
         "restantes": 99,
         "mensagem": "Cota Instagram: 99 criações restantes; 2 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-12T11:09:56.780615-03:00"
+      "publicacao_iniciada_em": "2026-09-12T11:09:56.780615-03:00",
+      "concluido_em": "2026-09-12T14:14:27.376698-03:00"
     },
     {
       "id": "story-20260911-34b603249d",
