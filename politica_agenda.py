@@ -309,7 +309,56 @@ def _validar_midia_release(
     return midia
 
 
-def validar_fila_reels(fila: dict, politica: dict) -> None:
+def defeito_do_reel(item: Mapping[str, object], politica: dict) -> str | None:
+    """Devolve o defeito que afeta SÓ este Reel, ou None se ele está bom.
+
+    Em 12/09/2026 vídeos agendados para novembro calaram o canal a manhã
+    inteira: a conferência parava no primeiro item ruim e nem Reels nem Stories
+    chegavam a ser tentados. Um vídeo torto é problema dele, não da fila, então
+    aqui ele vira aviso e quem recusa é o publicador, no horário em que o item
+    sairia. Erro estrutural continua fatal, porque aí a fila inteira perde a
+    confiança.
+    """
+    identificador = f"Reel {item.get('id', 'sem-id')}"
+    try:
+        midia = _validar_midia_release(item.get("midia"), politica, identificador)
+        try:
+            duracao = float(midia.get("duracao_segundos", 0))
+        except (TypeError, ValueError):
+            raise PoliticaErro(f"{identificador} possui duração inválida na fila.") from None
+        if not math.isfinite(duracao) or duracao < 3.0 or duracao > 180.0:
+            raise PoliticaErro(f"{identificador} fora do intervalo de duração 3–180 s.")
+        for plataforma in ("instagram", "facebook"):
+            registro = item.get(plataforma)
+            if not isinstance(registro, Mapping):
+                raise PoliticaErro(f"{identificador} não possui estado de {plataforma}.")
+            if registro.get("legenda") != politica.get("legenda_reels"):
+                raise PoliticaErro(
+                    f"{identificador} possui legenda de {plataforma} divergente da política."
+                )
+    except PoliticaErro as erro:
+        return str(erro)
+    return None
+
+
+def _avisar_defeitos(nome_da_fila: str, defeitos: Mapping[str, str]) -> None:
+    """Anuncia os itens defeituosos sem derrubar a execução."""
+    if not defeitos:
+        return
+    print(
+        f"AVISO: {len(defeitos)} item(ns) com defeito na fila de {nome_da_fila}; "
+        "serão pulados na publicação:"
+    )
+    for identificador, motivo in sorted(defeitos.items()):
+        print(f"  - {identificador}: {motivo}")
+
+
+def validar_fila_reels(fila: dict, politica: dict) -> dict[str, str]:
+    """Confere a fila de Reels e devolve os defeitos de item, por id.
+
+    Cabeçalho, data, rampa, slot duplicado e teto diário continuam fatais: são
+    problemas da fila inteira. Defeito de um vídeo apenas avisa.
+    """
     itens = _validar_cabecalho_fila(
         fila, politica, "instagram-facebook-reels", "conteudos"
     )
@@ -325,6 +374,7 @@ def validar_fila_reels(fila: dict, politica: dict) -> None:
     slots: Counter[tuple[str, str]] = Counter()
     por_dia: Counter[str] = Counter()
     limite_por_dia: dict[str, int] = {}
+    defeitos: dict[str, str] = {}
     for item in itens:
         if not isinstance(item, MutableMapping):
             raise PoliticaErro("A fila de Reels contém item inválido.")
@@ -343,24 +393,11 @@ def validar_fila_reels(fila: dict, politica: dict) -> None:
                 f"Reel {item.get('id', 'sem-id')} usa {horario or 'horário ausente'}, "
                 f"fora da rampa da semana {semana}: {', '.join(permitidos)}."
             )
-        identificador = f"Reel {item.get('id', 'sem-id')}"
-        midia = _validar_midia_release(item.get("midia"), politica, identificador)
-        try:
-            duracao = float(midia.get("duracao_segundos", 0))
-        except (TypeError, ValueError):
-            raise PoliticaErro("Duração de Reel inválida na fila.") from None
-        if not math.isfinite(duracao) or duracao < 3.0 or duracao > 180.0:
-            raise PoliticaErro(
-                f"Reel {item.get('id', 'sem-id')} fora do intervalo de duração 3–180 s."
-            )
-        for plataforma in ("instagram", "facebook"):
-            registro = item.get(plataforma)
-            if not isinstance(registro, Mapping):
-                raise PoliticaErro(f"{identificador} não possui estado de {plataforma}.")
-            if registro.get("legenda") != politica.get("legenda_reels"):
-                raise PoliticaErro(
-                    f"{identificador} possui legenda de {plataforma} divergente da política."
-                )
+        defeito = defeito_do_reel(item, politica)
+        if defeito:
+            defeitos[str(item.get("id", "sem-id"))] = defeito
+        # O item defeituoso continua contando abaixo. Se saísse da contagem,
+        # slot duplicado e teto diário deixariam de ser vistos por causa dele.
         if not historico:
             data_texto = data_item.isoformat()
             slots[(data_texto, horario)] += 1
@@ -377,6 +414,8 @@ def validar_fila_reels(fila: dict, politica: dict) -> None:
     ]
     if excessos:
         raise PoliticaErro(f"Teto diário real da rampa excedido: {', '.join(sorted(excessos))}.")
+    _avisar_defeitos("Reels", defeitos)
+    return defeitos
 
 
 def _pacote_iniciado(pacote: Mapping[str, object]) -> bool:
@@ -396,7 +435,55 @@ def _pacote_iniciado(pacote: Mapping[str, object]) -> bool:
     return False
 
 
-def validar_fila_stories(fila: dict, politica: dict) -> None:
+def defeito_do_story(pacote: Mapping[str, object], politica: dict) -> str | None:
+    """Devolve o defeito que afeta SÓ este pacote de Stories, ou None.
+
+    Mesma regra do Reel: o pacote torto não pode calar a fila inteira. Ele vira
+    aviso aqui e é recusado pelo publicador no dia dele (incidente de
+    12/09/2026).
+    """
+    identificador = f"Pacote {pacote.get('id', 'sem-id')}"
+    try:
+        partes = pacote.get("partes", [])
+        if not isinstance(partes, list) or not partes:
+            raise PoliticaErro(f"{identificador} não possui partes.")
+        ordens = [parte.get("ordem") if isinstance(parte, Mapping) else None for parte in partes]
+        if any(isinstance(ordem, bool) or not isinstance(ordem, int) for ordem in ordens):
+            raise PoliticaErro("As partes do Story precisam ter ordens inteiras.")
+        if sorted(ordens) != list(range(1, len(partes) + 1)):
+            raise PoliticaErro("As partes do Story precisam ter ordens contíguas a partir de 1.")
+        duracoes: list[float] = []
+        for parte in partes:
+            if not isinstance(parte, Mapping):
+                raise PoliticaErro(f"{identificador} possui parte inválida.")
+            midia = _validar_midia_release(
+                parte.get("midia"),
+                politica,
+                f"{identificador} parte {parte.get('ordem', '?')}",
+            )
+            try:
+                duracao = float(midia.get("duracao_segundos", 0))
+            except (TypeError, ValueError):
+                raise PoliticaErro("Duração de Story inválida na fila.") from None
+            if not math.isfinite(duracao) or duracao <= 0 or duracao > 59.0:
+                raise PoliticaErro("Parte de Story fora do limite estrito de 59 s.")
+            duracoes.append(duracao)
+        if max(duracoes) - min(duracoes) > TOLERANCIA_IGUALDADE_STORY_SEGUNDOS:
+            raise PoliticaErro(
+                f"{identificador} não possui partes iguais "
+                f"(tolerância {TOLERANCIA_IGUALDADE_STORY_SEGUNDOS:g} s)."
+            )
+    except PoliticaErro as erro:
+        return str(erro)
+    return None
+
+
+def validar_fila_stories(fila: dict, politica: dict) -> dict[str, str]:
+    """Confere a fila de Stories e devolve os defeitos de pacote, por id.
+
+    Cabeçalho, data, horário e as contagens do dia continuam fatais. Defeito
+    dentro de um pacote apenas avisa.
+    """
     pacotes = _validar_cabecalho_fila(
         fila, politica, "instagram-facebook-stories", "pacotes"
     )
@@ -414,6 +501,7 @@ def validar_fila_stories(fila: dict, politica: dict) -> None:
 
     pacotes_por_dia: Counter[str] = Counter()
     iniciados_por_dia: Counter[str] = Counter()
+    defeitos: dict[str, str] = {}
     for pacote in pacotes:
         if not isinstance(pacote, MutableMapping):
             raise PoliticaErro("A fila de Stories contém pacote inválido.")
@@ -426,37 +514,17 @@ def validar_fila_stories(fila: dict, politica: dict) -> None:
             )
         data_texto = data_pacote.isoformat()
         pacotes_por_dia[data_texto] += 1
-        if _pacote_iniciado(pacote):
+        defeito = defeito_do_story(pacote, politica)
+        if defeito:
+            defeitos[str(pacote.get("id", "sem-id"))] = defeito
+        try:
+            iniciado = _pacote_iniciado(pacote)
+        except PoliticaErro:
+            # A lista de partes quebrada já virou defeito deste pacote. O que
+            # não pode é a conta de pacotes iniciados no dia parar de valer.
+            iniciado = False
+        if iniciado:
             iniciados_por_dia[data_texto] += 1
-        partes = pacote.get("partes", [])
-        if not isinstance(partes, list) or not partes:
-            raise PoliticaErro(f"Pacote {pacote.get('id', 'sem-id')} não possui partes.")
-        ordens = [parte.get("ordem") if isinstance(parte, Mapping) else None for parte in partes]
-        if any(isinstance(ordem, bool) or not isinstance(ordem, int) for ordem in ordens):
-            raise PoliticaErro("As partes do Story precisam ter ordens inteiras.")
-        if sorted(ordens) != list(range(1, len(partes) + 1)):
-            raise PoliticaErro("As partes do Story precisam ter ordens contíguas a partir de 1.")
-        duracoes: list[float] = []
-        for parte in partes:
-            if not isinstance(parte, Mapping):
-                raise PoliticaErro(f"Pacote {pacote.get('id', 'sem-id')} possui parte inválida.")
-            midia = _validar_midia_release(
-                parte.get("midia"),
-                politica,
-                f"Pacote {pacote.get('id', 'sem-id')} parte {parte.get('ordem', '?')}",
-            )
-            try:
-                duracao = float(midia.get("duracao_segundos", 0))
-            except (TypeError, ValueError):
-                raise PoliticaErro("Duração de Story inválida na fila.") from None
-            if not math.isfinite(duracao) or duracao <= 0 or duracao > 59.0:
-                raise PoliticaErro("Parte de Story fora do limite estrito de 59 s.")
-            duracoes.append(duracao)
-        if max(duracoes) - min(duracoes) > TOLERANCIA_IGUALDADE_STORY_SEGUNDOS:
-            raise PoliticaErro(
-                f"Pacote {pacote.get('id', 'sem-id')} não possui partes iguais "
-                f"(tolerância {TOLERANCIA_IGUALDADE_STORY_SEGUNDOS:g} s)."
-            )
 
     duplicados = [data for data, total in pacotes_por_dia.items() if total > 1]
     if duplicados:
@@ -468,6 +536,8 @@ def validar_fila_stories(fila: dict, politica: dict) -> None:
         raise PoliticaErro(
             "Mais de um pacote-fonte de Stories iniciado no mesmo dia: " + ", ".join(sorted(excessos)) + "."
         )
+    _avisar_defeitos("Stories", defeitos)
+    return defeitos
 
 
 def validar_filas(fila_reels: dict, fila_stories: dict, politica: dict | None = None) -> dict:

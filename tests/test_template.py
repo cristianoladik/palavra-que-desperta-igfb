@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import base64
+import contextlib
+import io
 import json
 import os
 import sys
@@ -465,32 +467,33 @@ class PoliticaTests(unittest.TestCase):
             )
         desigual = pacote(2)
         desigual["partes"][1]["midia"]["duracao_segundos"] = 31.0
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "partes iguais"):
-            politica_agenda.validar_fila_stories(fila_stories([desigual]), politica())
+        defeitos = politica_agenda.validar_fila_stories(fila_stories([desigual]), politica())
+        self.assertRegex(defeitos["pacote-2026-09-08"], "partes iguais")
 
     def test_cabecalhos_e_release_sao_obrigatorios(self) -> None:
         with self.assertRaisesRegex(politica_agenda.PoliticaErro, "schema_version"):
             politica_agenda.validar_fila_reels({"conteudos": []}, politica())
         fila = fila_reels([reel(1)])
         fila["conteudos"][0]["midia"]["url_publica"] = "https://example.invalid/video.mp4"
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "Release"):
-            politica_agenda.validar_fila_reels(fila, politica())
+        defeitos = politica_agenda.validar_fila_reels(fila, politica())
+        self.assertRegex(defeitos["reel-1"], "Release")
         stories = fila_stories([pacote(1)])
         stories["limite_parte_segundos"] = 60
         with self.assertRaisesRegex(politica_agenda.PoliticaErro, "limite_parte"):
             politica_agenda.validar_fila_stories(stories, politica())
 
-    def test_duracao_nao_finita_e_ordem_invalida_sao_bloqueadas(self) -> None:
+    def test_duracao_nao_finita_e_ordem_invalida_viram_defeito_do_item(self) -> None:
         item = reel(1)
         item["midia"]["duracao_segundos"] = float("nan")
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "duração 3–180"):
-            politica_agenda.validar_fila_reels(fila_reels([item]), politica())
+        defeitos = politica_agenda.validar_fila_reels(fila_reels([item]), politica())
+        self.assertRegex(defeitos["reel-1"], "duração 3–180")
+        self.assertRegex(politica_agenda.defeito_do_reel(item, politica()), "duração 3–180")
         pacote_ruim = pacote(2)
         pacote_ruim["partes"][1]["ordem"] = 3
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "ordens contíguas"):
-            politica_agenda.validar_fila_stories(
-                fila_stories([pacote_ruim]), politica()
-            )
+        defeitos = politica_agenda.validar_fila_stories(
+            fila_stories([pacote_ruim]), politica()
+        )
+        self.assertRegex(defeitos["pacote-2026-09-08"], "ordens contíguas")
 
     def test_tolerancia_story_alinhada_em_vinte_e_cinco_centesimos(self) -> None:
         dentro = pacote(2)
@@ -498,8 +501,28 @@ class PoliticaTests(unittest.TestCase):
         politica_agenda.validar_fila_stories(fila_stories([dentro]), politica())
         fora = pacote(2)
         fora["partes"][1]["midia"]["duracao_segundos"] = 30.251
-        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "partes iguais"):
-            politica_agenda.validar_fila_stories(fila_stories([fora]), politica())
+        defeitos = politica_agenda.validar_fila_stories(fila_stories([fora]), politica())
+        self.assertRegex(defeitos["pacote-2026-09-08"], "partes iguais")
+
+    def test_item_ruim_no_fim_da_fila_so_avisa_e_nao_derruba_a_conferencia(self) -> None:
+        # Incidente de 12/09/2026: um vídeo torto agendado para depois derrubava
+        # a conferência e o canal inteiro passava o dia sem publicar.
+        ruim = reel(1)
+        ruim["midia"]["duracao_segundos"] = 999.0
+        saida = io.StringIO()
+        with contextlib.redirect_stdout(saida):
+            defeitos = politica_agenda.validar_fila_reels(fila_reels([ruim]), politica())
+        self.assertEqual(list(defeitos), ["reel-1"])
+        self.assertIn("AVISO: 1 item(ns) com defeito", saida.getvalue())
+        self.assertIn("- reel-1:", saida.getvalue())
+
+    def test_defeito_de_item_nao_esconde_erro_estrutural_da_fila(self) -> None:
+        # O item com defeito continua contando nos slots e no teto do dia;
+        # senão um vídeo ruim serviria de disfarce para uma fila quebrada.
+        ruim = reel(1)
+        ruim["midia"]["duracao_segundos"] = 999.0
+        with self.assertRaisesRegex(politica_agenda.PoliticaErro, "duplicados"):
+            politica_agenda.validar_fila_reels(fila_reels([ruim, reel(2)]), politica())
 
     def test_manual_nunca_publica_futuro(self) -> None:
         futuro = datetime(2026, 9, 9, 5, 0, tzinfo=comum.BRT)
@@ -719,6 +742,7 @@ class ReelsTests(unittest.TestCase):
             caminho = raiz / "fila.json"
             item = reel(1)
             item["instagram"] = {
+                "legenda": "siga @palavraquedesperta_br",
                 "status": "publicado",
                 "id": "ig-existente",
                 "publicado_em": "2026-09-08T08:00:00-03:00",
@@ -741,6 +765,62 @@ class ReelsTests(unittest.TestCase):
             self.assertEqual(codigo, 0)
             self.assertEqual(chamadas_ig, [])
             self.assertEqual(atual["status"], "concluido")
+
+    def test_reel_bom_publica_e_o_ruim_para_so_a_execucao_dele(self) -> None:
+        # Metade 2 da correção de 12/09/2026: o Reel com defeito é recusado no
+        # momento em que sairia, sem nenhuma chamada à Meta, e o Reel bom que
+        # vem antes dele publica normalmente.
+        with tempfile.TemporaryDirectory() as pasta, patch.dict(os.environ, META, clear=True):
+            raiz = Path(pasta)
+            caminho = raiz / "fila.json"
+            bom = reel(1, "09:00", "2026-09-15")
+            ruim = reel(2, "21:00", "2026-09-15")
+            ruim["midia"]["duracao_segundos"] = 999.0
+            gravar_json(caminho, {"conteudos": [bom, ruim]})
+            chamadas: list[str] = []
+            codigo = publicar.executar(
+                caminho,
+                cliente=object(),
+                agora=datetime(2026, 9, 15, 22, 0, tzinfo=comum.BRT),
+                publicador_instagram=lambda item, _: chamadas.append(f"ig-{item['id']}") or "ig-1",
+                publicador_facebook=lambda item, _: chamadas.append(f"fb-{item['id']}") or "fb-1",
+                validador_midia=CacheFalso(raiz),
+                preflight_realizado=True,
+                politica_validada=True,
+                requisitos_ativacao_validados=True,
+                politica_execucao=politica(),
+            )
+            atual = comum.carregar_json(caminho)["conteudos"]
+            self.assertEqual(codigo, 1)
+            self.assertEqual(chamadas, ["ig-reel-1", "fb-reel-1"])
+            self.assertEqual(atual[0]["status"], "concluido")
+            self.assertEqual(atual[1]["status"], "pendente")
+
+    def test_reel_ruim_sozinho_recusa_antes_de_qualquer_rede(self) -> None:
+        with tempfile.TemporaryDirectory() as pasta, patch.dict(os.environ, META, clear=True):
+            raiz = Path(pasta)
+            caminho = raiz / "fila.json"
+            ruim = reel(1)
+            ruim["midia"]["duracao_segundos"] = 999.0
+            gravar_json(caminho, {"conteudos": [ruim]})
+            cache = CacheFalso(raiz)
+            chamadas: list[str] = []
+            codigo = publicar.executar(
+                caminho,
+                cliente=object(),
+                agora=AGORA,
+                publicador_instagram=lambda *_: chamadas.append("ig") or "ig",
+                publicador_facebook=lambda *_: chamadas.append("fb") or "fb",
+                validador_midia=cache,
+                preflight_realizado=True,
+                politica_validada=True,
+                requisitos_ativacao_validados=True,
+                politica_execucao=politica(),
+            )
+            self.assertEqual(codigo, 1)
+            self.assertEqual(chamadas, [])
+            self.assertEqual(cache.chamadas, 0)
+            self.assertEqual(comum.carregar_json(caminho)["conteudos"][0]["status"], "pendente")
 
     def test_legenda_exata_nas_duas_redes(self) -> None:
         class ClienteIG:
@@ -881,6 +961,33 @@ class StoriesTests(unittest.TestCase):
             self.assertEqual(atual["status"], "revisao_manual")
             self.assertEqual(atual["partes"][1]["instagram"]["status"], "revisao_manual")
             self.assertEqual(atual["partes"][2]["status"], "pendente")
+
+    def test_pacote_com_defeito_e_recusado_sem_tocar_a_meta(self) -> None:
+        # A fila de Stories apenas avisa sobre o pacote torto; a recusa acontece
+        # aqui, no dia dele, e os outros dias seguem publicando (12/09/2026).
+        with tempfile.TemporaryDirectory() as pasta, patch.dict(os.environ, META, clear=True):
+            raiz = Path(pasta)
+            caminho = raiz / "fila.json"
+            ruim = pacote(2)
+            ruim["partes"][1]["midia"]["duracao_segundos"] = 999.0
+            gravar_json(caminho, {"pacotes": [ruim]})
+            defeitos = politica_agenda.validar_fila_stories(fila_stories([ruim]), politica())
+            self.assertIn("pacote-2026-09-08", defeitos)
+            cliente = MetaQuotaFalsa()
+            cache = CacheFalso(raiz)
+            codigo = publicar_stories.executar(
+                caminho,
+                cliente=cliente,
+                agora=AGORA,
+                validador_midia=cache,
+                preflight_realizado=True,
+                politica_validada=True,
+                requisitos_ativacao_validados=True,
+                politica_execucao=politica(),
+            )
+            self.assertEqual(codigo, 1)
+            self.assertEqual(cliente.get_calls, [])
+            self.assertEqual(cache.chamadas, 0)
 
     def test_stories_nao_enviam_caption_ou_description(self) -> None:
         class ClienteIG:

@@ -30,6 +30,7 @@ from automacao_comum import (
 )
 from politica_agenda import (
     carregar_politica,
+    defeito_do_reel,
     limitar_reels_pelo_teto_real,
     validar_coerencia_ambiente,
     validar_fila_reels,
@@ -274,7 +275,29 @@ def executar(
         selecionados, teto_real = limitar_reels_pelo_teto_real(
             selecionados, fila, politica_execucao, momento_execucao
         )
+    # Incidente de 12/09/2026: um Reel com defeito agendado para novembro
+    # derrubava a conferência da fila e o canal passava o dia inteiro sem
+    # publicar. Agora o conferidor só avisa e a recusa acontece aqui, no exato
+    # momento em que o item sairia. Só o horário dele fica sem publicar.
+    recusa = ""
+    if politica_execucao is not None:
+        for posicao, item in enumerate(selecionados):
+            if item_concluido(item):
+                # Já saiu nas duas redes; falta apenas marcar a conclusão.
+                continue
+            defeito = defeito_do_reel(item, politica_execucao)
+            if defeito:
+                recusa = f"Reel do slot recusado por defeito: {defeito}"
+                # A ordem global manda: os Reels seguintes esperam o conserto
+                # deste, mas os anteriores, que estão bons, seguem normalmente.
+                selecionados = selecionados[:posicao]
+                break
+
     if not selecionados:
+        if recusa:
+            # Nenhuma chamada Meta acontece: a recusa vem antes da rede.
+            emitir_resumo("ERRO", "Publicação de Reels", (recusa,))
+            return 1
         linhas = ["0 Reels processados."]
         if teto_real:
             linhas.append(
@@ -366,7 +389,9 @@ def executar(
             # Preserva a ordem global: nenhum Reel posterior atravessa a falha.
             break
 
-    resultado_final = "ERRO" if erros else "PUBLICADO"
+    if recusa:
+        detalhes.append(recusa)
+    resultado_final = "ERRO" if erros or recusa else "PUBLICADO"
     emitir_resumo(
         resultado_final,
         "Publicação de Reels",
@@ -377,7 +402,7 @@ def executar(
             *detalhes,
         ),
     )
-    return 1 if erros else 0
+    return 1 if erros or recusa else 0
 
 
 def main() -> None:

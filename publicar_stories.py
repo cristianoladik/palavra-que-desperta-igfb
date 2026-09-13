@@ -30,6 +30,7 @@ from automacao_comum import (
 )
 from politica_agenda import (
     carregar_politica,
+    defeito_do_story,
     story_pode_iniciar_no_dia_real,
     validar_coerencia_ambiente,
     validar_fila_stories,
@@ -318,6 +319,22 @@ def executar(
         return 0
 
     pacote = selecionados[0]
+    # Mesmo remédio do incidente de 12/09/2026: o conferidor apenas avisa sobre
+    # o pacote torto e quem recusa é aqui, no dia dele, antes de qualquer
+    # chamada à Meta. Os outros dias seguem publicando.
+    if politica_execucao is not None:
+        defeito = defeito_do_story(pacote, politica_execucao)
+        if defeito:
+            emitir_resumo(
+                "ERRO",
+                "Publicação de Stories",
+                (
+                    f"Story do slot recusado por defeito: {defeito}",
+                    "Nenhuma parte foi enviada.",
+                ),
+            )
+            return 1
+
     if politica_execucao is not None and not story_pode_iniciar_no_dia_real(
         pacote, fila, politica_execucao, momento_execucao
     ):
