@@ -121,7 +121,7 @@
       "id": "reel-20260913-0900-25a70281bf",
       "data": "2026-09-13",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "003 - No livro de Tiago, apóstolo Tiago.mp4",
         "caminho_relativo": "003 - No livro de Tiago, apóstolo Tiago.mp4",
@@ -151,7 +151,8 @@
         "upload_concluido": true,
         "id": "1057608373937814",
         "publicado_em": "2026-09-13T09:23:18.493347-03:00"
-      }
+      },
+      "concluido_em": "2026-09-13T09:23:19.640554-03:00"
     },
     {
       "id": "reel-20260914-0900-6acedd9068",
