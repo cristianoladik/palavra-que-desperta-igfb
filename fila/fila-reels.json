@@ -159,7 +159,7 @@
       "id": "reel-20260914-0900-6acedd9068",
       "data": "2026-09-14",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "004 - Se por acaso, gente, você abrir uma brecha por causa de palavras.mp4",
         "caminho_relativo": "004 - Se por acaso, gente, você abrir uma brecha por causa de palavras.mp4",
@@ -189,7 +189,8 @@
         "upload_concluido": true,
         "id": "3048234265370043",
         "publicado_em": "2026-09-14T16:11:14.098398-03:00"
-      }
+      },
+      "concluido_em": "2026-09-14T16:11:16.469093-03:00"
     },
     {
       "id": "reel-20260915-0900-fb13ef65fb",
