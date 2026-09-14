@@ -305,7 +305,7 @@
       "id": "story-20260914-3c8ef4a180",
       "data": "2026-09-14",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "088 - SIMPLICIDADE não IMPEDE o AGIR de DEUS.mp4",
         "sha256": "3c8ef4a1805b33ebaf7cd3b22d7b5b4ca7fdcacc8e7eaf7c0a40ebb761cbd46a"
@@ -356,7 +356,8 @@
         "necessarias": 2,
         "restantes": 100,
         "mensagem": "Cota Instagram: 100 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-09-14T10:46:36.900649-03:00"
     },
     {
       "id": "story-20260915-2186e0b5d2",
