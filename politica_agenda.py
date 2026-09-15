@@ -248,7 +248,11 @@ def _e_historico(item: Mapping[str, object], data_item: date) -> bool:
     causa de algo que já aconteceu, como uma publicação manual de teste fora
     do horário da semana.
     """
-    if str(item.get("status", "")) != "concluido":
+    status = str(item.get("status", ""))
+    if status == "pulado":
+        # Pulado tambem e fato consumado: outro item assumiu o horario dele.
+        return True
+    if status != "concluido":
         return False
     return data_item < datetime.now(BRT).date()
 

@@ -704,9 +704,15 @@ class ReelsTests(unittest.TestCase):
             )
             self.assertEqual(codigo, 1)
             self.assertEqual(chamados, [])
-            self.assertEqual(comum.carregar_json(caminho)["conteudos"][0]["status"], "erro_midia")
+            # Regra de 15/09/2026: o que falha e pulado e o proximo da fila
+            # assume o horario; aqui os dois falham no preflight e ficam pulados.
+            atual = comum.carregar_json(caminho)["conteudos"]
+            self.assertEqual([item["status"] for item in atual], ["pulado", "pulado"])
+            self.assertEqual(atual[0]["erro_midia"], "hash ruim")
+            self.assertEqual((atual[1]["data"], atual[1]["horario"]), ("2026-09-08", "09:00"))
+            self.assertEqual(atual[1]["reagendado_de"], "2026-09-08 21:00")
 
-    def test_falha_instagram_vira_revisao_e_nao_inicia_facebook_ou_proximo(self) -> None:
+    def test_falha_instagram_pula_o_reel_e_tenta_o_proximo_sem_tocar_facebook(self) -> None:
         with tempfile.TemporaryDirectory() as pasta, patch.dict(os.environ, META, clear=True):
             raiz = Path(pasta)
             caminho = raiz / "fila.json"
@@ -731,10 +737,14 @@ class ReelsTests(unittest.TestCase):
             )
             atual = comum.carregar_json(caminho)["conteudos"]
             self.assertEqual(codigo, 1)
-            self.assertEqual(chamadas, ["ig-reel-1"])
+            # O Facebook nunca e chamado quando o Instagram falha; o reel pulado
+            # guarda a revisao manual e o seguinte assume o horario dele.
+            self.assertEqual(chamadas, ["ig-reel-1", "ig-reel-2"])
+            self.assertEqual(atual[0]["status"], "pulado")
             self.assertEqual(atual[0]["instagram"]["status"], "revisao_manual")
             self.assertEqual(atual[0]["facebook"]["status"], "pendente")
-            self.assertEqual(atual[1]["status"], "pendente")
+            self.assertEqual(atual[1]["status"], "pulado")
+            self.assertEqual((atual[1]["data"], atual[1]["horario"]), ("2026-09-08", "09:00"))
 
     def test_rede_ja_publicada_nao_repete_e_conclui_a_outra(self) -> None:
         with tempfile.TemporaryDirectory() as pasta, patch.dict(os.environ, META, clear=True):
@@ -929,11 +939,14 @@ class StoriesTests(unittest.TestCase):
             self.assertEqual(chamadas, [])
             self.assertEqual(comum.carregar_json(caminho)["pacotes"][0]["status"], "aguardando_cota")
 
-    def test_falha_de_parte_bloqueia_reenvio_e_parte_posterior(self) -> None:
+    def test_falha_de_parte_pula_o_pacote_e_o_proximo_assume_o_dia(self) -> None:
         with tempfile.TemporaryDirectory() as pasta, patch.dict(os.environ, META, clear=True):
             raiz = Path(pasta)
             caminho = raiz / "fila.json"
-            gravar_json(caminho, {"pacotes": [pacote(3)]})
+            seguinte = pacote(1, data="2026-09-09")
+            seguinte["id"] = "pacote-seguinte"
+            seguinte["partes"][0]["midia"] = midia("seg-1.mp4", f"{77:064x}")
+            gravar_json(caminho, {"pacotes": [pacote(3), seguinte]})
             cliente = MetaQuotaFalsa([{"data": [{"quota_usage": 0, "config": {"quota_total": 25}}]}])
             chamadas: list[str] = []
 
@@ -955,12 +968,18 @@ class StoriesTests(unittest.TestCase):
                 requisitos_ativacao_validados=True,
                 politica_execucao=politica(),
             )
-            atual = comum.carregar_json(caminho)["pacotes"][0]
-            self.assertEqual(codigo, 1)
-            self.assertEqual(chamadas, ["ig-1", "fb-1", "ig-2"])
-            self.assertEqual(atual["status"], "revisao_manual")
+            pacotes = comum.carregar_json(caminho)["pacotes"]
+            atual, proximo = pacotes[0], pacotes[1]
+            # A parte 2 falhou: o pacote e pulado (parte 3 nunca e tocada) e o
+            # pacote do dia seguinte assume a data, publicando inteiro.
+            self.assertEqual(codigo, 0)
+            self.assertEqual(chamadas, ["ig-1", "fb-1", "ig-2", "ig-1", "fb-1"])
+            self.assertEqual(atual["status"], "pulado")
             self.assertEqual(atual["partes"][1]["instagram"]["status"], "revisao_manual")
             self.assertEqual(atual["partes"][2]["status"], "pendente")
+            self.assertEqual(proximo["status"], "concluido")
+            self.assertEqual(proximo["data"], "2026-09-08")
+            self.assertEqual(proximo["reagendado_de"], "2026-09-09 09:00")
 
     def test_pacote_com_defeito_e_recusado_sem_tocar_a_meta(self) -> None:
         # A fila de Stories apenas avisa sobre o pacote torto; a recusa acontece

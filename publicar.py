@@ -9,6 +9,10 @@ from pathlib import Path
 from typing import Callable, MutableMapping
 
 from automacao_comum import (
+    MAX_SUBSTITUICOES_POR_RODADA,
+    STATUS_FINAIS,
+    item_falhou,
+    pular_e_puxar_proximo,
     token_pagina_facebook,
     BRT,
     MetaClient,
@@ -67,7 +71,7 @@ def itens_devidos(
             raise RuntimeError("Data/horário manual inválido.") from None
         validar_manual_nao_futuro(momento_forcado, agora)
     for item in fila.get("conteudos", []):
-        if not isinstance(item, MutableMapping) or item.get("status") == "concluido":
+        if not isinstance(item, MutableMapping) or item.get("status") in STATUS_FINAIS:
             continue
         if data_forcada:
             if item.get("data") == data_forcada and item.get("horario") == horario_forcado:
@@ -227,6 +231,60 @@ def publicar_facebook_reel(
 
 
 def executar(
+    fila_path: Path = FILA_FILE,
+    cliente: MetaClient | None = None,
+    agora: datetime | None = None,
+    publicador_instagram=None,
+    publicador_facebook=None,
+    validador_midia=None,
+    preflight_realizado: bool = False,
+    politica_validada: bool = False,
+    requisitos_ativacao_validados: bool = False,
+    politica_execucao: dict | None = None,
+) -> int:
+    """Publica os Reels devidos; se um falhar, pula e traz o proximo da fila."""
+
+    codigo = 0
+    for _ in range(MAX_SUBSTITUICOES_POR_RODADA + 1):
+        codigo = _executar_uma_vez(
+            fila_path,
+            cliente=cliente,
+            agora=agora,
+            publicador_instagram=publicador_instagram,
+            publicador_facebook=publicador_facebook,
+            validador_midia=validador_midia,
+            preflight_realizado=preflight_realizado,
+            politica_validada=politica_validada,
+            requisitos_ativacao_validados=requisitos_ativacao_validados,
+            politica_execucao=politica_execucao,
+        )
+        if codigo == 0:
+            return 0
+        fila = carregar_json(fila_path)
+        falhados = [
+            item
+            for item in itens_devidos(
+                fila,
+                agora=agora,
+                data_forcada=os.getenv("PQD_DATA_PUBLICACAO", "").strip(),
+                horario_forcado=os.getenv("PQD_HORARIO_PUBLICACAO", "").strip(),
+            )
+            if item_falhou(item)
+        ]
+        if not falhados:
+            return codigo
+        persistir = criar_persistidor(fila_path, fila)
+        proximo = pular_e_puxar_proximo(fila.get("conteudos", []), falhados[0])
+        persistir("reel:pulado_proximo_assume")
+        if proximo is None:
+            return codigo
+        # As travas de ambiente ja passaram na primeira volta.
+        preflight_realizado = True
+        requisitos_ativacao_validados = True
+    return codigo
+
+
+def _executar_uma_vez(
     fila_path: Path = FILA_FILE,
     cliente: MetaClient | None = None,
     agora: datetime | None = None,

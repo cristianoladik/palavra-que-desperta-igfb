@@ -171,6 +171,62 @@ def item_concluido(item: Mapping[str, object]) -> bool:
     )
 
 
+STATUS_FINAIS = {"concluido", "pulado"}
+MAX_SUBSTITUICOES_POR_RODADA = 5
+
+
+def item_falhou(item: Mapping[str, object], partes: bool = False) -> bool:
+    """True se o item (ou alguma parte do pacote) ficou em estado de falha."""
+
+    if str(item.get("status", "")) == "erro_midia":
+        return True
+    blocos = item.get("partes", []) if partes else [item]
+    for bloco in blocos:
+        if not isinstance(bloco, Mapping):
+            continue
+        for plataforma in ("instagram", "facebook"):
+            registro = bloco.get(plataforma, {})
+            if isinstance(registro, Mapping) and str(registro.get("status", "")) == "revisao_manual":
+                return True
+    return False
+
+
+def pular_e_puxar_proximo(
+    colecao: list, item: MutableMapping[str, object], horario_padrao: str = "09:00"
+) -> MutableMapping[str, object] | None:
+    """Marca o item como pulado e traz o proximo pendente para o mesmo dia e horario.
+
+    Regra do Cristiano em 15/09/2026: quando uma rede recusa o video, o robo
+    tenta os proximos da fila ate conseguir. O item pulado guarda o erro para
+    diagnostico; quem assume a vaga registra de onde veio.
+    """
+
+    data = str(item.get("data", ""))
+    horario = str(item.get("horario", horario_padrao))
+    item["status"] = "pulado"
+    item["pulado_em"] = agora_brt().isoformat()
+    candidatos = sorted(
+        (
+            outro
+            for outro in colecao
+            if isinstance(outro, MutableMapping)
+            and outro is not item
+            and str(outro.get("status", "")) == "pendente"
+            and (str(outro.get("data", "")), str(outro.get("horario", horario_padrao))) > (data, horario)
+        ),
+        key=lambda outro: (str(outro.get("data", "")), str(outro.get("horario", horario_padrao))),
+    )
+    if not candidatos:
+        print(f"PULADO {item.get('id')}: sem proximo pendente na fila para assumir {data} {horario}.")
+        return None
+    proximo = candidatos[0]
+    proximo["reagendado_de"] = f"{proximo.get('data')} {proximo.get('horario', horario_padrao)}"
+    proximo["data"] = data
+    proximo["horario"] = horario
+    print(f"PULADO {item.get('id')}; {proximo.get('id')} assume {data} {horario}.")
+    return proximo
+
+
 def momento_item(item: Mapping[str, object], horario_padrao: str) -> datetime:
     data = str(item["data"])
     horario = str(item.get("horario", horario_padrao))
