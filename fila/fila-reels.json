@@ -197,7 +197,7 @@
       "id": "reel-20260915-0900-fb13ef65fb",
       "data": "2026-09-15",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "005 - É muito difícil lhe dar com calúnia, estão falando de você e nem é verdade.mp4",
         "caminho_relativo": "005 - É muito difícil lhe dar com calúnia, estão falando de você e nem é verdade.mp4",
@@ -227,7 +227,8 @@
         "upload_concluido": true,
         "id": "1691221335311294",
         "publicado_em": "2026-09-15T12:47:00.389680-03:00"
-      }
+      },
+      "concluido_em": "2026-09-15T12:47:01.915604-03:00"
     },
     {
       "id": "reel-20260916-0900-db15491b69",
