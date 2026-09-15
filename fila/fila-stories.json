@@ -386,7 +386,7 @@
       "id": "story-20260915-2186e0b5d2",
       "data": "2026-09-15",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "089 - VOCÊ não está SOZINHO no VALE.mp4",
         "sha256": "2186e0b5d2cc6d40517c986fcf56bec027a7a81f40c1f41484755de59abda42b"
@@ -458,7 +458,8 @@
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 2 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-15T12:42:51.674920-03:00"
+      "publicacao_iniciada_em": "2026-09-15T12:42:51.674920-03:00",
+      "concluido_em": "2026-09-15T12:46:00.765927-03:00"
     },
     {
       "id": "story-20260916-41bb4e5fda",
