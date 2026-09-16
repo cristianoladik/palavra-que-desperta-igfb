@@ -506,7 +506,7 @@
         },
         {
           "ordem": 2,
-          "status": "pendente",
+          "status": "concluido",
           "midia": {
             "asset": "007-parte-02.mp4",
             "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/007-parte-02.mp4",
@@ -528,7 +528,8 @@
             "upload_concluido": true,
             "id": "2106907426614407",
             "publicado_em": "2026-09-16T12:03:45.880102-03:00"
-          }
+          },
+          "concluido_em": "2026-09-16T12:03:47.229374-03:00"
         }
       ],
       "ultima_consulta_cota_instagram": {
