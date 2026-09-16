@@ -235,7 +235,7 @@
       "id": "reel-20260916-0900-db15491b69",
       "data": "2026-09-16",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "006 - Se você fechar as portas.mp4",
         "caminho_relativo": "006 - Se você fechar as portas.mp4",
@@ -265,7 +265,8 @@
         "upload_concluido": true,
         "id": "1069069102570157",
         "publicado_em": "2026-09-16T12:04:58.536231-03:00"
-      }
+      },
+      "concluido_em": "2026-09-16T12:05:00.205609-03:00"
     },
     {
       "id": "reel-20260917-0900-f720d2c9e9",
