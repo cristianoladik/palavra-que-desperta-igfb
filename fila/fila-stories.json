@@ -485,7 +485,8 @@
             "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/007-parte-01.mp4",
             "sha256": "adf730d7f431da0ecc0240847f8e106073aead14f7ac369d9915bcb00d157c5a",
             "tamanho_bytes": 7588317,
-            "duracao_segundos": 42.8
+            "duracao_segundos": 42.8,
+            "remocao_release_iniciada_em": "2026-09-16T12:05:10.590396-03:00"
           },
           "instagram": {
             "status": "publicado",
