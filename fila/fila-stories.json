@@ -566,7 +566,8 @@
             "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/008-parte-01.mp4",
             "sha256": "b0f85fd5e35421367d01616ea06f70486bf209171138a2980db5f56db5527564",
             "tamanho_bytes": 8305939,
-            "duracao_segundos": 47.52
+            "duracao_segundos": 47.52,
+            "remocao_release_iniciada_em": "2026-09-17T12:05:43.335645-03:00"
           },
           "instagram": {
             "status": "publicado",
