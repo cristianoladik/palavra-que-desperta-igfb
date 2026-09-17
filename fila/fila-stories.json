@@ -548,7 +548,7 @@
       "id": "story-20260917-160525a081",
       "data": "2026-09-17",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "091 - OUÇA a VOZ de DEUS, não o DESTINO.mp4",
         "sha256": "160525a081e275986eeb90e7e8ae5dc15e57986ac4e5d125f7580664b4ee06b1"
@@ -620,7 +620,8 @@
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 2 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-17T12:01:55.061940-03:00"
+      "publicacao_iniciada_em": "2026-09-17T12:01:55.061940-03:00",
+      "concluido_em": "2026-09-17T12:04:27.170341-03:00"
     },
     {
       "id": "story-20260918-fc654d654f",
