@@ -273,7 +273,7 @@
       "id": "reel-20260917-0900-f720d2c9e9",
       "data": "2026-09-17",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "007 - Quem trai é quem está perto.mp4",
         "caminho_relativo": "007 - Quem trai é quem está perto.mp4",
@@ -303,7 +303,8 @@
         "upload_concluido": true,
         "id": "1053789110588477",
         "publicado_em": "2026-09-17T12:05:34.398755-03:00"
-      }
+      },
+      "concluido_em": "2026-09-17T12:05:35.711104-03:00"
     },
     {
       "id": "reel-20260917-2100-241bb0e211",
