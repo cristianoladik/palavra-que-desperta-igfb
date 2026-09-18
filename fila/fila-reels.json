@@ -361,7 +361,8 @@
         "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/009.-.Nao.existe.heroi.Ah.tem.sim.o.fulano.de.tal.mp4",
         "sha256": "2598e8323873e17273652828cf00c0c2c33864f44abf643ab3812f1abcf21a17",
         "tamanho_bytes": 3930246,
-        "duracao_segundos": 29.32
+        "duracao_segundos": 29.32,
+        "remocao_release_iniciada_em": "2026-09-18T14:46:01.892631-03:00"
       },
       "instagram": {
         "legenda": "siga @palavraquedesperta_br",
