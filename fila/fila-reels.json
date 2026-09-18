@@ -311,7 +311,7 @@
       "id": "reel-20260917-2100-241bb0e211",
       "data": "2026-09-17",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "008 - O poder de você imaginar as coisas.mp4",
         "caminho_relativo": "008 - O poder de você imaginar as coisas.mp4",
@@ -341,7 +341,8 @@
         "upload_concluido": true,
         "id": "2146942819508573",
         "publicado_em": "2026-09-17T21:24:59.136337-03:00"
-      }
+      },
+      "concluido_em": "2026-09-17T21:25:00.381459-03:00"
     },
     {
       "id": "reel-20260918-0900-2598e83238",
