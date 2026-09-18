@@ -349,7 +349,7 @@
       "id": "reel-20260918-0900-2598e83238",
       "data": "2026-09-18",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "009 - Não existe herói. Ah, tem sim, o fulano de tal.mp4",
         "caminho_relativo": "009 - Não existe herói. Ah, tem sim, o fulano de tal.mp4",
@@ -379,7 +379,8 @@
         "upload_concluido": true,
         "id": "1839138703894125",
         "publicado_em": "2026-09-18T14:45:57.880046-03:00"
-      }
+      },
+      "concluido_em": "2026-09-18T14:45:59.250526-03:00"
     },
     {
       "id": "reel-20260918-2100-99a11cf095",
