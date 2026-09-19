@@ -710,7 +710,7 @@
       "id": "story-20260919-758a2269a4",
       "data": "2026-09-19",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "093 - NATUREZA do MOVER de DEUS： Ele se Manifesta ONDE Há FOME ESPIRITUAL!.mp4",
         "sha256": "758a2269a4dc33c56e1992c11264c9cb531224bddb5696722eef3599aa0c081d"
@@ -782,7 +782,8 @@
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 2 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-19T10:27:53.928378-03:00"
+      "publicacao_iniciada_em": "2026-09-19T10:27:53.928378-03:00",
+      "concluido_em": "2026-09-19T10:30:41.004621-03:00"
     },
     {
       "id": "story-20260920-6e7e7e1b3c",
