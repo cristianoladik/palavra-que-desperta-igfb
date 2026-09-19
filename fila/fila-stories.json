@@ -749,7 +749,7 @@
         },
         {
           "ordem": 2,
-          "status": "pendente",
+          "status": "concluido",
           "midia": {
             "asset": "010-parte-02.mp4",
             "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/010-parte-02.mp4",
@@ -771,7 +771,8 @@
             "upload_concluido": true,
             "id": "1125859006530460",
             "publicado_em": "2026-09-19T10:30:38.857149-03:00"
-          }
+          },
+          "concluido_em": "2026-09-19T10:30:39.901143-03:00"
         }
       ],
       "ultima_consulta_cota_instagram": {
