@@ -387,7 +387,7 @@
       "id": "reel-20260918-2100-99a11cf095",
       "data": "2026-09-18",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "010 - Pessoas que vivem desanimadas.mp4",
         "caminho_relativo": "010 - Pessoas que vivem desanimadas.mp4",
@@ -417,7 +417,8 @@
         "upload_concluido": true,
         "id": "1623379872693134",
         "publicado_em": "2026-09-18T21:40:46.370493-03:00"
-      }
+      },
+      "concluido_em": "2026-09-18T21:40:47.576253-03:00"
     },
     {
       "id": "reel-20260919-0900-3cd3389bd7",
