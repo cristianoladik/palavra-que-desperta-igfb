@@ -425,7 +425,7 @@
       "id": "reel-20260919-0900-3cd3389bd7",
       "data": "2026-09-19",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "011 - A morte e a vida, provérbios 8 e 21, a morte e a vida estão no poder da língua.mp4",
         "caminho_relativo": "011 - A morte e a vida, provérbios 8 e 21, a morte e a vida estão no poder da língua.mp4",
@@ -455,7 +455,8 @@
         "upload_concluido": true,
         "id": "1066613306157882",
         "publicado_em": "2026-09-19T10:31:41.626957-03:00"
-      }
+      },
+      "concluido_em": "2026-09-19T10:31:42.741015-03:00"
     },
     {
       "id": "reel-20260919-2100-cd152b820e",
