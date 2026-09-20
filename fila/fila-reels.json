@@ -501,7 +501,7 @@
       "id": "reel-20260920-0900-84486d79d5",
       "data": "2026-09-20",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "013 - A pior coisa que você pode fazer é deixar alguém saber que tem poder emocional sobre você Ou seja.mp4",
         "caminho_relativo": "013 - A pior coisa que você pode fazer é deixar alguém saber que tem poder emocional sobre você Ou seja.mp4",
@@ -531,7 +531,8 @@
         "upload_concluido": true,
         "id": "1615547426720559",
         "publicado_em": "2026-09-20T09:10:05.727596-03:00"
-      }
+      },
+      "concluido_em": "2026-09-20T09:10:07.432866-03:00"
     },
     {
       "id": "reel-20260920-2100-4105ca4a6a",
