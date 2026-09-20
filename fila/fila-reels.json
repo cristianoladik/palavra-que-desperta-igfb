@@ -463,7 +463,7 @@
       "id": "reel-20260919-2100-cd152b820e",
       "data": "2026-09-19",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "012 - O próprio Jesus, que nos ensinou fé.mp4",
         "caminho_relativo": "012 - O próprio Jesus, que nos ensinou fé.mp4",
@@ -493,7 +493,8 @@
         "upload_concluido": true,
         "id": "2546864502403123",
         "publicado_em": "2026-09-19T22:29:16.849020-03:00"
-      }
+      },
+      "concluido_em": "2026-09-19T22:29:18.501041-03:00"
     },
     {
       "id": "reel-20260920-0900-84486d79d5",
