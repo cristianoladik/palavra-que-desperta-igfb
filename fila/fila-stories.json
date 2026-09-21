@@ -844,7 +844,7 @@
       "id": "story-20260921-43b81efe2f",
       "data": "2026-09-21",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "002 - A gratidão não tem prazo de validade, a gratidão atrai o favor do senhor e expulsa a obra do mal.mp4",
         "sha256": "43b81efe2ffa42867ea0f66c66f5880f06620c6e1f30ba47a43e14e364b1446b"
@@ -889,7 +889,8 @@
         "restantes": 99,
         "mensagem": "Cota Instagram: 99 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-21T10:54:36.029995-03:00"
+      "publicacao_iniciada_em": "2026-09-21T10:54:36.029995-03:00",
+      "concluido_em": "2026-09-21T10:55:35.519780-03:00"
     },
     {
       "id": "story-20260922-0d9f4beaeb",
