@@ -539,7 +539,7 @@
       "id": "reel-20260920-2100-4105ca4a6a",
       "data": "2026-09-20",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "014 - O importante do tempo com Deus não é a quantidade de horas, mas a motivação do coração.mp4",
         "caminho_relativo": "014 - O importante do tempo com Deus não é a quantidade de horas, mas a motivação do coração.mp4",
@@ -569,7 +569,8 @@
         "upload_concluido": true,
         "id": "2301020940733410",
         "publicado_em": "2026-09-20T22:27:07.173497-03:00"
-      }
+      },
+      "concluido_em": "2026-09-20T22:27:08.532691-03:00"
     },
     {
       "id": "reel-20260921-0900-427a4e237a",
