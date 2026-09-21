@@ -577,7 +577,7 @@
       "id": "reel-20260921-0900-427a4e237a",
       "data": "2026-09-21",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "015 - Eu dou muito valor ao meu tempo porque eu conheço bem o meu propósito.mp4",
         "caminho_relativo": "015 - Eu dou muito valor ao meu tempo porque eu conheço bem o meu propósito.mp4",
@@ -607,7 +607,8 @@
         "upload_concluido": true,
         "id": "1047164654983522",
         "publicado_em": "2026-09-21T10:56:33.774260-03:00"
-      }
+      },
+      "concluido_em": "2026-09-21T10:56:35.145732-03:00"
     },
     {
       "id": "reel-20260921-2100-0afbb868a0",
