@@ -615,7 +615,7 @@
       "id": "reel-20260921-2100-0afbb868a0",
       "data": "2026-09-21",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "016 - A vida não é fácil, não.mp4",
         "caminho_relativo": "016 - A vida não é fácil, não.mp4",
@@ -645,7 +645,8 @@
         "upload_concluido": true,
         "id": "1626487825808981",
         "publicado_em": "2026-09-21T22:14:23.367201-03:00"
-      }
+      },
+      "concluido_em": "2026-09-21T22:14:24.632389-03:00"
     },
     {
       "id": "reel-20260922-0900-03a458cb08",
