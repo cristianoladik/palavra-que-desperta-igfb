@@ -653,7 +653,7 @@
       "id": "reel-20260922-0900-03a458cb08",
       "data": "2026-09-22",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "017 - Jogar tempo fora é pecado.mp4",
         "caminho_relativo": "017 - Jogar tempo fora é pecado.mp4",
@@ -683,7 +683,8 @@
         "upload_concluido": true,
         "id": "2312163786208388",
         "publicado_em": "2026-09-22T13:54:51.894112-03:00"
-      }
+      },
+      "concluido_em": "2026-09-22T13:54:53.682224-03:00"
     },
     {
       "id": "reel-20260922-2100-9af0351f63",
