@@ -897,7 +897,7 @@
       "id": "story-20260922-0d9f4beaeb",
       "data": "2026-09-22",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "001 - TESTE REEL DE TRES MINUTOS.mp4",
         "sha256": "0d9f4beaeb756f2596fc076c7eb982d09fe460192940b767d8e4c32efb419eaf"
@@ -996,7 +996,8 @@
         "restantes": 99,
         "mensagem": "Cota Instagram: 99 criações restantes; 3 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-22T13:48:56.623602-03:00"
+      "publicacao_iniciada_em": "2026-09-22T13:48:56.623602-03:00",
+      "concluido_em": "2026-09-22T13:53:50.511644-03:00"
     },
     {
       "id": "story-20260923-25a70281bf",
