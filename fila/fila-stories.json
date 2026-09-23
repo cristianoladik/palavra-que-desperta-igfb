@@ -1006,7 +1006,7 @@
       "id": "story-20260923-25a70281bf",
       "data": "2026-09-23",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "003 - No livro de Tiago, apóstolo Tiago.mp4",
         "sha256": "25a70281bfb6f18485789afc3a56a9bc0c8d5bf46c0f0896eb7d529438044a29"
@@ -1051,7 +1051,8 @@
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-23T09:02:27.700321-03:00"
+      "publicacao_iniciada_em": "2026-09-23T09:02:27.700321-03:00",
+      "concluido_em": "2026-09-23T09:03:33.578710-03:00"
     },
     {
       "id": "story-20260924-6acedd9068",
