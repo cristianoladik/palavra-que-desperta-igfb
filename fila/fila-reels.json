@@ -703,7 +703,8 @@
         "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/018.-.Ninguem.pode.derrubar.um.homem.que.ja.esta.de.joelhos.mp4",
         "sha256": "9af0351f635ab3c4ff67b0b0e76d078b66234596a723a8ef8c8d3637c6b4305f",
         "tamanho_bytes": 10415732,
-        "duracao_segundos": 45.48
+        "duracao_segundos": 45.48,
+        "remocao_release_iniciada_em": "2026-09-22T22:26:08.343160-03:00"
       },
       "instagram": {
         "legenda": "siga @palavraquedesperta_br",
