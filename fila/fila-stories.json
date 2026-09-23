@@ -1028,7 +1028,8 @@
           },
           "instagram": {
             "status": "publicacao_iniciada",
-            "publicacao_iniciada_em": "2026-09-23T09:02:29.362593-03:00"
+            "publicacao_iniciada_em": "2026-09-23T09:02:29.362593-03:00",
+            "container_id": "18101367284158499"
           },
           "facebook": {
             "status": "pendente"
