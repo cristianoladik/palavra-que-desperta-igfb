@@ -729,7 +729,7 @@
       "id": "reel-20260923-0900-13d68c8b6b",
       "data": "2026-09-23",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "019 - Como impressionante da fé.mp4",
         "caminho_relativo": "019 - Como impressionante da fé.mp4",
@@ -759,7 +759,8 @@
         "upload_concluido": true,
         "id": "1457240379650020",
         "publicado_em": "2026-09-23T09:05:21.910958-03:00"
-      }
+      },
+      "concluido_em": "2026-09-23T09:05:23.400771-03:00"
     },
     {
       "id": "reel-20260923-2100-05712d5a59",
