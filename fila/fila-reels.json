@@ -691,7 +691,7 @@
       "id": "reel-20260922-2100-9af0351f63",
       "data": "2026-09-22",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "018 - Ninguém pode derrubar um homem que já está de joelhos.mp4",
         "caminho_relativo": "018 - Ninguém pode derrubar um homem que já está de joelhos.mp4",
@@ -721,7 +721,8 @@
         "upload_concluido": true,
         "id": "1077727784995583",
         "publicado_em": "2026-09-22T22:26:04.464160-03:00"
-      }
+      },
+      "concluido_em": "2026-09-22T22:26:05.733357-03:00"
     },
     {
       "id": "reel-20260923-0900-13d68c8b6b",
