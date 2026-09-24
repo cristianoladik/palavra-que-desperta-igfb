@@ -805,7 +805,7 @@
       "id": "reel-20260924-0500-61c971b7ae",
       "data": "2026-09-24",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "021 - A vida só tem dois lados, prosperidade ou escassez.mp4",
         "caminho_relativo": "021 - A vida só tem dois lados, prosperidade ou escassez.mp4",
@@ -835,7 +835,8 @@
         "upload_concluido": true,
         "id": "958826340608562",
         "publicado_em": "2026-09-24T09:18:11.672675-03:00"
-      }
+      },
+      "concluido_em": "2026-09-24T09:18:13.522245-03:00"
     },
     {
       "id": "reel-20260924-0900-fd18317f63",
