@@ -1059,7 +1059,7 @@
       "id": "story-20260924-6acedd9068",
       "data": "2026-09-24",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "004 - Se por acaso, gente, você abrir uma brecha por causa de palavras.mp4",
         "sha256": "6acedd906824428dc0a1e231a02e39bf49540d6fcdcabc5ab7328d73bc3e186d"
@@ -1104,7 +1104,8 @@
         "restantes": 99,
         "mensagem": "Cota Instagram: 99 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-24T09:15:42.635185-03:00"
+      "publicacao_iniciada_em": "2026-09-24T09:15:42.635185-03:00",
+      "concluido_em": "2026-09-24T09:17:00.866127-03:00"
     },
     {
       "id": "story-20260925-fb13ef65fb",
