@@ -1133,7 +1133,8 @@
             "duracao_segundos": 32.04
           },
           "instagram": {
-            "status": "pendente"
+            "status": "publicacao_iniciada",
+            "publicacao_iniciada_em": "2026-09-25T09:56:11.577331-03:00"
           },
           "facebook": {
             "status": "pendente"
