@@ -919,7 +919,7 @@
       "id": "reel-20260925-0500-73157ef3e2",
       "data": "2026-09-25",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "026 - PROMESSA de ISAÍAS 45_2 que VAI ABRIR PORTAS na SUA VIDA HOJE!.mp4",
         "caminho_relativo": "026 - PROMESSA de ISAÍAS 45_2 que VAI ABRIR PORTAS na SUA VIDA HOJE!.mp4",
@@ -949,7 +949,8 @@
         "upload_concluido": true,
         "id": "2196365364253883",
         "publicado_em": "2026-09-25T09:58:40.973948-03:00"
-      }
+      },
+      "concluido_em": "2026-09-25T09:58:42.560829-03:00"
     },
     {
       "id": "reel-20260925-0900-a708f7db78",
