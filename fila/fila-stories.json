@@ -1112,7 +1112,7 @@
       "id": "story-20260925-fb13ef65fb",
       "data": "2026-09-25",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "005 - É muito difícil lhe dar com calúnia, estão falando de você e nem é verdade.mp4",
         "sha256": "fb13ef65fb96043bdf5590a729fea7c88f5b87c8a0ee50f8bac5bc471770871a"
@@ -1146,7 +1146,8 @@
         "necessarias": 1,
         "restantes": 99,
         "mensagem": "Cota Instagram: 99 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-09-25T09:56:09.785443-03:00"
     },
     {
       "id": "story-20260926-db15491b69",
