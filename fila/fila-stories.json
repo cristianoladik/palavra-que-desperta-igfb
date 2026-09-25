@@ -1140,7 +1140,8 @@
             "publicado_em": "2026-09-25T09:56:56.697940-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicacao_iniciada",
+            "publicacao_iniciada_em": "2026-09-25T09:56:59.022469-03:00"
           }
         }
       ],
