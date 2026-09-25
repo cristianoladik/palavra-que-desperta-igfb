@@ -881,7 +881,7 @@
       "id": "reel-20260924-2100-e47215a08c",
       "data": "2026-09-24",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "025 - Sua VERGONHA será seu TESTEMUNHO e vai MUDAR sua HISTÓRIA!.mp4",
         "caminho_relativo": "025 - Sua VERGONHA será seu TESTEMUNHO e vai MUDAR sua HISTÓRIA!.mp4",
@@ -911,7 +911,8 @@
         "upload_concluido": true,
         "id": "1111433387890896",
         "publicado_em": "2026-09-24T22:57:11.014307-03:00"
-      }
+      },
+      "concluido_em": "2026-09-24T22:57:12.466891-03:00"
     },
     {
       "id": "reel-20260925-0500-73157ef3e2",
