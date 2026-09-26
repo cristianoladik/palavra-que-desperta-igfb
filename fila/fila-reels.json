@@ -995,7 +995,7 @@
       "id": "reel-20260925-2100-3963448a96",
       "data": "2026-09-25",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "028 - VOCÊ não está SOZINHO no VALE.mp4",
         "caminho_relativo": "028 - VOCÊ não está SOZINHO no VALE.mp4",
@@ -1025,7 +1025,8 @@
         "upload_concluido": true,
         "id": "1068047572786834",
         "publicado_em": "2026-09-25T21:03:32.573300-03:00"
-      }
+      },
+      "concluido_em": "2026-09-25T21:03:33.876620-03:00"
     },
     {
       "id": "reel-20260926-0500-8709533129",
