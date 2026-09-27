@@ -1200,9 +1200,11 @@
       },
       "instagram": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-09-27T10:06:53.831756-03:00",
-        "container_id": "18102273548158499"
+        "container_id": "18102273548158499",
+        "id": "18244478209313375",
+        "publicado_em": "2026-09-27T10:08:02.201908-03:00"
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
