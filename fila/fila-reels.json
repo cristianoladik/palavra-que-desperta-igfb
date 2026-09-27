@@ -1147,7 +1147,7 @@
       "id": "reel-20260927-0500-98542ca43e",
       "data": "2026-09-27",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "032 - NATUREZA do MOVER de DEUS： Ele se Manifesta ONDE Há FOME ESPIRITUAL!.mp4",
         "caminho_relativo": "032 - NATUREZA do MOVER de DEUS： Ele se Manifesta ONDE Há FOME ESPIRITUAL!.mp4",
@@ -1177,7 +1177,8 @@
         "upload_concluido": true,
         "id": "2582443355528359",
         "publicado_em": "2026-09-27T10:06:49.536035-03:00"
-      }
+      },
+      "concluido_em": "2026-09-27T10:06:51.090646-03:00"
     },
     {
       "id": "reel-20260927-0900-5d3bcdeb3c",
