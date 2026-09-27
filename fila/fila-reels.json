@@ -1184,7 +1184,7 @@
       "id": "reel-20260927-0900-5d3bcdeb3c",
       "data": "2026-09-27",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "033 - Como TRATAR o IMPOSSÍVEL com FÉ mesmo nas MAIORES TRIBULAÇÕES!.mp4",
         "caminho_relativo": "033 - Como TRATAR o IMPOSSÍVEL com FÉ mesmo nas MAIORES TRIBULAÇÕES!.mp4",
@@ -1214,7 +1214,8 @@
         "upload_concluido": true,
         "id": "4085400971596893",
         "publicado_em": "2026-09-27T10:08:22.755798-03:00"
-      }
+      },
+      "concluido_em": "2026-09-27T10:08:24.634316-03:00"
     },
     {
       "id": "reel-20260927-2100-0a111ecefc",
