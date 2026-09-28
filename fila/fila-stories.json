@@ -1271,7 +1271,7 @@
       "id": "story-20260928-241bb0e211",
       "data": "2026-09-28",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "008 - O poder de você imaginar as coisas.mp4",
         "sha256": "241bb0e211a15b92f80dd7a78ae2285ca02f659f1d25a9545b742a77c471f9d0"
@@ -1305,7 +1305,8 @@
         "necessarias": 1,
         "restantes": 98,
         "mensagem": "Cota Instagram: 98 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-09-28T15:41:16.535640-03:00"
     },
     {
       "id": "story-20260929-2598e83238",
