@@ -1261,7 +1261,7 @@
       "id": "reel-20260928-0500-a834b11b64",
       "data": "2026-09-28",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "035 - Deus Jamais Se Esquecerá De Você.mp4",
         "caminho_relativo": "035 - Deus Jamais Se Esquecerá De Você.mp4",
@@ -1291,7 +1291,8 @@
         "upload_concluido": true,
         "id": "1091494589914722",
         "publicado_em": "2026-09-28T08:16:36.398132-03:00"
-      }
+      },
+      "concluido_em": "2026-09-28T08:16:38.738719-03:00"
     },
     {
       "id": "reel-20260928-0900-b29899f804",
