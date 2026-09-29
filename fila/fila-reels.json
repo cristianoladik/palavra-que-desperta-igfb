@@ -1413,7 +1413,7 @@
       "id": "reel-20260929-0900-3b4bda3ae8",
       "data": "2026-09-29",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "039 - O DESTINO PROFÉTICO de JOSÉ.mp4",
         "caminho_relativo": "039 - O DESTINO PROFÉTICO de JOSÉ.mp4",
@@ -1443,7 +1443,8 @@
         "upload_concluido": true,
         "id": "1771731190803630",
         "publicado_em": "2026-09-29T13:11:48.845095-03:00"
-      }
+      },
+      "concluido_em": "2026-09-29T13:11:51.887590-03:00"
     },
     {
       "id": "reel-20260929-2100-f8c8287839",
