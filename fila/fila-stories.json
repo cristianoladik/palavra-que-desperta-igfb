@@ -1324,7 +1324,7 @@
       "id": "story-20260929-2598e83238",
       "data": "2026-09-29",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "009 - Não existe herói. Ah, tem sim, o fulano de tal.mp4",
         "sha256": "2598e8323873e17273652828cf00c0c2c33864f44abf643ab3812f1abcf21a17"
@@ -1358,7 +1358,8 @@
         "necessarias": 1,
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-09-29T13:07:57.532236-03:00"
     },
     {
       "id": "story-20260930-99a11cf095",
