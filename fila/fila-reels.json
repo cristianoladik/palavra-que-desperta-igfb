@@ -1374,7 +1374,7 @@
       "id": "reel-20260929-0500-5abad21a8a",
       "data": "2026-09-29",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "038 - O DIABO só ATACA quando sabe da PROMESSA de DEUS em VOCÊ.mp4",
         "caminho_relativo": "038 - O DIABO só ATACA quando sabe da PROMESSA de DEUS em VOCÊ.mp4",
@@ -1404,7 +1404,8 @@
         "upload_concluido": true,
         "id": "2282288832625397",
         "publicado_em": "2026-09-29T06:39:12.618824-03:00"
-      }
+      },
+      "concluido_em": "2026-09-29T06:39:14.371337-03:00"
     },
     {
       "id": "reel-20260929-0900-3b4bda3ae8",
