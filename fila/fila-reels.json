@@ -1337,7 +1337,7 @@
       "id": "reel-20260928-2100-d25aa18161",
       "data": "2026-09-28",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "037 - QUEM OUVE o CÉU GOVERNA na TERRA.mp4",
         "caminho_relativo": "037 - QUEM OUVE o CÉU GOVERNA na TERRA.mp4",
@@ -1367,7 +1367,8 @@
         "upload_concluido": true,
         "id": "28602155456080026",
         "publicado_em": "2026-09-29T06:37:29.145178-03:00"
-      }
+      },
+      "concluido_em": "2026-09-29T06:37:31.025293-03:00"
     },
     {
       "id": "reel-20260929-0500-5abad21a8a",
