@@ -1527,7 +1527,7 @@
       "id": "reel-20260930-0900-76bd12f145",
       "data": "2026-09-30",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "042 - ATENÇÃO： DEUS NÃO se ESQUECEU de VOCÊ! O SILÊNCIO tem um PROPÓSITO - DESCUBRA AGORA.mp4",
         "caminho_relativo": "042 - ATENÇÃO： DEUS NÃO se ESQUECEU de VOCÊ! O SILÊNCIO tem um PROPÓSITO - DESCUBRA AGORA.mp4",
@@ -1557,7 +1557,8 @@
         "upload_concluido": true,
         "id": "2178686186386768",
         "publicado_em": "2026-09-30T13:59:25.923606-03:00"
-      }
+      },
+      "concluido_em": "2026-09-30T13:59:27.556775-03:00"
     },
     {
       "id": "reel-20260930-2100-a8c0e99daf",
