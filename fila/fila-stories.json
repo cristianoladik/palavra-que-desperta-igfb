@@ -1405,10 +1405,12 @@
             "publicado_em": "2026-09-30T13:56:52.538446-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-09-30T13:56:54.184059-03:00",
             "video_id": "1057493993992777",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "1246031941022231",
+            "publicado_em": "2026-09-30T13:57:12.299467-03:00"
           }
         }
       ],
