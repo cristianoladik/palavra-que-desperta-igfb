@@ -1377,7 +1377,7 @@
       "id": "story-20260930-99a11cf095",
       "data": "2026-09-30",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "010 - Pessoas que vivem desanimadas.mp4",
         "sha256": "99a11cf095e1db62b62331e114a6ca3a95606c5105a25c177fb6113b2cbdfd7d"
@@ -1422,7 +1422,8 @@
         "restantes": 98,
         "mensagem": "Cota Instagram: 98 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-09-30T13:56:05.311634-03:00"
+      "publicacao_iniciada_em": "2026-09-30T13:56:05.311634-03:00",
+      "concluido_em": "2026-09-30T13:57:15.027508-03:00"
     },
     {
       "id": "story-20261001-3cd3389bd7",
