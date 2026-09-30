@@ -1489,7 +1489,7 @@
       "id": "reel-20260930-0500-e8d4407477",
       "data": "2026-09-30",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "041 - A Maior Loucura Do Evangelho.mp4",
         "caminho_relativo": "041 - A Maior Loucura Do Evangelho.mp4",
@@ -1519,7 +1519,8 @@
         "upload_concluido": true,
         "id": "1087805886994049",
         "publicado_em": "2026-09-30T08:24:37.355517-03:00"
-      }
+      },
+      "concluido_em": "2026-09-30T08:24:38.747445-03:00"
     },
     {
       "id": "reel-20260930-0900-76bd12f145",
