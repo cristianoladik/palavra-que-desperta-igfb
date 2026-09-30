@@ -1451,7 +1451,7 @@
       "id": "reel-20260929-2100-f8c8287839",
       "data": "2026-09-29",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "040 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
         "caminho_relativo": "040 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
@@ -1481,7 +1481,8 @@
         "upload_concluido": true,
         "id": "1975461556472476",
         "publicado_em": "2026-09-30T02:37:57.654091-03:00"
-      }
+      },
+      "concluido_em": "2026-09-30T02:37:59.005730-03:00"
     },
     {
       "id": "reel-20260930-0500-e8d4407477",
