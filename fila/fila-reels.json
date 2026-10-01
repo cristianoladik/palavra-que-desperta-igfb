@@ -1679,7 +1679,7 @@
       "id": "reel-20261001-1300-253d48e129",
       "data": "2026-10-01",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "046 - PARE AGORA： NÃO VIVA REFÉM DAS CIRCUNSTÂNCIAS com André Fernandes! DESCUBRA COMO.mp4",
         "caminho_relativo": "046 - PARE AGORA： NÃO VIVA REFÉM DAS CIRCUNSTÂNCIAS com André Fernandes! DESCUBRA COMO.mp4",
@@ -1709,7 +1709,8 @@
         "upload_concluido": true,
         "id": "1625238089188840",
         "publicado_em": "2026-10-01T16:24:45.088658-03:00"
-      }
+      },
+      "concluido_em": "2026-10-01T16:24:47.606447-03:00"
     },
     {
       "id": "reel-20261001-2100-c3b2474f18",
