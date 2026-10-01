@@ -1430,7 +1430,7 @@
       "id": "story-20261001-3cd3389bd7",
       "data": "2026-10-01",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "011 - A morte e a vida, provérbios 8 e 21, a morte e a vida estão no poder da língua.mp4",
         "sha256": "3cd3389bd7f7a41568b96a15a21e39022f86db7773e2ba1e293f585d73279be4"
@@ -1475,7 +1475,8 @@
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-01T10:56:17.815262-03:00"
+      "publicacao_iniciada_em": "2026-10-01T10:56:17.815262-03:00",
+      "concluido_em": "2026-10-01T10:57:22.429578-03:00"
     },
     {
       "id": "story-20261002-cd152b820e",
