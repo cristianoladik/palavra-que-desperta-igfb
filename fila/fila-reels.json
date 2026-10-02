@@ -1717,7 +1717,7 @@
       "id": "reel-20261001-2100-c3b2474f18",
       "data": "2026-10-01",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "047 - DEUS NÃO DESISTIU DE VOCÊ! André Fernandes REVELA a Verdade que Poucos Sabem - ASSISTA JÁ.mp4",
         "caminho_relativo": "047 - DEUS NÃO DESISTIU DE VOCÊ! André Fernandes REVELA a Verdade que Poucos Sabem - ASSISTA JÁ.mp4",
@@ -1747,7 +1747,8 @@
         "upload_concluido": true,
         "id": "1772099440831774",
         "publicado_em": "2026-10-02T05:58:24.794035-03:00"
-      }
+      },
+      "concluido_em": "2026-10-02T05:58:26.122434-03:00"
     },
     {
       "id": "reel-20261002-0500-0f4f30f5dd",
