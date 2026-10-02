@@ -1831,7 +1831,7 @@
       "id": "reel-20261002-1300-907ca82175",
       "data": "2026-10-02",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "050 - CRUZADA INCENDIÁRIOS EM FORTALEZA Revela a VERDADE! VEJA ANTES QUE REMOVAM.mp4",
         "caminho_relativo": "050 - CRUZADA INCENDIÁRIOS EM FORTALEZA Revela a VERDADE! VEJA ANTES QUE REMOVAM.mp4",
@@ -1861,7 +1861,8 @@
         "upload_concluido": true,
         "id": "1127048256742815",
         "publicado_em": "2026-10-02T17:10:41.513241-03:00"
-      }
+      },
+      "concluido_em": "2026-10-02T17:10:43.204681-03:00"
     },
     {
       "id": "reel-20261002-2100-46c6375431",
