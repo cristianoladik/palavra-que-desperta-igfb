@@ -1793,7 +1793,7 @@
       "id": "reel-20261002-0900-6ed70f2f32",
       "data": "2026-10-02",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "049 - Como MUDAR SUA MENTALIDADE e ALCANÇAR O SUCESSO com André Fernandes!.mp4",
         "caminho_relativo": "049 - Como MUDAR SUA MENTALIDADE e ALCANÇAR O SUCESSO com André Fernandes!.mp4",
@@ -1823,7 +1823,8 @@
         "upload_concluido": true,
         "id": "1417230863934790",
         "publicado_em": "2026-10-02T12:43:35.787070-03:00"
-      }
+      },
+      "concluido_em": "2026-10-02T12:43:37.333378-03:00"
     },
     {
       "id": "reel-20261002-1300-907ca82175",
