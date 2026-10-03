@@ -1945,7 +1945,7 @@
       "id": "reel-20261003-0900-91700b6fc4",
       "data": "2026-10-03",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "053 - Por Que DEUS NÃO UNGE PERSONAGENS Mas Sim PESSOAS Reais! VEJA AQUI.mp4",
         "caminho_relativo": "053 - Por Que DEUS NÃO UNGE PERSONAGENS Mas Sim PESSOAS Reais! VEJA AQUI.mp4",
@@ -1975,7 +1975,8 @@
         "upload_concluido": true,
         "id": "1730506001369695",
         "publicado_em": "2026-10-03T11:46:22.850843-03:00"
-      }
+      },
+      "concluido_em": "2026-10-03T11:46:24.243850-03:00"
     },
     {
       "id": "reel-20261003-1300-9fb4eabad2",
