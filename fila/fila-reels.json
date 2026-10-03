@@ -1869,7 +1869,7 @@
       "id": "reel-20261002-2100-46c6375431",
       "data": "2026-10-02",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "051 - URGENTE： ESTEJA À ALTURA do Seu CHAMADO! O Segredo que Vai TRANSFORMAR Sua Vida! VEJA AQUI.mp4",
         "caminho_relativo": "051 - URGENTE： ESTEJA À ALTURA do Seu CHAMADO! O Segredo que Vai TRANSFORMAR Sua Vida! VEJA AQUI.mp4",
@@ -1899,7 +1899,8 @@
         "upload_concluido": true,
         "id": "1451847350489211",
         "publicado_em": "2026-10-03T01:36:41.712588-03:00"
-      }
+      },
+      "concluido_em": "2026-10-03T01:36:43.139792-03:00"
     },
     {
       "id": "reel-20261003-0500-6ae87af002",
