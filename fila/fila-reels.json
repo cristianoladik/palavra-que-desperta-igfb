@@ -1907,7 +1907,7 @@
       "id": "reel-20261003-0500-6ae87af002",
       "data": "2026-10-03",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "052 - O Motivo Real de VOCÊ NÃO PODER DESISTIR em 2026! DESCUBRA JÁ.mp4",
         "caminho_relativo": "052 - O Motivo Real de VOCÊ NÃO PODER DESISTIR em 2026! DESCUBRA JÁ.mp4",
@@ -1937,7 +1937,8 @@
         "upload_concluido": true,
         "id": "1419196317082733",
         "publicado_em": "2026-10-03T07:05:19.828215-03:00"
-      }
+      },
+      "concluido_em": "2026-10-03T07:05:21.074621-03:00"
     },
     {
       "id": "reel-20261003-0900-91700b6fc4",
