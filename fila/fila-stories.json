@@ -1536,7 +1536,7 @@
       "id": "story-20261003-84486d79d5",
       "data": "2026-10-03",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "013 - A pior coisa que você pode fazer é deixar alguém saber que tem poder emocional sobre você Ou seja.mp4",
         "sha256": "84486d79d5f7dcbf22268b12ece7e45e9b5310f4976ae2dd2809cfa168d245b9"
@@ -1570,7 +1570,8 @@
         "necessarias": 1,
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-03T11:44:32.808672-03:00"
     },
     {
       "id": "story-20261004-4105ca4a6a",
