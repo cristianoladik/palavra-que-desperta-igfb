@@ -1589,7 +1589,7 @@
       "id": "story-20261004-4105ca4a6a",
       "data": "2026-10-04",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "014 - O importante do tempo com Deus não é a quantidade de horas, mas a motivação do coração.mp4",
         "sha256": "4105ca4a6a405ac31afb9a473a66e6a2c8870012a8f165ed28d3dd9d3850085a"
@@ -1634,7 +1634,8 @@
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-04T09:13:00.237466-03:00"
+      "publicacao_iniciada_em": "2026-10-04T09:13:00.237466-03:00",
+      "concluido_em": "2026-10-04T09:14:00.955915-03:00"
     },
     {
       "id": "story-20261005-427a4e237a",
