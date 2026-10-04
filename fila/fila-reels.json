@@ -2059,7 +2059,7 @@
       "id": "reel-20261004-0500-518040e6f7",
       "data": "2026-10-04",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "056 - EMOCIONANTE： Não Importa Como Vai Acontecer DEUS ESTÁ NO CONTROLE da Sua Vida! ASSISTA AGORA.mp4",
         "caminho_relativo": "056 - EMOCIONANTE： Não Importa Como Vai Acontecer DEUS ESTÁ NO CONTROLE da Sua Vida! ASSISTA AGORA.mp4",
@@ -2089,7 +2089,8 @@
         "upload_concluido": true,
         "id": "924539930458193",
         "publicado_em": "2026-10-04T09:15:02.181754-03:00"
-      }
+      },
+      "concluido_em": "2026-10-04T09:15:04.177862-03:00"
     },
     {
       "id": "reel-20261004-0900-521c52af79",
