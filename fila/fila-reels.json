@@ -2135,7 +2135,7 @@
       "id": "reel-20261004-1300-fc6bb8dae6",
       "data": "2026-10-04",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "058 - DEUS só vai AGIR na sua vida se você entender isso aqui !.mp4",
         "caminho_relativo": "058 - DEUS só vai AGIR na sua vida se você entender isso aqui !.mp4",
@@ -2165,7 +2165,8 @@
         "upload_concluido": true,
         "id": "2290405195130376",
         "publicado_em": "2026-10-04T13:55:15.937605-03:00"
-      }
+      },
+      "concluido_em": "2026-10-04T13:55:17.668893-03:00"
     },
     {
       "id": "reel-20261004-2100-191b63e37c",
