@@ -2210,7 +2210,7 @@
       "id": "reel-20261005-0500-1ceb083d59",
       "data": "2026-10-05",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "060 - NÃO PEGUE ATALHOS no CAMINHO DE DEUS! André Fernandes.mp4",
         "caminho_relativo": "060 - NÃO PEGUE ATALHOS no CAMINHO DE DEUS! André Fernandes.mp4",
@@ -2240,7 +2240,8 @@
         "upload_concluido": true,
         "id": "2159455821309788",
         "publicado_em": "2026-10-05T05:43:05.219731-03:00"
-      }
+      },
+      "concluido_em": "2026-10-05T05:43:06.870579-03:00"
     },
     {
       "id": "reel-20261005-0900-1d7c725406",
