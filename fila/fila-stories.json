@@ -1664,7 +1664,8 @@
           },
           "instagram": {
             "status": "publicacao_iniciada",
-            "publicacao_iniciada_em": "2026-10-05T14:26:20.327668-03:00"
+            "publicacao_iniciada_em": "2026-10-05T14:26:20.327668-03:00",
+            "container_id": "18104135012158499"
           },
           "facebook": {
             "status": "pendente"
