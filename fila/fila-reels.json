@@ -2173,7 +2173,7 @@
       "id": "reel-20261004-2100-191b63e37c",
       "data": "2026-10-04",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "059 - ISSO VAI MUDAR TUDO： O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO de Deus! NÃO PERCA.mp4",
         "caminho_relativo": "059 - ISSO VAI MUDAR TUDO： O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO de Deus! NÃO PERCA.mp4",
@@ -2203,7 +2203,8 @@
         "upload_concluido": true,
         "id": "1119333837656720",
         "publicado_em": "2026-10-05T05:41:55.850240-03:00"
-      }
+      },
+      "concluido_em": "2026-10-05T05:41:57.783229-03:00"
     },
     {
       "id": "reel-20261005-0500-1ceb083d59",
