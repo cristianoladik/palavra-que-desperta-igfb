@@ -1642,7 +1642,7 @@
       "id": "story-20261005-427a4e237a",
       "data": "2026-10-05",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "015 - Eu dou muito valor ao meu tempo porque eu conheço bem o meu propósito.mp4",
         "sha256": "427a4e237aa35671df646fce9a44ace690ddb852611e7906fd823cc8d9b55a7a"
@@ -1676,7 +1676,8 @@
         "necessarias": 1,
         "restantes": 98,
         "mensagem": "Cota Instagram: 98 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-05T14:26:18.734449-03:00"
     },
     {
       "id": "story-20261006-0afbb868a0",
