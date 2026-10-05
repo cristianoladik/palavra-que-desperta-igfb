@@ -2249,7 +2249,7 @@
       "id": "reel-20261005-0900-1d7c725406",
       "data": "2026-10-05",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "061 - Entenda o seu chamado e liberte sua fé.mp4",
         "caminho_relativo": "061 - Entenda o seu chamado e liberte sua fé.mp4",
@@ -2279,7 +2279,8 @@
         "upload_concluido": true,
         "id": "4636822886644826",
         "publicado_em": "2026-10-05T14:28:52.116917-03:00"
-      }
+      },
+      "concluido_em": "2026-10-05T14:28:54.068890-03:00"
     },
     {
       "id": "reel-20261005-1300-76fd829802",
