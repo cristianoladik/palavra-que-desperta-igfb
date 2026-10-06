@@ -2363,7 +2363,7 @@
       "id": "reel-20261006-0500-38bf25eee7",
       "data": "2026-10-06",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "064 - PARE TUDO： Como a APROVAÇÃO e REJEIÇÃO Controlam Sua Vida! VEJA ISSO URGENTE.mp4",
         "caminho_relativo": "064 - PARE TUDO： Como a APROVAÇÃO e REJEIÇÃO Controlam Sua Vida! VEJA ISSO URGENTE.mp4",
@@ -2393,7 +2393,8 @@
         "upload_concluido": true,
         "id": "1749626606095132",
         "publicado_em": "2026-10-06T07:31:50.177371-03:00"
-      }
+      },
+      "concluido_em": "2026-10-06T07:31:51.620076-03:00"
     },
     {
       "id": "reel-20261006-0900-555ec2e141",
