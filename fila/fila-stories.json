@@ -1695,7 +1695,7 @@
       "id": "story-20261006-0afbb868a0",
       "data": "2026-10-06",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "016 - A vida não é fácil, não.mp4",
         "sha256": "0afbb868a0487164a43251d44fd10ec272a47d927e9b763a97d33fe6cede7079"
@@ -1729,7 +1729,8 @@
         "necessarias": 1,
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-06T13:56:34.333791-03:00"
     },
     {
       "id": "story-20261007-03a458cb08",
