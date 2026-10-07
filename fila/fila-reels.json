@@ -2591,7 +2591,7 @@
       "id": "reel-20261007-1300-f10148883d",
       "data": "2026-10-07",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "070 - Oração De Avivamento! Andre Fernandes.mp4",
         "caminho_relativo": "070 - Oração De Avivamento! Andre Fernandes.mp4",
@@ -2621,7 +2621,8 @@
         "upload_concluido": true,
         "id": "1174841228826281",
         "publicado_em": "2026-10-07T17:12:56.810081-03:00"
-      }
+      },
+      "concluido_em": "2026-10-07T17:12:59.001293-03:00"
     },
     {
       "id": "reel-20261007-2100-857cc582a1",
