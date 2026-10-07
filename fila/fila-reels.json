@@ -2515,7 +2515,7 @@
       "id": "reel-20261007-0500-2edbd2b05d",
       "data": "2026-10-07",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "068 - Deus já conquistou por você： tem de bom ânimo!.mp4",
         "caminho_relativo": "068 - Deus já conquistou por você： tem de bom ânimo!.mp4",
@@ -2545,7 +2545,8 @@
         "upload_concluido": true,
         "id": "1674954850858652",
         "publicado_em": "2026-10-07T11:43:34.623717-03:00"
-      }
+      },
+      "concluido_em": "2026-10-07T11:43:36.235857-03:00"
     },
     {
       "id": "reel-20261007-0900-8a050af5be",
