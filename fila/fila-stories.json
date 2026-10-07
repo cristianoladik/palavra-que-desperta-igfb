@@ -1748,7 +1748,7 @@
       "id": "story-20261007-03a458cb08",
       "data": "2026-10-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "017 - Jogar tempo fora é pecado.mp4",
         "sha256": "03a458cb0874daf770d7d5159948517e613748bba025a0181889df23b4355ac7"
@@ -1782,7 +1782,8 @@
         "necessarias": 1,
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-07T11:40:33.580899-03:00"
     },
     {
       "id": "story-20261008-9af0351f63",
