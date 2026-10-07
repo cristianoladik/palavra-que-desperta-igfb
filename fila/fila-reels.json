@@ -2552,7 +2552,7 @@
       "id": "reel-20261007-0900-8a050af5be",
       "data": "2026-10-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "069 - Sábado 20h vai ao ar no canal do youtube.mp4",
         "caminho_relativo": "069 - Sábado 20h vai ao ar no canal do youtube.mp4",
@@ -2582,7 +2582,8 @@
         "upload_concluido": true,
         "id": "29199009386350326",
         "publicado_em": "2026-10-07T11:45:39.698546-03:00"
-      }
+      },
+      "concluido_em": "2026-10-07T11:45:42.034746-03:00"
     },
     {
       "id": "reel-20261007-1300-f10148883d",
