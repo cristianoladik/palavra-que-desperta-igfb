@@ -1801,7 +1801,7 @@
       "id": "story-20261008-9af0351f63",
       "data": "2026-10-08",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "018 - Ninguém pode derrubar um homem que já está de joelhos.mp4",
         "sha256": "9af0351f635ab3c4ff67b0b0e76d078b66234596a723a8ef8c8d3637c6b4305f"
@@ -1846,7 +1846,8 @@
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-08T10:53:20.475199-03:00"
+      "publicacao_iniciada_em": "2026-10-08T10:53:20.475199-03:00",
+      "concluido_em": "2026-10-08T10:54:46.521117-03:00"
     },
     {
       "id": "story-20261009-13d68c8b6b",
