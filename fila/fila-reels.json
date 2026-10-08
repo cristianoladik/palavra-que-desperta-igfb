@@ -2704,7 +2704,7 @@
       "id": "reel-20261008-0900-36fd2b89a5",
       "data": "2026-10-08",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "073 - Baixe Agora Meu Livro Digital Gratuito! André Fernandes.mp4",
         "caminho_relativo": "073 - Baixe Agora Meu Livro Digital Gratuito! André Fernandes.mp4",
@@ -2734,7 +2734,8 @@
         "upload_concluido": true,
         "id": "2125000198102161",
         "publicado_em": "2026-10-08T10:57:08.824719-03:00"
-      }
+      },
+      "concluido_em": "2026-10-08T10:57:10.496183-03:00"
     },
     {
       "id": "reel-20261008-1300-3725839a26",
