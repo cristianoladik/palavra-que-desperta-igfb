@@ -2667,7 +2667,7 @@
       "id": "reel-20261008-0500-580e9ccf4a",
       "data": "2026-10-08",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "072 - O PODER DA FÉ - ANDRÉ FERNANDES #shorts #reflexão #andrefernandespregacao #andrefernandes.mp4",
         "caminho_relativo": "072 - O PODER DA FÉ - ANDRÉ FERNANDES #shorts #reflexão #andrefernandespregacao #andrefernandes.mp4",
@@ -2697,7 +2697,8 @@
         "upload_concluido": true,
         "id": "4456740967926680",
         "publicado_em": "2026-10-08T10:56:02.447877-03:00"
-      }
+      },
+      "concluido_em": "2026-10-08T10:56:04.499736-03:00"
     },
     {
       "id": "reel-20261008-0900-36fd2b89a5",
