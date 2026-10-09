@@ -1882,10 +1882,12 @@
             "publicado_em": "2026-10-09T10:05:32.964935-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-10-09T10:05:34.632484-03:00",
             "video_id": "1460005252666478",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "1292109449651991",
+            "publicado_em": "2026-10-09T10:05:48.509199-03:00"
           }
         }
       ],
