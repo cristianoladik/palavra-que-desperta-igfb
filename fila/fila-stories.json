@@ -1854,7 +1854,7 @@
       "id": "story-20261009-13d68c8b6b",
       "data": "2026-10-09",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "019 - Como impressionante da fé.mp4",
         "sha256": "13d68c8b6b1708079a5c6b5ba21cda3da6f30a75b7812fe1a72d12c3d717ebcb"
@@ -1888,7 +1888,8 @@
         "necessarias": 1,
         "restantes": 94,
         "mensagem": "Cota Instagram: 94 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-09T10:04:49.729774-03:00"
     },
     {
       "id": "story-20261010-05712d5a59",
