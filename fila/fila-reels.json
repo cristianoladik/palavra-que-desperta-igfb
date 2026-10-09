@@ -2857,7 +2857,7 @@
       "id": "reel-20261009-0500-934b8ac583",
       "data": "2026-10-09",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "077 - Por que está demorando tanto pra acontecer？ ｜ André Fernandes #SHORTS.mp4",
         "caminho_relativo": "077 - Por que está demorando tanto pra acontecer？ ｜ André Fernandes #SHORTS.mp4",
@@ -2887,7 +2887,8 @@
         "upload_concluido": true,
         "id": "2302570443928718",
         "publicado_em": "2026-10-09T10:07:01.559092-03:00"
-      }
+      },
+      "concluido_em": "2026-10-09T10:07:02.946697-03:00"
     },
     {
       "id": "reel-20261009-0900-71c6901e9d",
