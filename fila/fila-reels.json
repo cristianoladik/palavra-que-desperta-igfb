@@ -2971,7 +2971,7 @@
       "id": "reel-20261009-1700-efa2c33995",
       "data": "2026-10-09",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "080 - NÃO VIVA REFÉM DAS CIRCUNSTÂNCIAS! - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "080 - NÃO VIVA REFÉM DAS CIRCUNSTÂNCIAS! - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -3001,7 +3001,8 @@
         "upload_concluido": true,
         "id": "1833105487714206",
         "publicado_em": "2026-10-10T05:51:40.097704-03:00"
-      }
+      },
+      "concluido_em": "2026-10-10T05:51:42.109915-03:00"
     },
     {
       "id": "reel-20261009-2100-b5cf068eb1",
