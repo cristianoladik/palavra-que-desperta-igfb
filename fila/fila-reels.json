@@ -3045,7 +3045,7 @@
       "id": "reel-20261010-0500-59bce8f7f8",
       "data": "2026-10-10",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "082 - DEUS ESTÁ DEMORANDO？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "082 - DEUS ESTÁ DEMORANDO？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -3075,7 +3075,8 @@
         "upload_concluido": true,
         "id": "1113507871370456",
         "publicado_em": "2026-10-10T05:53:43.305910-03:00"
-      }
+      },
+      "concluido_em": "2026-10-10T05:53:44.984916-03:00"
     },
     {
       "id": "reel-20261010-0900-56c573d481",
