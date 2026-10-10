@@ -1937,7 +1937,8 @@
           "facebook": {
             "status": "publicacao_iniciada",
             "publicacao_iniciada_em": "2026-10-10T12:08:34.714218-03:00",
-            "video_id": "1845407156786630"
+            "video_id": "1845407156786630",
+            "upload_concluido": true
           }
         }
       ],
