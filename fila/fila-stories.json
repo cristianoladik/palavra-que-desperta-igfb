@@ -1907,7 +1907,7 @@
       "id": "story-20261010-05712d5a59",
       "data": "2026-10-10",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "020 - Fazer as coisas no tempo certo é muito importante no mundo espiritual.mp4",
         "sha256": "05712d5a59f410d555a85ceefaf604512840107bdea109bf07f35f3fa0457fe1"
@@ -1952,7 +1952,8 @@
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-10T12:07:37.089693-03:00"
+      "publicacao_iniciada_em": "2026-10-10T12:07:37.089693-03:00",
+      "concluido_em": "2026-10-10T12:08:53.660719-03:00"
     },
     {
       "id": "story-20261011-61c971b7ae",
