@@ -3085,7 +3085,7 @@
       "id": "reel-20261010-0900-56c573d481",
       "data": "2026-10-10",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "083 - ESSA É A MAIOR LOUCURA DO EVANGELHO! - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "083 - ESSA É A MAIOR LOUCURA DO EVANGELHO! - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -3115,7 +3115,8 @@
         "upload_concluido": true,
         "id": "1792287398752530",
         "publicado_em": "2026-10-10T12:09:59.128691-03:00"
-      }
+      },
+      "concluido_em": "2026-10-10T12:10:00.441611-03:00"
     },
     {
       "id": "reel-20261010-1300-ba5a705139",
