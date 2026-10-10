@@ -3008,7 +3008,7 @@
       "id": "reel-20261009-2100-b5cf068eb1",
       "data": "2026-10-09",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "081 - VOCÊ QUER VIVER MILAGRES？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "081 - VOCÊ QUER VIVER MILAGRES？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -3038,7 +3038,8 @@
         "upload_concluido": true,
         "id": "1612641067022448",
         "publicado_em": "2026-10-10T05:52:47.534319-03:00"
-      }
+      },
+      "concluido_em": "2026-10-10T05:52:49.167387-03:00"
     },
     {
       "id": "reel-20261010-0500-59bce8f7f8",
