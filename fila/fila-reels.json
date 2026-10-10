@@ -3123,7 +3123,7 @@
       "id": "reel-20261010-1300-ba5a705139",
       "data": "2026-10-10",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "084 - O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "084 - O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -3153,7 +3153,8 @@
         "upload_concluido": true,
         "id": "1131750945855378",
         "publicado_em": "2026-10-10T16:18:42.262411-03:00"
-      }
+      },
+      "concluido_em": "2026-10-10T16:18:43.714046-03:00"
     },
     {
       "id": "reel-20261010-1700-2dc7a41704",
