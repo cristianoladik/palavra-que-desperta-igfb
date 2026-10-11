@@ -1988,7 +1988,8 @@
             "publicado_em": "2026-10-11T11:47:54.809714-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicacao_iniciada",
+            "publicacao_iniciada_em": "2026-10-11T11:47:56.599820-03:00"
           }
         }
       ],
