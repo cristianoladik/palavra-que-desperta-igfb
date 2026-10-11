@@ -3274,7 +3274,7 @@
       "id": "reel-20261011-0900-3c8ef4a180",
       "data": "2026-10-11",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "088 - SIMPLICIDADE não IMPEDE o AGIR de DEUS.mp4",
         "caminho_relativo": "088 - SIMPLICIDADE não IMPEDE o AGIR de DEUS.mp4",
@@ -3304,7 +3304,8 @@
         "upload_concluido": true,
         "id": "2194110984849765",
         "publicado_em": "2026-10-11T11:50:44.620126-03:00"
-      }
+      },
+      "concluido_em": "2026-10-11T11:50:46.273345-03:00"
     },
     {
       "id": "reel-20261011-1300-2186e0b5d2",
