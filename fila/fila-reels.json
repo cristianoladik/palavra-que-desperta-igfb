@@ -3198,7 +3198,7 @@
       "id": "reel-20261010-2100-34b603249d",
       "data": "2026-10-10",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "086 - Sua VERGONHA será seu TESTEMUNHO e vai MUDAR sua HISTÓRIA!.mp4",
         "caminho_relativo": "086 - Sua VERGONHA será seu TESTEMUNHO e vai MUDAR sua HISTÓRIA!.mp4",
@@ -3228,7 +3228,8 @@
         "upload_concluido": true,
         "id": "1420846906897493",
         "publicado_em": "2026-10-11T04:53:47.910614-03:00"
-      }
+      },
+      "concluido_em": "2026-10-11T04:53:49.722435-03:00"
     },
     {
       "id": "reel-20261011-0500-4b0a260c86",
