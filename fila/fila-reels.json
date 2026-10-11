@@ -3161,7 +3161,7 @@
       "id": "reel-20261010-1700-2dc7a41704",
       "data": "2026-10-10",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "085 - Por que o DIABO tenta te PARAR agora？ O que ELE NÃO QUER que VOCÊ SAIBA.mp4",
         "caminho_relativo": "085 - Por que o DIABO tenta te PARAR agora？ O que ELE NÃO QUER que VOCÊ SAIBA.mp4",
@@ -3191,7 +3191,8 @@
         "upload_concluido": true,
         "id": "1104277272191391",
         "publicado_em": "2026-10-11T04:52:32.124623-03:00"
-      }
+      },
+      "concluido_em": "2026-10-11T04:52:34.034529-03:00"
     },
     {
       "id": "reel-20261010-2100-34b603249d",
