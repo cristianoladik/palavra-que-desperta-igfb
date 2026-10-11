@@ -3290,9 +3290,11 @@
       },
       "instagram": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-10-11T11:49:26.461769-03:00",
-        "container_id": "18105329642158499"
+        "container_id": "18105329642158499",
+        "id": "17888540748477214",
+        "publicado_em": "2026-10-11T11:50:27.917669-03:00"
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
