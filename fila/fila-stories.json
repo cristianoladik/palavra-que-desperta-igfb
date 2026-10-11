@@ -1960,7 +1960,7 @@
       "id": "story-20261011-61c971b7ae",
       "data": "2026-10-11",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "021 - A vida só tem dois lados, prosperidade ou escassez.mp4",
         "sha256": "61c971b7ae96a5ad749239df845233376d63c191f1eaaa95f3070e0a186f974c"
@@ -2005,7 +2005,8 @@
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-11T11:46:57.229611-03:00"
+      "publicacao_iniciada_em": "2026-10-11T11:46:57.229611-03:00",
+      "concluido_em": "2026-10-11T11:48:14.793790-03:00"
     },
     {
       "id": "story-20261012-fd18317f63",
