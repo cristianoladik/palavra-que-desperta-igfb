@@ -1990,7 +1990,8 @@
           "facebook": {
             "status": "publicacao_iniciada",
             "publicacao_iniciada_em": "2026-10-11T11:47:56.599820-03:00",
-            "video_id": "1120476563827290"
+            "video_id": "1120476563827290",
+            "upload_concluido": true
           }
         }
       ],
