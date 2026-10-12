@@ -3388,7 +3388,7 @@
       "id": "reel-20261011-2100-160525a081",
       "data": "2026-10-11",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "091 - OUÇA a VOZ de DEUS, não o DESTINO.mp4",
         "caminho_relativo": "091 - OUÇA a VOZ de DEUS, não o DESTINO.mp4",
@@ -3418,7 +3418,8 @@
         "upload_concluido": true,
         "id": "1885171412455621",
         "publicado_em": "2026-10-12T06:41:38.100947-03:00"
-      }
+      },
+      "concluido_em": "2026-10-12T06:41:39.895634-03:00"
     },
     {
       "id": "reel-20261012-0500-fc654d654f",
