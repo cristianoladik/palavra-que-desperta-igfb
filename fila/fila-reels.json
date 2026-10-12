@@ -3351,7 +3351,7 @@
       "id": "reel-20261011-1700-41bb4e5fda",
       "data": "2026-10-11",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "090 - SUA VERGONHA será seu MAIOR TESTEMUNHO.mp4",
         "caminho_relativo": "090 - SUA VERGONHA será seu MAIOR TESTEMUNHO.mp4",
@@ -3381,7 +3381,8 @@
         "upload_concluido": true,
         "id": "1069461949255404",
         "publicado_em": "2026-10-12T06:40:09.564113-03:00"
-      }
+      },
+      "concluido_em": "2026-10-12T06:40:11.302077-03:00"
     },
     {
       "id": "reel-20261011-2100-160525a081",
