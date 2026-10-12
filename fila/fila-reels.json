@@ -3425,7 +3425,7 @@
       "id": "reel-20261012-0500-fc654d654f",
       "data": "2026-10-12",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "092 - VOCÊ VIVERÁ o MELHOR de DEUS： o que Ele reservou para a sua vida!.mp4",
         "caminho_relativo": "092 - VOCÊ VIVERÁ o MELHOR de DEUS： o que Ele reservou para a sua vida!.mp4",
@@ -3455,7 +3455,8 @@
         "upload_concluido": true,
         "id": "28970995219162666",
         "publicado_em": "2026-10-12T06:43:04.171312-03:00"
-      }
+      },
+      "concluido_em": "2026-10-12T06:43:05.653690-03:00"
     },
     {
       "id": "reel-20261012-0900-758a2269a4",
