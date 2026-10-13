@@ -3615,7 +3615,7 @@
       "id": "reel-20261013-0500-8e3f12de6e",
       "data": "2026-10-13",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "097 - Por Que Você Ainda Não Viveu O Milagre？.mp4",
         "caminho_relativo": "097 - Por Que Você Ainda Não Viveu O Milagre？.mp4",
@@ -3645,7 +3645,8 @@
         "upload_concluido": true,
         "id": "1806996433822827",
         "publicado_em": "2026-10-13T05:35:53.170497-03:00"
-      }
+      },
+      "concluido_em": "2026-10-13T05:35:55.117927-03:00"
     },
     {
       "id": "reel-20261013-0900-e3970cc33e",
