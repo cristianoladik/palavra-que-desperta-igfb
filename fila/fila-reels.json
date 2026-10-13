@@ -3541,7 +3541,7 @@
       "id": "reel-20261012-1700-463e2dc767",
       "data": "2026-10-12",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "095 - AUTORIDADE PROFÉTICA que MUDA AMBIENTES com a VOZ de DEUS.mp4",
         "caminho_relativo": "095 - AUTORIDADE PROFÉTICA que MUDA AMBIENTES com a VOZ de DEUS.mp4",
@@ -3571,7 +3571,8 @@
         "upload_concluido": true,
         "id": "2537062406762227",
         "publicado_em": "2026-10-13T05:31:35.233177-03:00"
-      }
+      },
+      "concluido_em": "2026-10-13T05:31:37.054338-03:00"
     },
     {
       "id": "reel-20261012-2100-6917e8b75d",
