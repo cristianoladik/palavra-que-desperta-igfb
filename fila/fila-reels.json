@@ -3731,7 +3731,7 @@
       "id": "reel-20261013-1700-b6b8db6d63",
       "data": "2026-10-13",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "100 - O DESTINO PROFÉTICO de JOSÉ.mp4",
         "caminho_relativo": "100 - O DESTINO PROFÉTICO de JOSÉ.mp4",
@@ -3761,7 +3761,8 @@
         "upload_concluido": true,
         "id": "944340945014099",
         "publicado_em": "2026-10-14T02:28:11.065937-03:00"
-      }
+      },
+      "concluido_em": "2026-10-14T02:28:13.072711-03:00"
     },
     {
       "id": "reel-20261013-2100-d0a216c1f6",
