@@ -2175,7 +2175,7 @@
       "id": "story-20261014-73157ef3e2",
       "data": "2026-10-14",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "026 - PROMESSA de ISAÍAS 45_2 que VAI ABRIR PORTAS na SUA VIDA HOJE!.mp4",
         "sha256": "73157ef3e2978b30597eb781890aa383232f2d9b3e9a6eb19232f28eb0f9c5a1"
@@ -2226,7 +2226,8 @@
         "necessarias": 2,
         "restantes": 93,
         "mensagem": "Cota Instagram: 93 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-14T12:31:20.553703-03:00"
     },
     {
       "id": "story-20261015-a708f7db78",
