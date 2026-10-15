@@ -3921,7 +3921,7 @@
       "id": "reel-20261014-1700-56e33c5c34",
       "data": "2026-10-14",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "105 - ANDRÉ FERNANDES Revela O PODER DA FÉ que MUDOU TUDO.mp4",
         "caminho_relativo": "105 - ANDRÉ FERNANDES Revela O PODER DA FÉ que MUDOU TUDO.mp4",
@@ -3951,7 +3951,8 @@
         "upload_concluido": true,
         "id": "869125682890512",
         "publicado_em": "2026-10-15T02:46:44.387512-03:00"
-      }
+      },
+      "concluido_em": "2026-10-15T02:46:46.154152-03:00"
     },
     {
       "id": "reel-20261014-2100-b9c8d2321a",
