@@ -4072,7 +4072,7 @@
       "id": "reel-20261015-1300-799fd9cd5b",
       "data": "2026-10-15",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "109 - A VERDADE Sobre ATALHOS Que Ninguém Te Conta ｜ André Fernandes REVELA AGORA.mp4",
         "caminho_relativo": "109 - A VERDADE Sobre ATALHOS Que Ninguém Te Conta ｜ André Fernandes REVELA AGORA.mp4",
@@ -4102,7 +4102,8 @@
         "upload_concluido": true,
         "id": "1081462217854287",
         "publicado_em": "2026-10-15T16:26:18.477929-03:00"
-      }
+      },
+      "concluido_em": "2026-10-15T16:26:20.763969-03:00"
     },
     {
       "id": "reel-20261015-1700-0a938d82b4",
