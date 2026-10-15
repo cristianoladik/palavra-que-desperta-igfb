@@ -4021,10 +4021,12 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-10-15T08:07:06.059831-03:00",
         "video_id": "1099873262954776",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "1099873262954776",
+        "publicado_em": "2026-10-15T08:07:23.815114-03:00"
       }
     },
     {
