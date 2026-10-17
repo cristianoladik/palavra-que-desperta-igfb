@@ -4301,7 +4301,7 @@
       "id": "reel-20261016-1700-f0322f32f9",
       "data": "2026-10-16",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "115 - A APROVAÇÃO está te PARALISANDO! Veja como MUDAR ISSO HOJE.mp4",
         "caminho_relativo": "115 - A APROVAÇÃO está te PARALISANDO! Veja como MUDAR ISSO HOJE.mp4",
@@ -4331,7 +4331,8 @@
         "upload_concluido": true,
         "id": "2299110964263849",
         "publicado_em": "2026-10-17T01:11:12.302697-03:00"
-      }
+      },
+      "concluido_em": "2026-10-17T01:11:14.026085-03:00"
     },
     {
       "id": "reel-20261016-2100-bf846ba3c7",
