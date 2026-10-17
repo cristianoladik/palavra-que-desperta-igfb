@@ -4516,7 +4516,7 @@
       "id": "reel-20261017-2100-ab86c59cc7",
       "data": "2026-10-17",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "121 - NÃO PEGUE ATALHOS no CAMINHO DE DEUS! André Fernandes.mp4",
         "caminho_relativo": "121 - NÃO PEGUE ATALHOS no CAMINHO DE DEUS! André Fernandes.mp4",
@@ -4541,12 +4541,13 @@
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
       },
-      "reagendado_de": "2026-10-17 21:00"
+      "reagendado_de": "2026-10-17 21:00",
+      "pulado_em": "2026-10-17T15:20:55.940964-03:00"
     },
     {
       "id": "reel-20261018-0500-d709427780",
-      "data": "2026-10-18",
-      "horario": "05:00",
+      "data": "2026-10-17",
+      "horario": "13:00",
       "status": "pendente",
       "origem": {
         "arquivo": "122 - Entenda o seu chamado e liberte sua fé.mp4",
@@ -4568,7 +4569,8 @@
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
-      }
+      },
+      "reagendado_de": "2026-10-18 05:00"
     },
     {
       "id": "reel-20261018-0900-46a1e90b9e",
