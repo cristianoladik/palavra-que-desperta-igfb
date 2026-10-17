@@ -2418,7 +2418,7 @@
       "id": "story-20261017-8709533129",
       "data": "2026-10-17",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "029 - SUA VERGONHA será seu MAIOR TESTEMUNHO.mp4",
         "sha256": "87095331297e979d476a3b26dbfcda24eff36bc12598ff91958619547a051c9d"
@@ -2490,7 +2490,8 @@
         "restantes": 93,
         "mensagem": "Cota Instagram: 93 criações restantes; 2 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-17T09:26:38.108206-03:00"
+      "publicacao_iniciada_em": "2026-10-17T09:26:38.108206-03:00",
+      "concluido_em": "2026-10-17T09:28:54.728413-03:00"
     },
     {
       "id": "story-20261018-b3e3e8828a",
