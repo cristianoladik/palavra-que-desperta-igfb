@@ -4415,7 +4415,7 @@
       "id": "reel-20261017-0900-7b486a6ca0",
       "data": "2026-10-17",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "118 - Quem REALMENTE GOVERNA sua vida com DEUS？ DESCUBRA AGORA.mp4",
         "caminho_relativo": "118 - Quem REALMENTE GOVERNA sua vida com DEUS？ DESCUBRA AGORA.mp4",
@@ -4445,7 +4445,8 @@
         "upload_concluido": true,
         "id": "1449527630483803",
         "publicado_em": "2026-10-17T09:30:26.838923-03:00"
-      }
+      },
+      "concluido_em": "2026-10-17T09:30:28.594525-03:00"
     },
     {
       "id": "reel-20261017-1300-c1be74ff7b",
