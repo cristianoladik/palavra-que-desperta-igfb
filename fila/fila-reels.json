@@ -4338,7 +4338,7 @@
       "id": "reel-20261016-2100-bf846ba3c7",
       "data": "2026-10-16",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "116 - POUCOS SABEM： Por que EXISTE UM PERÍODO DE SILÊNCIO junto com Deus! VOCÊ PRECISA SABER DISSO.mp4",
         "caminho_relativo": "116 - POUCOS SABEM： Por que EXISTE UM PERÍODO DE SILÊNCIO junto com Deus! VOCÊ PRECISA SABER DISSO.mp4",
@@ -4368,7 +4368,8 @@
         "upload_concluido": true,
         "id": "1132403949747405",
         "publicado_em": "2026-10-17T01:12:17.722354-03:00"
-      }
+      },
+      "concluido_em": "2026-10-17T01:12:19.439287-03:00"
     },
     {
       "id": "reel-20261017-0500-d7991f083b",
