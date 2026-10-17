@@ -4580,7 +4580,7 @@
       "id": "reel-20261018-0900-46a1e90b9e",
       "data": "2026-10-17",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "123 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
         "caminho_relativo": "123 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
@@ -4611,7 +4611,8 @@
         "id": "1094382979849504",
         "publicado_em": "2026-10-17T15:22:33.751402-03:00"
       },
-      "reagendado_de": "2026-10-18 09:00"
+      "reagendado_de": "2026-10-18 09:00",
+      "concluido_em": "2026-10-17T15:22:35.358307-03:00"
     },
     {
       "id": "reel-20261018-1300-547523f5cf",
