@@ -4564,8 +4564,10 @@
       },
       "instagram": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
-        "publicacao_iniciada_em": "2026-10-17T15:20:57.914882-03:00"
+        "status": "revisao_manual",
+        "publicacao_iniciada_em": "2026-10-17T15:20:57.914882-03:00",
+        "erro": "O Instagram não processou a mídia (status ERROR).",
+        "ultima_tentativa_em": "2026-10-17T15:21:26.868970-03:00"
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
