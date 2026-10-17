@@ -4484,7 +4484,7 @@
       "id": "reel-20261017-1700-b8fe35aaa3",
       "data": "2026-10-17",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "120 - ISSO VAI MUDAR TUDO： O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO de Deus! NÃO PERCA.mp4",
         "caminho_relativo": "120 - ISSO VAI MUDAR TUDO： O QUE TE FALTA PRA VIVER O EXTRAORDINÁRIO de Deus! NÃO PERCA.mp4",
@@ -4509,12 +4509,13 @@
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
       },
-      "reagendado_de": "2026-10-17 17:00"
+      "reagendado_de": "2026-10-17 17:00",
+      "pulado_em": "2026-10-17T15:19:27.506064-03:00"
     },
     {
       "id": "reel-20261017-2100-ab86c59cc7",
       "data": "2026-10-17",
-      "horario": "21:00",
+      "horario": "13:00",
       "status": "pendente",
       "origem": {
         "arquivo": "121 - NÃO PEGUE ATALHOS no CAMINHO DE DEUS! André Fernandes.mp4",
@@ -4536,7 +4537,8 @@
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
-      }
+      },
+      "reagendado_de": "2026-10-17 21:00"
     },
     {
       "id": "reel-20261018-0500-d709427780",
