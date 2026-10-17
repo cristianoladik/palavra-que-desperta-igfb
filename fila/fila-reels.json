@@ -4548,7 +4548,7 @@
       "id": "reel-20261018-0500-d709427780",
       "data": "2026-10-17",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "122 - Entenda o seu chamado e liberte sua fé.mp4",
         "caminho_relativo": "122 - Entenda o seu chamado e liberte sua fé.mp4",
@@ -4573,12 +4573,13 @@
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
       },
-      "reagendado_de": "2026-10-18 05:00"
+      "reagendado_de": "2026-10-18 05:00",
+      "pulado_em": "2026-10-17T15:21:28.400294-03:00"
     },
     {
       "id": "reel-20261018-0900-46a1e90b9e",
-      "data": "2026-10-18",
-      "horario": "09:00",
+      "data": "2026-10-17",
+      "horario": "13:00",
       "status": "pendente",
       "origem": {
         "arquivo": "123 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
@@ -4600,7 +4601,8 @@
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
-      }
+      },
+      "reagendado_de": "2026-10-18 09:00"
     },
     {
       "id": "reel-20261018-1300-547523f5cf",
