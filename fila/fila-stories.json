@@ -2520,9 +2520,11 @@
             "duracao_segundos": 47.52
           },
           "instagram": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-10-18T10:50:38.030088-03:00",
-            "container_id": "18106837454158499"
+            "container_id": "18106837454158499",
+            "id": "17965698770980878",
+            "publicado_em": "2026-10-18T10:51:36.236005-03:00"
           },
           "facebook": {
             "status": "pendente"
