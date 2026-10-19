@@ -2637,7 +2637,8 @@
           "facebook": {
             "status": "publicacao_iniciada",
             "publicacao_iniciada_em": "2026-10-19T14:03:03.029255-03:00",
-            "video_id": "1578424046918535"
+            "video_id": "1578424046918535",
+            "upload_concluido": true
           }
         }
       ],
