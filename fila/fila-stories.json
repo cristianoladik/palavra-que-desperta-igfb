@@ -2580,7 +2580,7 @@
       "id": "story-20261019-916f2224cb",
       "data": "2026-10-19",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "031 - VOCÊ VIVERÁ o MELHOR de DEUS： o que Ele reservou para a sua vida!.mp4",
         "sha256": "916f2224cb87888893cc8cc692c87d931fe689ddf06062e5f3cc65ef82a72d7f"
@@ -2631,7 +2631,8 @@
         "necessarias": 2,
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-19T14:00:30.350573-03:00"
     },
     {
       "id": "story-20261020-98542ca43e",
