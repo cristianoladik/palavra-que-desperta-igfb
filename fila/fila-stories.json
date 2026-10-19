@@ -2635,10 +2635,12 @@
             "publicado_em": "2026-10-19T14:03:01.304241-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-10-19T14:03:03.029255-03:00",
             "video_id": "1578424046918535",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "2103697916926028",
+            "publicado_em": "2026-10-19T14:03:18.016751-03:00"
           }
         }
       ],
