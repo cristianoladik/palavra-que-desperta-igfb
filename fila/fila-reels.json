@@ -4847,7 +4847,7 @@
       "id": "reel-20261019-1700-68aa219fe9",
       "data": "2026-10-19",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "130 - Sábado 20h vai ao ar no canal do youtube.mp4",
         "caminho_relativo": "130 - Sábado 20h vai ao ar no canal do youtube.mp4",
@@ -4877,7 +4877,8 @@
         "upload_concluido": true,
         "id": "1832875814386509",
         "publicado_em": "2026-10-19T18:34:02.673912-03:00"
-      }
+      },
+      "concluido_em": "2026-10-19T18:34:04.513485-03:00"
     },
     {
       "id": "reel-20261019-2100-64d4faba4c",
