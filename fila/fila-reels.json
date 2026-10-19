@@ -4771,7 +4771,7 @@
       "id": "reel-20261019-0900-4d70cac8e1",
       "data": "2026-10-19",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "128 - JÁ ANOTA NA AGENDA! Neste sábado tem o nosso encontro online： Celeiro Worship!.mp4",
         "caminho_relativo": "128 - JÁ ANOTA NA AGENDA! Neste sábado tem o nosso encontro online： Celeiro Worship!.mp4",
@@ -4801,7 +4801,8 @@
         "upload_concluido": true,
         "id": "1466803595345826",
         "publicado_em": "2026-10-19T14:05:13.778326-03:00"
-      }
+      },
+      "concluido_em": "2026-10-19T14:05:15.703337-03:00"
     },
     {
       "id": "reel-20261019-1300-dee794d1dc",
