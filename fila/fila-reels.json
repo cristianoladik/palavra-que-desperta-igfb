@@ -4695,7 +4695,7 @@
       "id": "reel-20261018-2100-1226e1b363",
       "data": "2026-10-18",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "126 - ESTEJA À ALTURA do Seu CHAMADO.mp4",
         "caminho_relativo": "126 - ESTEJA À ALTURA do Seu CHAMADO.mp4",
@@ -4725,7 +4725,8 @@
         "upload_concluido": true,
         "id": "1096579599647058",
         "publicado_em": "2026-10-18T21:01:13.174384-03:00"
-      }
+      },
+      "concluido_em": "2026-10-18T21:01:14.798914-03:00"
     },
     {
       "id": "reel-20261019-0500-7aaa44786c",
