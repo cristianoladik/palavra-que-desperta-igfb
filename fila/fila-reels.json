@@ -4885,7 +4885,7 @@
       "id": "reel-20261019-2100-64d4faba4c",
       "data": "2026-10-19",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "131 - Oração De Avivamento! Andre Fernandes.mp4",
         "caminho_relativo": "131 - Oração De Avivamento! Andre Fernandes.mp4",
@@ -4915,7 +4915,8 @@
         "upload_concluido": true,
         "id": "1580836383281207",
         "publicado_em": "2026-10-19T21:42:40.623658-03:00"
-      }
+      },
+      "concluido_em": "2026-10-19T21:42:42.240584-03:00"
     },
     {
       "id": "reel-20261020-0500-fcf659c81c",
