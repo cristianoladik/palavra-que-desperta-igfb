@@ -5037,7 +5037,7 @@
       "id": "reel-20261020-1700-bea103113d",
       "data": "2026-10-20",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "135 - MUDE A SUA MENTALIDADE! ｜ ANDRÉ FERNANDES #shorts.mp4",
         "caminho_relativo": "135 - MUDE A SUA MENTALIDADE! ｜ ANDRÉ FERNANDES #shorts.mp4",
@@ -5067,7 +5067,8 @@
         "upload_concluido": true,
         "id": "1121417030750482",
         "publicado_em": "2026-10-20T19:42:08.268143-03:00"
-      }
+      },
+      "concluido_em": "2026-10-20T19:42:09.984464-03:00"
     },
     {
       "id": "reel-20261020-2100-51dfe104fe",
