@@ -4923,7 +4923,7 @@
       "id": "reel-20261020-0500-fcf659c81c",
       "data": "2026-10-20",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "132 - Lançamento do meu livro Hoje é um bom dia para viver milagres, durante a Bienal do Livro em SP.mp4",
         "caminho_relativo": "132 - Lançamento do meu livro Hoje é um bom dia para viver milagres, durante a Bienal do Livro em SP.mp4",
@@ -4953,7 +4953,8 @@
         "upload_concluido": true,
         "id": "1490765862992598",
         "publicado_em": "2026-10-20T07:20:14.824147-03:00"
-      }
+      },
+      "concluido_em": "2026-10-20T07:20:16.443520-03:00"
     },
     {
       "id": "reel-20261020-0900-0d64c9514a",
