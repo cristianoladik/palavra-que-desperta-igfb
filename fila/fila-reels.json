@@ -5113,7 +5113,7 @@
       "id": "reel-20261021-0500-b866b512c7",
       "data": "2026-10-21",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "137 - Deus não desistiu de você! André Fernandes #SHORTS.mp4",
         "caminho_relativo": "137 - Deus não desistiu de você! André Fernandes #SHORTS.mp4",
@@ -5143,7 +5143,8 @@
         "upload_concluido": true,
         "id": "4186889594942639",
         "publicado_em": "2026-10-21T08:53:22.193481-03:00"
-      }
+      },
+      "concluido_em": "2026-10-21T08:53:24.042757-03:00"
     },
     {
       "id": "reel-20261021-0900-cc373dd55c",
