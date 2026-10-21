@@ -5188,7 +5188,7 @@
       "id": "reel-20261021-1300-a37a8a57e9",
       "data": "2026-10-21",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "139 - VOCÊ ESTÁ IRRECONHECÍVEL？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "139 - VOCÊ ESTÁ IRRECONHECÍVEL？ - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -5218,7 +5218,8 @@
         "upload_concluido": true,
         "id": "1283892457216457",
         "publicado_em": "2026-10-21T13:59:06.343845-03:00"
-      }
+      },
+      "concluido_em": "2026-10-21T13:59:07.980065-03:00"
     },
     {
       "id": "reel-20261021-1700-a9fd7a4281",
