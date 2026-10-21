@@ -5227,7 +5227,7 @@
       "id": "reel-20261021-1700-a9fd7a4281",
       "data": "2026-10-21",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "140 - SE ENXERGUE DA FORMA CERTA! - ANDRÉ FERNANDES ｜ #shorts.mp4",
         "caminho_relativo": "140 - SE ENXERGUE DA FORMA CERTA! - ANDRÉ FERNANDES ｜ #shorts.mp4",
@@ -5257,7 +5257,8 @@
         "upload_concluido": true,
         "id": "1822511002502769",
         "publicado_em": "2026-10-21T17:29:32.920488-03:00"
-      }
+      },
+      "concluido_em": "2026-10-21T17:29:34.929039-03:00"
     },
     {
       "id": "reel-20261021-2100-f309d7e86c",
