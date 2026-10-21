@@ -5212,7 +5212,8 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "pendente"
+        "status": "publicacao_iniciada",
+        "publicacao_iniciada_em": "2026-10-21T13:58:52.005833-03:00"
       }
     },
     {
