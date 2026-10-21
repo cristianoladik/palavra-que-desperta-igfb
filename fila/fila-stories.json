@@ -2742,7 +2742,7 @@
       "id": "story-20261021-5d3bcdeb3c",
       "data": "2026-10-21",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "033 - Como TRATAR o IMPOSSÍVEL com FÉ mesmo nas MAIORES TRIBULAÇÕES!.mp4",
         "sha256": "5d3bcdeb3cf83630b2c3b6c288ca0e152afb5b5b47bbeee7b46d7fdac560d04c"
@@ -2793,7 +2793,8 @@
         "necessarias": 2,
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-21T13:53:54.379329-03:00"
     },
     {
       "id": "story-20261022-0a111ecefc",
