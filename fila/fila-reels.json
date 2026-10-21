@@ -5151,7 +5151,7 @@
       "id": "reel-20261021-0900-cc373dd55c",
       "data": "2026-10-21",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "138 - Por que está demorando tanto pra acontecer？ ｜ André Fernandes #SHORTS.mp4",
         "caminho_relativo": "138 - Por que está demorando tanto pra acontecer？ ｜ André Fernandes #SHORTS.mp4",
@@ -5181,7 +5181,8 @@
         "upload_concluido": true,
         "id": "2090619114911571",
         "publicado_em": "2026-10-21T13:57:56.481456-03:00"
-      }
+      },
+      "concluido_em": "2026-10-21T13:57:58.241797-03:00"
     },
     {
       "id": "reel-20261021-1300-a37a8a57e9",
