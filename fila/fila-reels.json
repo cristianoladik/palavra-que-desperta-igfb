@@ -5075,7 +5075,7 @@
       "id": "reel-20261020-2100-51dfe104fe",
       "data": "2026-10-20",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "136 - Não Pegue Atalhos! ｜ André Fernandes #Shorts.mp4",
         "caminho_relativo": "136 - Não Pegue Atalhos! ｜ André Fernandes #Shorts.mp4",
@@ -5105,7 +5105,8 @@
         "upload_concluido": true,
         "id": "2069360260365857",
         "publicado_em": "2026-10-20T22:01:56.573911-03:00"
-      }
+      },
+      "concluido_em": "2026-10-20T22:01:58.254413-03:00"
     },
     {
       "id": "reel-20261021-0500-b866b512c7",
