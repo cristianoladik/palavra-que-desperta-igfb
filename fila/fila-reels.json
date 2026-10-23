@@ -5568,7 +5568,7 @@
       "id": "reel-20261023-1300-b3133a6840",
       "data": "2026-10-23",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "149 - Renato Cariani： ＂Minha filha me ensinou a amar＂.mp4",
         "caminho_relativo": "149 - Renato Cariani： ＂Minha filha me ensinou a amar＂.mp4",
@@ -5598,7 +5598,8 @@
         "upload_concluido": true,
         "id": "27971512212521569",
         "publicado_em": "2026-10-23T16:01:20.591333-03:00"
-      }
+      },
+      "concluido_em": "2026-10-23T16:01:22.493930-03:00"
     },
     {
       "id": "reel-20261023-1700-801ef23ab3",
