@@ -5493,7 +5493,7 @@
       "id": "reel-20261023-0500-4b1ed49f88",
       "data": "2026-10-23",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "147 - A Verdade Sobre As Amizades.mp4",
         "caminho_relativo": "147 - A Verdade Sobre As Amizades.mp4",
@@ -5523,7 +5523,8 @@
         "upload_concluido": true,
         "id": "1614695930409718",
         "publicado_em": "2026-10-23T06:49:23.885339-03:00"
-      }
+      },
+      "concluido_em": "2026-10-23T06:49:25.517364-03:00"
     },
     {
       "id": "reel-20261023-0900-fcdd92d7bf",
