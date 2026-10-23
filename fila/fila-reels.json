@@ -5455,7 +5455,7 @@
       "id": "reel-20261022-2100-86a5dd5ec6",
       "data": "2026-10-22",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "146 - O Que O Dinheiro Não Compra.mp4",
         "caminho_relativo": "146 - O Que O Dinheiro Não Compra.mp4",
@@ -5485,7 +5485,8 @@
         "upload_concluido": true,
         "id": "1805109977482688",
         "publicado_em": "2026-10-22T21:08:04.849609-03:00"
-      }
+      },
+      "concluido_em": "2026-10-22T21:08:06.520493-03:00"
     },
     {
       "id": "reel-20261023-0500-4b1ed49f88",
