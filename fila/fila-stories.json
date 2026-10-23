@@ -2904,7 +2904,7 @@
       "id": "story-20261023-a834b11b64",
       "data": "2026-10-23",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "035 - Deus Jamais Se Esquecerá De Você.mp4",
         "sha256": "a834b11b644053a4d0133e9d8e56bf9062ec4b0ebd68eb7753d856c205cf77f5"
@@ -2975,7 +2975,8 @@
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-23T11:46:09.986561-03:00"
+      "publicacao_iniciada_em": "2026-10-23T11:46:09.986561-03:00",
+      "concluido_em": "2026-10-23T15:58:27.495953-03:00"
     },
     {
       "id": "story-20261024-b29899f804",
