@@ -5531,7 +5531,7 @@
       "id": "reel-20261023-0900-fcdd92d7bf",
       "data": "2026-10-23",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "148 - Por Trás de uma EMPRESA Rumo ao Primeiro BILHÃO (YURI E FABI ABREU) ｜ JOTA JOTA PODCAST #293.mp4",
         "caminho_relativo": "148 - Por Trás de uma EMPRESA Rumo ao Primeiro BILHÃO (YURI E FABI ABREU) ｜ JOTA JOTA PODCAST #293.mp4",
@@ -5561,7 +5561,8 @@
         "upload_concluido": true,
         "id": "1036807359366388",
         "publicado_em": "2026-10-23T15:59:46.906216-03:00"
-      }
+      },
+      "concluido_em": "2026-10-23T15:59:48.825805-03:00"
     },
     {
       "id": "reel-20261023-1300-b3133a6840",
