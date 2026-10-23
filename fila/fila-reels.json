@@ -5607,7 +5607,7 @@
       "id": "reel-20261023-1700-801ef23ab3",
       "data": "2026-10-23",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "150 - VIVER é desenhar SEM BORRACHA - Renato Cariani.mp4",
         "caminho_relativo": "150 - VIVER é desenhar SEM BORRACHA - Renato Cariani.mp4",
@@ -5637,7 +5637,8 @@
         "upload_concluido": true,
         "id": "1133015049188285",
         "publicado_em": "2026-10-23T19:00:32.350905-03:00"
-      }
+      },
+      "concluido_em": "2026-10-23T19:00:34.087176-03:00"
     },
     {
       "id": "reel-20261023-2100-a58e0ad247",
