@@ -2984,7 +2984,7 @@
       "id": "story-20261024-b29899f804",
       "data": "2026-10-24",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "036 - Por Que Você Ainda Não Viveu O Milagre？.mp4",
         "sha256": "b29899f8041a00c795ee2a56f4e55ddb949b187ea55f47795488d620c22db27d"
@@ -3035,7 +3035,8 @@
         "necessarias": 2,
         "restantes": 93,
         "mensagem": "Cota Instagram: 93 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-24T10:36:40.880321-03:00"
     },
     {
       "id": "story-20261025-d25aa18161",
