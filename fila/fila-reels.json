@@ -5759,7 +5759,7 @@
       "id": "reel-20261024-1300-572841249a",
       "data": "2026-10-24",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "154 - Por que não me associo com quem trai 🚫.mp4",
         "caminho_relativo": "154 - Por que não me associo com quem trai 🚫.mp4",
@@ -5789,7 +5789,8 @@
         "upload_concluido": true,
         "id": "1170489092167157",
         "publicado_em": "2026-10-24T14:01:37.197260-03:00"
-      }
+      },
+      "concluido_em": "2026-10-24T14:01:39.093436-03:00"
     },
     {
       "id": "reel-20261024-1700-22bc228d25",
