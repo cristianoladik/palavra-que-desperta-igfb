@@ -5797,7 +5797,7 @@
       "id": "reel-20261024-1700-22bc228d25",
       "data": "2026-10-24",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "156 - Seu Inverno Não Assusta Deus.mp4",
         "caminho_relativo": "156 - Seu Inverno Não Assusta Deus.mp4",
@@ -5827,7 +5827,8 @@
         "upload_concluido": true,
         "id": "1116947460822179",
         "publicado_em": "2026-10-24T18:48:12.714159-03:00"
-      }
+      },
+      "concluido_em": "2026-10-24T18:48:14.184620-03:00"
     },
     {
       "id": "reel-20261024-2100-bdeba47980",
