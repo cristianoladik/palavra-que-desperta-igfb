@@ -3033,7 +3033,8 @@
           },
           "instagram": {
             "status": "publicacao_iniciada",
-            "publicacao_iniciada_em": "2026-10-24T10:37:49.265334-03:00"
+            "publicacao_iniciada_em": "2026-10-24T10:37:49.265334-03:00",
+            "container_id": "18108108017158499"
           },
           "facebook": {
             "status": "pendente"
