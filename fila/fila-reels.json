@@ -5683,7 +5683,7 @@
       "id": "reel-20261024-0500-10c0e12eae",
       "data": "2026-10-24",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "152 - O Que Todo Empresário Precisa Saber Para Reduzir Riscos (ÍNDIO DA COSTA) ｜ JOTA JOTA PODCAST #290.mp4",
         "caminho_relativo": "152 - O Que Todo Empresário Precisa Saber Para Reduzir Riscos (ÍNDIO DA COSTA) ｜ JOTA JOTA PODCAST #290.mp4",
@@ -5713,7 +5713,8 @@
         "upload_concluido": true,
         "id": "1101534959145389",
         "publicado_em": "2026-10-24T06:35:30.405032-03:00"
-      }
+      },
+      "concluido_em": "2026-10-24T06:35:32.041617-03:00"
     },
     {
       "id": "reel-20261024-0900-4eedc33a7d",
