@@ -3032,9 +3032,11 @@
             "duracao_segundos": 47.64
           },
           "instagram": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-10-24T10:37:49.265334-03:00",
-            "container_id": "18108108017158499"
+            "container_id": "18108108017158499",
+            "id": "18125597258512395",
+            "publicado_em": "2026-10-24T10:38:45.443626-03:00"
           },
           "facebook": {
             "status": "pendente"
