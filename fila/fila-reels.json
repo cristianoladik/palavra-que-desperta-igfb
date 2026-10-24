@@ -5721,7 +5721,7 @@
       "id": "reel-20261024-0900-4eedc33a7d",
       "data": "2026-10-24",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "153 - NÃO ACABE com os SONHOS do seu FILHO.mp4",
         "caminho_relativo": "153 - NÃO ACABE com os SONHOS do seu FILHO.mp4",
@@ -5751,7 +5751,8 @@
         "upload_concluido": true,
         "id": "1106788728832864",
         "publicado_em": "2026-10-24T10:40:36.465413-03:00"
-      }
+      },
+      "concluido_em": "2026-10-24T10:40:38.147002-03:00"
     },
     {
       "id": "reel-20261024-1300-572841249a",
