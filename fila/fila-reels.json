@@ -5645,7 +5645,7 @@
       "id": "reel-20261023-2100-a58e0ad247",
       "data": "2026-10-23",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "151 - Como TRANSFORMAR AUDIÊNCIA em NEGÓCIO (RENATO CARIANI) ｜ JOTA JOTA PODCAST #292.mp4",
         "caminho_relativo": "151 - Como TRANSFORMAR AUDIÊNCIA em NEGÓCIO (RENATO CARIANI) ｜ JOTA JOTA PODCAST #292.mp4",
@@ -5675,7 +5675,8 @@
         "upload_concluido": true,
         "id": "1973272747385289",
         "publicado_em": "2026-10-23T21:31:54.008150-03:00"
-      }
+      },
+      "concluido_em": "2026-10-23T21:31:55.531593-03:00"
     },
     {
       "id": "reel-20261024-0500-10c0e12eae",
