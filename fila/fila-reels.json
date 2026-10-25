@@ -5835,7 +5835,7 @@
       "id": "reel-20261024-2100-bdeba47980",
       "data": "2026-10-24",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "157 - A Gratidão Não Tem Prazo De Validade.mp4",
         "caminho_relativo": "157 - A Gratidão Não Tem Prazo De Validade.mp4",
@@ -5865,7 +5865,8 @@
         "upload_concluido": true,
         "id": "1723582128744929",
         "publicado_em": "2026-10-24T21:07:53.338986-03:00"
-      }
+      },
+      "concluido_em": "2026-10-24T21:07:54.985698-03:00"
     },
     {
       "id": "reel-20261025-0500-d097694f5f",
