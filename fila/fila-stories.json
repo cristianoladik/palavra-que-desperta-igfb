@@ -3065,7 +3065,7 @@
       "id": "story-20261025-d25aa18161",
       "data": "2026-10-25",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "037 - QUEM OUVE o CÉU GOVERNA na TERRA.mp4",
         "sha256": "d25aa1816190fad807129075c45f5406a8e4fc6f4ba33cc8b060fd8009dd73a4"
@@ -3116,7 +3116,8 @@
         "necessarias": 2,
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-25T10:52:53.268422-03:00"
     },
     {
       "id": "story-20261026-5abad21a8a",
