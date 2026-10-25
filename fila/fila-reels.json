@@ -5873,7 +5873,7 @@
       "id": "reel-20261025-0500-d097694f5f",
       "data": "2026-10-25",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "158 - O Inimigo Não É Tão Insistente Quanto Você Pensa.mp4",
         "caminho_relativo": "158 - O Inimigo Não É Tão Insistente Quanto Você Pensa.mp4",
@@ -5903,7 +5903,8 @@
         "upload_concluido": true,
         "id": "1469148571839941",
         "publicado_em": "2026-10-25T06:28:14.045719-03:00"
-      }
+      },
+      "concluido_em": "2026-10-25T06:28:15.487596-03:00"
     },
     {
       "id": "reel-20261025-0900-eb515a0f5b",
