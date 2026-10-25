@@ -5911,7 +5911,7 @@
       "id": "reel-20261025-0900-eb515a0f5b",
       "data": "2026-10-25",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "159 - O Segredo Da Vida Espiritual Não É Nunca Errar.mp4",
         "caminho_relativo": "159 - O Segredo Da Vida Espiritual Não É Nunca Errar.mp4",
@@ -5941,7 +5941,8 @@
         "upload_concluido": true,
         "id": "2587548644991170",
         "publicado_em": "2026-10-25T10:56:51.654908-03:00"
-      }
+      },
+      "concluido_em": "2026-10-25T10:56:53.348324-03:00"
     },
     {
       "id": "reel-20261025-1300-203b9f0509",
