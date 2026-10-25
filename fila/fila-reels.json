@@ -5987,7 +5987,7 @@
       "id": "reel-20261025-1700-9e5393a279",
       "data": "2026-10-25",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "161 - Uma Brecha Pode Custar Muito Caro.mp4",
         "caminho_relativo": "161 - Uma Brecha Pode Custar Muito Caro.mp4",
@@ -6017,7 +6017,8 @@
         "upload_concluido": true,
         "id": "1809346423701271",
         "publicado_em": "2026-10-25T19:28:39.485824-03:00"
-      }
+      },
+      "concluido_em": "2026-10-25T19:28:41.137929-03:00"
     },
     {
       "id": "reel-20261025-2100-e8cd26c682",
