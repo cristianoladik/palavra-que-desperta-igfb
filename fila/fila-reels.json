@@ -5949,7 +5949,7 @@
       "id": "reel-20261025-1300-203b9f0509",
       "data": "2026-10-25",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "160 - A Oposição É Sinal De Que Você Está Avançando.mp4",
         "caminho_relativo": "160 - A Oposição É Sinal De Que Você Está Avançando.mp4",
@@ -5979,7 +5979,8 @@
         "upload_concluido": true,
         "id": "1832967401469953",
         "publicado_em": "2026-10-25T14:31:48.056675-03:00"
-      }
+      },
+      "concluido_em": "2026-10-25T14:31:49.531457-03:00"
     },
     {
       "id": "reel-20261025-1700-9e5393a279",
