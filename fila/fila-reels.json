@@ -6011,10 +6011,12 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-10-25T19:28:24.612668-03:00",
         "video_id": "1809346423701271",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "1809346423701271",
+        "publicado_em": "2026-10-25T19:28:39.485824-03:00"
       }
     },
     {
