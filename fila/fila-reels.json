@@ -6138,7 +6138,7 @@
       "id": "reel-20261026-1300-cbc2bdf710",
       "data": "2026-10-26",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "165 - Quem Descobre O Propósito Para De Desistir.mp4",
         "caminho_relativo": "165 - Quem Descobre O Propósito Para De Desistir.mp4",
@@ -6168,7 +6168,8 @@
         "upload_concluido": true,
         "id": "1863800214638451",
         "publicado_em": "2026-10-26T14:37:18.687211-03:00"
-      }
+      },
+      "concluido_em": "2026-10-26T14:37:20.059749-03:00"
     },
     {
       "id": "reel-20261026-1700-637b92ecc2",
