@@ -6025,7 +6025,7 @@
       "id": "reel-20261025-2100-e8cd26c682",
       "data": "2026-10-25",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "162 - Nem Todo Mundo Merece Saber.mp4",
         "caminho_relativo": "162 - Nem Todo Mundo Merece Saber.mp4",
@@ -6055,7 +6055,8 @@
         "upload_concluido": true,
         "id": "1757006558731045",
         "publicado_em": "2026-10-25T21:38:54.363458-03:00"
-      }
+      },
+      "concluido_em": "2026-10-25T21:38:55.972372-03:00"
     },
     {
       "id": "reel-20261026-0500-60752b0292",
