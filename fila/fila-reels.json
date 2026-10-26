@@ -6101,7 +6101,7 @@
       "id": "reel-20261026-0900-e9141891b6",
       "data": "2026-10-26",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "164 - Não Existe Herói.mp4",
         "caminho_relativo": "164 - Não Existe Herói.mp4",
@@ -6131,7 +6131,8 @@
         "upload_concluido": true,
         "id": "1764175318401143",
         "publicado_em": "2026-10-26T14:36:22.277435-03:00"
-      }
+      },
+      "concluido_em": "2026-10-26T14:36:24.037121-03:00"
     },
     {
       "id": "reel-20261026-1300-cbc2bdf710",
