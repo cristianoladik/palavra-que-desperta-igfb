@@ -6063,7 +6063,7 @@
       "id": "reel-20261026-0500-60752b0292",
       "data": "2026-10-26",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "163 - Antes De Construir, Você Precisa Enxergar.mp4",
         "caminho_relativo": "163 - Antes De Construir, Você Precisa Enxergar.mp4",
@@ -6093,7 +6093,8 @@
         "upload_concluido": true,
         "id": "2188672988385313",
         "publicado_em": "2026-10-26T08:26:20.526071-03:00"
-      }
+      },
+      "concluido_em": "2026-10-26T08:26:23.810204-03:00"
     },
     {
       "id": "reel-20261026-0900-e9141891b6",
