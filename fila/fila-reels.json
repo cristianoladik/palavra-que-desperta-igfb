@@ -6177,7 +6177,7 @@
       "id": "reel-20261026-1700-637b92ecc2",
       "data": "2026-10-26",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "166 - Você Está Plantando Vida Ou Destruição？.mp4",
         "caminho_relativo": "166 - Você Está Plantando Vida Ou Destruição？.mp4",
@@ -6207,7 +6207,8 @@
         "upload_concluido": true,
         "id": "1101825582841480",
         "publicado_em": "2026-10-26T18:54:45.942963-03:00"
-      }
+      },
+      "concluido_em": "2026-10-26T18:54:47.233638-03:00"
     },
     {
       "id": "reel-20261026-2100-8da059e249",
