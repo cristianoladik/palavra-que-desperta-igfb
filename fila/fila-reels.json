@@ -6290,7 +6290,7 @@
       "id": "reel-20261027-0900-a6636340c6",
       "data": "2026-10-27",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "169 - O Pouco, Quando É Tudo, Vale Muito.mp4",
         "caminho_relativo": "169 - O Pouco, Quando É Tudo, Vale Muito.mp4",
@@ -6320,7 +6320,8 @@
         "upload_concluido": true,
         "id": "1168784275833516",
         "publicado_em": "2026-10-27T09:47:32.900575-03:00"
-      }
+      },
+      "concluido_em": "2026-10-27T09:47:34.544824-03:00"
     },
     {
       "id": "reel-20261027-1300-8224c9d964",
