@@ -3255,10 +3255,12 @@
             "publicado_em": "2026-10-27T09:43:06.710897-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-10-27T09:43:08.466170-03:00",
             "video_id": "2382814152521317",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "1416980767263830",
+            "publicado_em": "2026-10-27T09:43:22.816412-03:00"
           }
         },
         {
