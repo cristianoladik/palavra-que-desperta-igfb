@@ -3227,7 +3227,7 @@
       "id": "story-20261027-3b4bda3ae8",
       "data": "2026-10-27",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "039 - O DESTINO PROFÉTICO de JOSÉ.mp4",
         "sha256": "3b4bda3ae8eaeb685347a3415e372854e26d89a33a44e789907a71bee4f98c5f"
@@ -3278,7 +3278,8 @@
         "necessarias": 2,
         "restantes": 94,
         "mensagem": "Cota Instagram: 94 criações restantes; 2 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-10-27T09:42:20.999816-03:00"
     },
     {
       "id": "story-20261028-f8c8287839",
