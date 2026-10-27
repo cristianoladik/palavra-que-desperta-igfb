@@ -6215,7 +6215,7 @@
       "id": "reel-20261026-2100-8da059e249",
       "data": "2026-10-26",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "167 - Você Tem uma Palavra de Deus？.mp4",
         "caminho_relativo": "167 - Você Tem uma Palavra de Deus？.mp4",
@@ -6245,7 +6245,8 @@
         "upload_concluido": true,
         "id": "976941398244026",
         "publicado_em": "2026-10-26T22:19:20.100900-03:00"
-      }
+      },
+      "concluido_em": "2026-10-26T22:19:21.717225-03:00"
     },
     {
       "id": "reel-20261027-0500-45b8d8121a",
