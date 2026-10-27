@@ -6367,7 +6367,7 @@
       "id": "reel-20261027-1700-bc531af170",
       "data": "2026-10-27",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "171 - A Rocha Exige Decisões Difíceis.mp4",
         "caminho_relativo": "171 - A Rocha Exige Decisões Difíceis.mp4",
@@ -6397,7 +6397,8 @@
         "upload_concluido": true,
         "id": "2243444112888857",
         "publicado_em": "2026-10-27T19:31:39.485938-03:00"
-      }
+      },
+      "concluido_em": "2026-10-27T19:31:40.859213-03:00"
     },
     {
       "id": "reel-20261027-2100-b673694c34",
