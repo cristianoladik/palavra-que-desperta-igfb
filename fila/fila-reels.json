@@ -6253,7 +6253,7 @@
       "id": "reel-20261027-0500-45b8d8121a",
       "data": "2026-10-27",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "168 - Quem Controla Suas Emoções, Controla Você.mp4",
         "caminho_relativo": "168 - Quem Controla Suas Emoções, Controla Você.mp4",
@@ -6283,7 +6283,8 @@
         "upload_concluido": true,
         "id": "1793569381897533",
         "publicado_em": "2026-10-27T09:46:25.396723-03:00"
-      }
+      },
+      "concluido_em": "2026-10-27T09:46:26.864126-03:00"
     },
     {
       "id": "reel-20261027-0900-a6636340c6",
