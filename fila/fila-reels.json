@@ -6329,7 +6329,7 @@
       "id": "reel-20261027-1300-8224c9d964",
       "data": "2026-10-27",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "170 - Você Está Valorizando O Seu Tempo？.mp4",
         "caminho_relativo": "170 - Você Está Valorizando O Seu Tempo？.mp4",
@@ -6359,7 +6359,8 @@
         "upload_concluido": true,
         "id": "1909096683873316",
         "publicado_em": "2026-10-27T15:22:25.627114-03:00"
-      }
+      },
+      "concluido_em": "2026-10-27T15:22:27.536633-03:00"
     },
     {
       "id": "reel-20261027-1700-bc531af170",
