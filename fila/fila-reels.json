@@ -6480,7 +6480,7 @@
       "id": "reel-20261028-0900-12f67b0027",
       "data": "2026-10-28",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "174 - A Porta Só Abre Depois Do Primeiro Passo.mp4",
         "caminho_relativo": "174 - A Porta Só Abre Depois Do Primeiro Passo.mp4",
@@ -6510,7 +6510,8 @@
         "upload_concluido": true,
         "id": "1143395531677198",
         "publicado_em": "2026-10-28T11:36:30.584232-03:00"
-      }
+      },
+      "concluido_em": "2026-10-28T11:36:32.337040-03:00"
     },
     {
       "id": "reel-20261028-1300-dec989138c",
