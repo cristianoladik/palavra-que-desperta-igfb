@@ -6443,7 +6443,7 @@
       "id": "reel-20261028-0500-a48ee8e625",
       "data": "2026-10-28",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "173 - Ninguém Pode Derrubar Um Homem Que Já Está De Joelhos.mp4",
         "caminho_relativo": "173 - Ninguém Pode Derrubar Um Homem Que Já Está De Joelhos.mp4",
@@ -6473,7 +6473,8 @@
         "upload_concluido": true,
         "id": "1888908959146686",
         "publicado_em": "2026-10-28T11:35:11.387849-03:00"
-      }
+      },
+      "concluido_em": "2026-10-28T11:35:13.143252-03:00"
     },
     {
       "id": "reel-20261028-0900-12f67b0027",
