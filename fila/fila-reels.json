@@ -6519,7 +6519,7 @@
       "id": "reel-20261028-1300-dec989138c",
       "data": "2026-10-28",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "175 - A Pressa Pode Custar O Seu Destino.mp4",
         "caminho_relativo": "175 - A Pressa Pode Custar O Seu Destino.mp4",
@@ -6549,7 +6549,8 @@
         "upload_concluido": true,
         "id": "1135747098871158",
         "publicado_em": "2026-10-28T16:54:53.816259-03:00"
-      }
+      },
+      "concluido_em": "2026-10-28T16:54:55.512201-03:00"
     },
     {
       "id": "reel-20261028-1700-5b1e662c77",
