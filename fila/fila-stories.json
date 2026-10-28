@@ -3308,7 +3308,7 @@
       "id": "story-20261028-f8c8287839",
       "data": "2026-10-28",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "040 - O DEUS DO IMPOSSÍVEL Abre PORTAS que Ninguém Fecha!.mp4",
         "sha256": "f8c828783931a2db69cc2e72eeb6fabf61ff5dfcce3bb82da396f21638d64d33"
@@ -3353,7 +3353,8 @@
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-28T11:32:10.251795-03:00"
+      "publicacao_iniciada_em": "2026-10-28T11:32:10.251795-03:00",
+      "concluido_em": "2026-10-28T11:34:08.029372-03:00"
     },
     {
       "id": "story-20261029-e8d4407477",
