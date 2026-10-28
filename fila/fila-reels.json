@@ -6557,7 +6557,7 @@
       "id": "reel-20261028-1700-5b1e662c77",
       "data": "2026-10-28",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "176 - Você Está Vivendo Em Qual Lado Da Vida？.mp4",
         "caminho_relativo": "176 - Você Está Vivendo Em Qual Lado Da Vida？.mp4",
@@ -6587,7 +6587,8 @@
         "upload_concluido": true,
         "id": "2385252508932916",
         "publicado_em": "2026-10-28T20:57:29.064889-03:00"
-      }
+      },
+      "concluido_em": "2026-10-28T20:57:30.686508-03:00"
     },
     {
       "id": "reel-20261028-2100-4ccb4ebb70",
