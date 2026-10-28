@@ -6405,7 +6405,7 @@
       "id": "reel-20261027-2100-b673694c34",
       "data": "2026-10-27",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "172 - Você Está Levando Seu Tempo A Sério？.mp4",
         "caminho_relativo": "172 - Você Está Levando Seu Tempo A Sério？.mp4",
@@ -6435,7 +6435,8 @@
         "upload_concluido": true,
         "id": "1839211083747962",
         "publicado_em": "2026-10-27T22:46:37.304581-03:00"
-      }
+      },
+      "concluido_em": "2026-10-27T22:46:38.801317-03:00"
     },
     {
       "id": "reel-20261028-0500-a48ee8e625",
