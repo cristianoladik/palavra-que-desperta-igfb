@@ -6671,7 +6671,7 @@
       "id": "reel-20261029-0900-7b7e96b045",
       "data": "2026-10-29",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "179 - Você Sabe Se Defender Espiritualmente？.mp4",
         "caminho_relativo": "179 - Você Sabe Se Defender Espiritualmente？.mp4",
@@ -6701,7 +6701,8 @@
         "upload_concluido": true,
         "id": "1441728053958295",
         "publicado_em": "2026-10-29T14:37:17.641799-03:00"
-      }
+      },
+      "concluido_em": "2026-10-29T14:37:20.963701-03:00"
     },
     {
       "id": "reel-20261029-1300-b1bb80ed57",
