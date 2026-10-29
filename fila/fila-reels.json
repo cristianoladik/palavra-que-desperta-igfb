@@ -6747,7 +6747,7 @@
       "id": "reel-20261029-1700-9ec9a3616d",
       "data": "2026-10-29",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "181 - Quando A Liberdade Vira Uma Prisão.mp4",
         "caminho_relativo": "181 - Quando A Liberdade Vira Uma Prisão.mp4",
@@ -6777,7 +6777,8 @@
         "upload_concluido": true,
         "id": "1613198486735490",
         "publicado_em": "2026-10-29T19:02:57.075157-03:00"
-      }
+      },
+      "concluido_em": "2026-10-29T19:02:58.463366-03:00"
     },
     {
       "id": "reel-20261029-2100-df2f890887",
