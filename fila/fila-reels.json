@@ -6607,7 +6607,8 @@
         "url_publica": "https://github.com/cristianoladik/palavra-que-desperta-igfb/releases/download/fila-instagram-facebook/177.-.Voce.Esta.Ouvindo.A.Pessoa.Certa.mp4",
         "sha256": "4ccb4ebb70ba8f520e88a9da1532c0883fca5ee13576434165cd98d9f13d760b",
         "tamanho_bytes": 27099834,
-        "duracao_segundos": 45.0
+        "duracao_segundos": 45.0,
+        "remocao_release_iniciada_em": "2026-10-29T02:30:18.488729-03:00"
       },
       "instagram": {
         "legenda": "siga @palavraquedesperta_br",
