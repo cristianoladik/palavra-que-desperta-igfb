@@ -6595,7 +6595,7 @@
       "id": "reel-20261028-2100-4ccb4ebb70",
       "data": "2026-10-28",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "177 - Você Está Ouvindo A Pessoa Certa？.mp4",
         "caminho_relativo": "177 - Você Está Ouvindo A Pessoa Certa？.mp4",
@@ -6625,7 +6625,8 @@
         "upload_concluido": true,
         "id": "1414697534163701",
         "publicado_em": "2026-10-29T02:30:14.697017-03:00"
-      }
+      },
+      "concluido_em": "2026-10-29T02:30:16.121163-03:00"
     },
     {
       "id": "reel-20261029-0500-31fe9ced81",
