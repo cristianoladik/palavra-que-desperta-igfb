@@ -6633,7 +6633,7 @@
       "id": "reel-20261029-0500-31fe9ced81",
       "data": "2026-10-29",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "178 - Você Está Blindado Por Dentro？.mp4",
         "caminho_relativo": "178 - Você Está Blindado Por Dentro？.mp4",
@@ -6663,7 +6663,8 @@
         "upload_concluido": true,
         "id": "1343833897704524",
         "publicado_em": "2026-10-29T08:43:36.693503-03:00"
-      }
+      },
+      "concluido_em": "2026-10-29T08:43:38.449360-03:00"
     },
     {
       "id": "reel-20261029-0900-7b7e96b045",
