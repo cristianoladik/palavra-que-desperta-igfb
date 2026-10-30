@@ -3414,7 +3414,7 @@
       "id": "story-20261030-76bd12f145",
       "data": "2026-10-30",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "042 - ATENÇÃO： DEUS NÃO se ESQUECEU de VOCÊ! O SILÊNCIO tem um PROPÓSITO - DESCUBRA AGORA.mp4",
         "sha256": "76bd12f1453f2ebfac2d1296916d399f0c3fe303d38c15c51e379155588edb58"
@@ -3459,7 +3459,8 @@
         "restantes": 94,
         "mensagem": "Cota Instagram: 94 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-30T12:21:21.351877-03:00"
+      "publicacao_iniciada_em": "2026-10-30T12:21:21.351877-03:00",
+      "concluido_em": "2026-10-30T12:22:33.809866-03:00"
     },
     {
       "id": "story-20261031-a8c0e99daf",
