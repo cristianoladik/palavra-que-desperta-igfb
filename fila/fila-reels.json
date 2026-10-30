@@ -6899,7 +6899,7 @@
       "id": "reel-20261030-1300-30376b6954",
       "data": "2026-10-30",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "185 - Você Está Disposto A Dar Aquilo Que O Dinheiro Não Compra？.mp4",
         "caminho_relativo": "185 - Você Está Disposto A Dar Aquilo Que O Dinheiro Não Compra？.mp4",
@@ -6929,7 +6929,8 @@
         "upload_concluido": true,
         "id": "1403758358405393",
         "publicado_em": "2026-10-30T17:03:09.784248-03:00"
-      }
+      },
+      "concluido_em": "2026-10-30T17:03:11.454960-03:00"
     },
     {
       "id": "reel-20261030-1700-b745416c89",
