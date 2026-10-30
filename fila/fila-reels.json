@@ -6936,7 +6936,7 @@
       "id": "reel-20261030-1700-b745416c89",
       "data": "2026-10-30",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "186 - Quem você é quando ninguém está vendo？.mp4",
         "caminho_relativo": "186 - Quem você é quando ninguém está vendo？.mp4",
@@ -6966,7 +6966,8 @@
         "upload_concluido": true,
         "id": "1453308703018847",
         "publicado_em": "2026-10-30T17:04:19.665509-03:00"
-      }
+      },
+      "concluido_em": "2026-10-30T17:04:21.681887-03:00"
     },
     {
       "id": "reel-20261030-2100-1ad7c9bd67",
