@@ -6785,7 +6785,7 @@
       "id": "reel-20261029-2100-df2f890887",
       "data": "2026-10-29",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "182 - Quando A Carência Vira Pecado.mp4",
         "caminho_relativo": "182 - Quando A Carência Vira Pecado.mp4",
@@ -6815,7 +6815,8 @@
         "upload_concluido": true,
         "id": "4524560047786750",
         "publicado_em": "2026-10-30T05:31:23.371442-03:00"
-      }
+      },
+      "concluido_em": "2026-10-30T05:31:25.081214-03:00"
     },
     {
       "id": "reel-20261030-0500-e3620cb958",
