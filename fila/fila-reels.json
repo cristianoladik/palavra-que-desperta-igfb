@@ -6861,7 +6861,7 @@
       "id": "reel-20261030-0900-397a3f7591",
       "data": "2026-10-30",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "184 - Sua Fé É Maior Que As Suas Circunstâncias？.mp4",
         "caminho_relativo": "184 - Sua Fé É Maior Que As Suas Circunstâncias？.mp4",
@@ -6891,7 +6891,8 @@
         "upload_concluido": true,
         "id": "1842307100286259",
         "publicado_em": "2026-10-30T12:23:45.479746-03:00"
-      }
+      },
+      "concluido_em": "2026-10-30T12:23:47.835905-03:00"
     },
     {
       "id": "reel-20261030-1300-30376b6954",
