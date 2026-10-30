@@ -6822,7 +6822,7 @@
       "id": "reel-20261030-0500-e3620cb958",
       "data": "2026-10-30",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "183 - Você Deixaria Suas Emoções Para Obedecer A Deus？.mp4",
         "caminho_relativo": "183 - Você Deixaria Suas Emoções Para Obedecer A Deus？.mp4",
@@ -6852,7 +6852,8 @@
         "upload_concluido": true,
         "id": "1626676842294592",
         "publicado_em": "2026-10-30T05:32:34.766092-03:00"
-      }
+      },
+      "concluido_em": "2026-10-30T05:32:36.506137-03:00"
     },
     {
       "id": "reel-20261030-0900-397a3f7591",
