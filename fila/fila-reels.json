@@ -7013,7 +7013,7 @@
       "id": "reel-20261031-0500-d21addede7",
       "data": "2026-10-31",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "188 - Pare De Escutar Os Outros.mp4",
         "caminho_relativo": "188 - Pare De Escutar Os Outros.mp4",
@@ -7043,7 +7043,8 @@
         "upload_concluido": true,
         "id": "1661329228780614",
         "publicado_em": "2026-10-31T07:49:11.874935-03:00"
-      }
+      },
+      "concluido_em": "2026-10-31T07:49:13.383038-03:00"
     },
     {
       "id": "reel-20261031-0900-8aa12ff265",
