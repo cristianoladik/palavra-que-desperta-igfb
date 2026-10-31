@@ -6975,7 +6975,7 @@
       "id": "reel-20261030-2100-1ad7c9bd67",
       "data": "2026-10-30",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "187 - Servir Com Propósito.mp4",
         "caminho_relativo": "187 - Servir Com Propósito.mp4",
@@ -7005,7 +7005,8 @@
         "upload_concluido": true,
         "id": "1852237696214713",
         "publicado_em": "2026-10-31T01:50:52.790535-03:00"
-      }
+      },
+      "concluido_em": "2026-10-31T01:50:54.576295-03:00"
     },
     {
       "id": "reel-20261031-0500-d21addede7",
