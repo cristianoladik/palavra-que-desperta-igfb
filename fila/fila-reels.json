@@ -7127,7 +7127,7 @@
       "id": "reel-20261031-1700-03a907a33d",
       "data": "2026-10-31",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "191 - Se Você É Impaciente Assista Esse Vídeo.mp4",
         "caminho_relativo": "191 - Se Você É Impaciente Assista Esse Vídeo.mp4",
@@ -7157,7 +7157,8 @@
         "upload_concluido": true,
         "id": "1974669703739494",
         "publicado_em": "2026-10-31T20:12:43.913196-03:00"
-      }
+      },
+      "concluido_em": "2026-10-31T20:12:45.517664-03:00"
     },
     {
       "id": "reel-20261031-2100-9d16329379",
