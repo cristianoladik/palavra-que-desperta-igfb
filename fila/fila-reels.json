@@ -7051,7 +7051,7 @@
       "id": "reel-20261031-0900-8aa12ff265",
       "data": "2026-10-31",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "189 - Você Tem Fé, Mas Continua Ansioso？.mp4",
         "caminho_relativo": "189 - Você Tem Fé, Mas Continua Ansioso？.mp4",
@@ -7081,7 +7081,8 @@
         "upload_concluido": true,
         "id": "1397913285423143",
         "publicado_em": "2026-10-31T13:01:28.685515-03:00"
-      }
+      },
+      "concluido_em": "2026-10-31T13:01:30.197760-03:00"
     },
     {
       "id": "reel-20261031-1300-faa099a11c",
