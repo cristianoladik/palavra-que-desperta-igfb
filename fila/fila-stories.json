@@ -3467,7 +3467,7 @@
       "id": "story-20261031-a8c0e99daf",
       "data": "2026-10-31",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "043 - PARE TUDO： Como a APROVAÇÃO e REJEIÇÃO Controlam Sua Vida! VEJA ISSO URGENTE.mp4",
         "sha256": "a8c0e99daf160e6c51d27fd8ba272f264443c1149f6307ff98e0437baca021a8"
@@ -3512,7 +3512,8 @@
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-10-31T12:58:57.414801-03:00"
+      "publicacao_iniciada_em": "2026-10-31T12:58:57.414801-03:00",
+      "concluido_em": "2026-10-31T13:00:07.514472-03:00"
     },
     {
       "id": "story-20261101-d4c1211617",
