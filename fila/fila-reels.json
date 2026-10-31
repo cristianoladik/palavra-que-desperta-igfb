@@ -7088,7 +7088,7 @@
       "id": "reel-20261031-1300-faa099a11c",
       "data": "2026-10-31",
       "horario": "13:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "190 - Minha Mulher Me Falou Uma Coisa.mp4",
         "caminho_relativo": "190 - Minha Mulher Me Falou Uma Coisa.mp4",
@@ -7118,7 +7118,8 @@
         "upload_concluido": true,
         "id": "2223018231612285",
         "publicado_em": "2026-10-31T13:03:32.204917-03:00"
-      }
+      },
+      "concluido_em": "2026-10-31T13:03:33.803183-03:00"
     },
     {
       "id": "reel-20261031-1700-03a907a33d",
