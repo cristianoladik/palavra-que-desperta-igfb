@@ -31,9 +31,7 @@ PLATAFORMAS = ("instagram", "facebook")
 VALORES_ATIVOS = frozenset({"1", "true", "sim", "yes", "on"})
 GRAPH_VERSION_PADRAO = "v26.0"
 USUARIO_INSTAGRAM_ESPERADO = "palavraquedesperta_br"
-RAIZ_DRIVE_OFICIAL = Path(
-    r"G:\Meu Drive\PROJETO SEGUNDO CÉREBRO Cristiano Ladik\Projeto - Palavra Que Desperta - Drive"
-)
+VARIAVEL_RAIZ_DRIVE = "PQD_RAIZ_DRIVE"
 
 TRAVA_AUTOMACAO = "PQD_AUTOMACAO_ATIVA"
 TRAVA_CONFIRMACAO = "PQD_PUBLICACAO_CONFIRMADA"
@@ -520,11 +518,11 @@ def baixar_midia(midia: Mapping[str, object], sessao=None) -> Path:
 
     cache = Path(obrigatoria("PQD_MEDIA_CACHE_DIR")).expanduser().resolve()
     if os.name == "nt":
-        raiz_oficial = RAIZ_DRIVE_OFICIAL.resolve()
-        if not cache.is_relative_to(raiz_oficial):
+        raiz = os.environ.get(VARIAVEL_RAIZ_DRIVE, "").strip()
+        if not raiz or not cache.is_relative_to(Path(raiz).expanduser().resolve()):
             raise RuntimeError(
                 "Em execução local, PQD_MEDIA_CACHE_DIR precisa estar sob a raiz oficial "
-                r"G:\Meu Drive\PROJETO SEGUNDO CÉREBRO Cristiano Ladik\Projeto - Palavra Que Desperta - Drive."
+                f"do projeto no Google Drive, informada em {VARIAVEL_RAIZ_DRIVE}."
             )
     cache.mkdir(parents=True, exist_ok=True)
     destino = cache / f"{digest_esperado[:12]}-{asset}"

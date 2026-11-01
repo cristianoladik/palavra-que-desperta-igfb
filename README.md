@@ -122,9 +122,8 @@ Este template não cria repositório, Release nem envia mídia. O abastecedor lo
 deve obter consentimento para a exposição por URL HTTPS antes de alimentar as
 filas. Mídia nunca entra no Git nem no disco C. No runner Linux, o cache usa
 `${runner.temp}`; no Windows, `PQD_MEDIA_CACHE_DIR` precisa resolver para um
-descendente de:
-
-`G:\Meu Drive\PROJETO SEGUNDO CÉREBRO Cristiano Ladik\Projeto - Palavra Que Desperta - Drive`
+descendente da pasta do projeto no Google Drive, informada na variável
+`PQD_RAIZ_DRIVE`.
 
 ## Supply chain e testes
 
