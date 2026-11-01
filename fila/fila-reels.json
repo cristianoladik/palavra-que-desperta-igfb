@@ -7165,7 +7165,7 @@
       "id": "reel-20261031-2100-9d16329379",
       "data": "2026-10-31",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "192 - Quando As Pessoas Veem Deus Em Você Acontece Isso.mp4",
         "caminho_relativo": "192 - Quando As Pessoas Veem Deus Em Você Acontece Isso.mp4",
@@ -7195,7 +7195,8 @@
         "upload_concluido": true,
         "id": "1961863991439500",
         "publicado_em": "2026-11-01T06:35:08.000649-03:00"
-      }
+      },
+      "concluido_em": "2026-11-01T06:35:09.382929-03:00"
     },
     {
       "id": "reel-20261101-0500-97ebb750bf",
