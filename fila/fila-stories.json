@@ -3542,7 +3542,8 @@
           },
           "instagram": {
             "status": "publicacao_iniciada",
-            "publicacao_iniciada_em": "2026-11-01T13:25:54.379353-03:00"
+            "publicacao_iniciada_em": "2026-11-01T13:25:54.379353-03:00",
+            "container_id": "18110071268158499"
           },
           "facebook": {
             "status": "pendente"
