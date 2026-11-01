@@ -7202,7 +7202,7 @@
       "id": "reel-20261101-0500-97ebb750bf",
       "data": "2026-11-01",
       "horario": "05:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "193 - Obrigado LISBOA 🇵🇹 lançamento do livro Ganhe o mundo sem perder a alma.mp4",
         "caminho_relativo": "193 - Obrigado LISBOA 🇵🇹 lançamento do livro Ganhe o mundo sem perder a alma.mp4",
@@ -7232,7 +7232,8 @@
         "upload_concluido": true,
         "id": "1448627256630202",
         "publicado_em": "2026-11-01T06:36:35.689496-03:00"
-      }
+      },
+      "concluido_em": "2026-11-01T06:36:36.788966-03:00"
     },
     {
       "id": "reel-20261101-0900-5c58a36c19",
