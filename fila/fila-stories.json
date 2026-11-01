@@ -3520,7 +3520,7 @@
       "id": "story-20261101-d4c1211617",
       "data": "2026-11-01",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "044 - ANDRÉ FERNANDES Revela O PODER DA FÉ que MUDOU TUDO.mp4",
         "sha256": "d4c1211617e30caa7259dbec51ce04690f747ec96a1a8da2f70eaf417e335281"
@@ -3565,7 +3565,8 @@
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-11-01T13:25:52.911097-03:00"
+      "publicacao_iniciada_em": "2026-11-01T13:25:52.911097-03:00",
+      "concluido_em": "2026-11-01T13:27:22.758815-03:00"
     },
     {
       "id": "story-20261102-3ea5b78851",
