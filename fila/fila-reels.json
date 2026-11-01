@@ -7241,7 +7241,7 @@
       "id": "reel-20261101-0900-5c58a36c19",
       "data": "2026-11-01",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "194 - 5 Conselhos Que Serve Para Qualquer Um.mp4",
         "caminho_relativo": "194 - 5 Conselhos Que Serve Para Qualquer Um.mp4",
@@ -7271,7 +7271,8 @@
         "upload_concluido": true,
         "id": "1588592279235804",
         "publicado_em": "2026-11-01T13:28:45.091986-03:00"
-      }
+      },
+      "concluido_em": "2026-11-01T13:28:47.260954-03:00"
     },
     {
       "id": "reel-20261101-1300-d58e50a34e",
