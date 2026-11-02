@@ -3601,10 +3601,12 @@
             "publicado_em": "2026-11-02T10:53:29.606577-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-11-02T10:53:31.250838-03:00",
             "video_id": "1915373776116552",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "993136699859971",
+            "publicado_em": "2026-11-02T10:53:53.883644-03:00"
           }
         }
       ],
