@@ -7697,7 +7697,7 @@
       "id": "reel-20261103-1700-9315f351da",
       "data": "2026-11-03",
       "horario": "17:00",
-      "status": "pendente",
+      "status": "concluido",
       "origem": {
         "arquivo": "206 - As palavras deste vídeo podem mudar sua vida.mp4",
         "caminho_relativo": "206 - As palavras deste vídeo podem mudar sua vida.mp4",
@@ -7727,7 +7727,8 @@
         "upload_concluido": true,
         "id": "1542492854571122",
         "publicado_em": "2026-11-03T20:44:31.553026-03:00"
-      }
+      },
+      "concluido_em": "2026-11-03T20:44:33.057998-03:00"
     },
     {
       "id": "reel-20261103-2100-bf2a9b0a7e",
