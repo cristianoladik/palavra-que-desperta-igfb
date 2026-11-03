@@ -3626,7 +3626,7 @@
       "id": "story-20261103-253d48e129",
       "data": "2026-11-03",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "046 - PARE AGORA： NÃO VIVA REFÉM DAS CIRCUNSTÂNCIAS com André Fernandes! DESCUBRA COMO.mp4",
         "sha256": "253d48e129060759a5d5d2db8fa0b93bf891f7494f62d3b7a17b8b005c99b9df"
@@ -3671,7 +3671,8 @@
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-11-03T15:36:21.815482-03:00"
+      "publicacao_iniciada_em": "2026-11-03T15:36:21.815482-03:00",
+      "concluido_em": "2026-11-03T15:37:33.786481-03:00"
     },
     {
       "id": "story-20261104-c3b2474f18",
