@@ -3679,7 +3679,7 @@
       "id": "story-20261104-c3b2474f18",
       "data": "2026-11-04",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "047 - DEUS NÃO DESISTIU DE VOCÊ! André Fernandes REVELA a Verdade que Poucos Sabem - ASSISTA JÁ.mp4",
         "sha256": "c3b2474f18539066a5fb2a3f8aee00ce7ac8b9667d7946a92fe221da5901d260"
@@ -3713,7 +3713,8 @@
         "necessarias": 1,
         "restantes": 97,
         "mensagem": "Cota Instagram: 97 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-11-04T15:47:38.539085-03:00"
     },
     {
       "id": "story-20261105-0f4f30f5dd",
