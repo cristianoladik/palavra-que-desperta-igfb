@@ -3707,7 +3707,8 @@
             "publicado_em": "2026-11-04T15:48:31.941989-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicacao_iniciada",
+            "publicacao_iniciada_em": "2026-11-04T15:48:33.637707-03:00"
           }
         }
       ],
