@@ -3709,7 +3709,8 @@
           "facebook": {
             "status": "publicacao_iniciada",
             "publicacao_iniciada_em": "2026-11-04T15:48:33.637707-03:00",
-            "video_id": "4728313334056167"
+            "video_id": "4728313334056167",
+            "upload_concluido": true
           }
         }
       ],
