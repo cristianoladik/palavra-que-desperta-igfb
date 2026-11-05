@@ -8063,10 +8063,12 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-11-05T18:32:55.776503-03:00",
         "video_id": "1133593096029215",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "1133593096029215",
+        "publicado_em": "2026-11-05T18:33:12.017893-03:00"
       }
     },
     {
