@@ -3732,7 +3732,7 @@
       "id": "story-20261105-0f4f30f5dd",
       "data": "2026-11-05",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "048 - A VERDADE Sobre ATALHOS Que Ninguém Te Conta ｜ André Fernandes REVELA AGORA.mp4",
         "sha256": "0f4f30f5dd0e622131013e8f8abcb821218924f018128fbc2fa97c5ceecd8369"
@@ -3777,7 +3777,8 @@
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-11-05T12:22:28.756758-03:00"
+      "publicacao_iniciada_em": "2026-11-05T12:22:28.756758-03:00",
+      "concluido_em": "2026-11-05T12:23:40.357927-03:00"
     },
     {
       "id": "story-20261106-6ed70f2f32",
