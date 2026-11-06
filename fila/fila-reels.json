@@ -8252,10 +8252,12 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-11-06T13:50:05.266376-03:00",
         "video_id": "1421575036362182",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "1421575036362182",
+        "publicado_em": "2026-11-06T13:50:20.455638-03:00"
       }
     },
     {
