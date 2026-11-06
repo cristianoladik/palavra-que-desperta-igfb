@@ -3785,7 +3785,7 @@
       "id": "story-20261106-6ed70f2f32",
       "data": "2026-11-06",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "049 - Como MUDAR SUA MENTALIDADE e ALCANÇAR O SUCESSO com André Fernandes!.mp4",
         "sha256": "6ed70f2f32dceae5886be4d640f05530610de8befd66ab25b2b60861d8826534"
@@ -3819,7 +3819,8 @@
         "necessarias": 1,
         "restantes": 96,
         "mensagem": "Cota Instagram: 96 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-11-06T13:46:54.940079-03:00"
     },
     {
       "id": "story-20261107-907ca82175",
