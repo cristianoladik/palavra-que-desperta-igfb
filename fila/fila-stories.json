@@ -3813,7 +3813,8 @@
             "publicado_em": "2026-11-06T13:47:42.085680-03:00"
           },
           "facebook": {
-            "status": "pendente"
+            "status": "publicacao_iniciada",
+            "publicacao_iniciada_em": "2026-11-06T13:47:43.968686-03:00"
           }
         }
       ],
