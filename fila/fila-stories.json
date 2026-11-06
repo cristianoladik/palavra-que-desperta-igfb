@@ -3813,10 +3813,12 @@
             "publicado_em": "2026-11-06T13:47:42.085680-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-11-06T13:47:43.968686-03:00",
             "video_id": "1898723448927208",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "1112549605021776",
+            "publicado_em": "2026-11-06T13:47:58.962126-03:00"
           }
         }
       ],
