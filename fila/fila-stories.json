@@ -3838,7 +3838,7 @@
       "id": "story-20261107-907ca82175",
       "data": "2026-11-07",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "050 - CRUZADA INCENDIÁRIOS EM FORTALEZA Revela a VERDADE! VEJA ANTES QUE REMOVAM.mp4",
         "sha256": "907ca82175fd0a185a20a56ff3530e0c93c2a6611ef6ed625c0609eb697180e4"
@@ -3872,7 +3872,8 @@
         "necessarias": 1,
         "restantes": 94,
         "mensagem": "Cota Instagram: 94 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-11-07T12:11:28.528313-03:00"
     },
     {
       "id": "story-20261108-46c6375431",
