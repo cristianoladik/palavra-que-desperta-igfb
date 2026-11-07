@@ -3865,7 +3865,14 @@
             "status": "pendente"
           }
         }
-      ]
+      ],
+      "ultima_consulta_cota_instagram": {
+        "consultado_em": "2026-11-07T12:11:26.871748-03:00",
+        "confiavel": true,
+        "necessarias": 1,
+        "restantes": 94,
+        "mensagem": "Cota Instagram: 94 criações restantes; 1 necessárias."
+      }
     },
     {
       "id": "story-20261108-46c6375431",
