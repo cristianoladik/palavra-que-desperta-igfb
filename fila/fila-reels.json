@@ -8443,10 +8443,12 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-11-07T16:28:37.892974-03:00",
         "video_id": "2241897659702340",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "2241897659702340",
+        "publicado_em": "2026-11-07T16:28:49.205055-03:00"
       }
     },
     {
