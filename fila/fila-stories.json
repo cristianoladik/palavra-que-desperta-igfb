@@ -3891,7 +3891,7 @@
       "id": "story-20261108-46c6375431",
       "data": "2026-11-08",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "051 - URGENTE： ESTEJA À ALTURA do Seu CHAMADO! O Segredo que Vai TRANSFORMAR Sua Vida! VEJA AQUI.mp4",
         "sha256": "46c63754311acc7136baa1ed995c5a584629938a3f709e7d33c7e195fc1a20a1"
@@ -3936,7 +3936,8 @@
         "restantes": 98,
         "mensagem": "Cota Instagram: 98 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-11-08T12:59:35.422328-03:00"
+      "publicacao_iniciada_em": "2026-11-08T12:59:35.422328-03:00",
+      "concluido_em": "2026-11-08T13:00:55.084783-03:00"
     },
     {
       "id": "story-20261109-6ae87af002",
