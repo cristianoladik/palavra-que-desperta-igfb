@@ -8495,7 +8495,7 @@
       "id": "reel-20261107-2100-874970f0d2",
       "data": "2026-11-07",
       "horario": "21:00",
-      "status": "erro_midia",
+      "status": "pulado",
       "origem": {
         "arquivo": "227 - As palavras deste vídeo podem mudar sua vida.mp4",
         "caminho_relativo": "227 - As palavras deste vídeo podem mudar sua vida.mp4",
@@ -8518,12 +8518,13 @@
         "status": "pendente"
       },
       "erro_midia": "Não foi possível baixar o asset 227.-.As.palavras.deste.video.podem.mudar.sua.vida.mp4: HTTP 504",
-      "atualizado_em": "2026-11-08T06:10:01.453537-03:00"
+      "atualizado_em": "2026-11-08T06:10:01.453537-03:00",
+      "pulado_em": "2026-11-08T06:10:03.726900-03:00"
     },
     {
       "id": "reel-20261108-0500-5ebf09fe28",
-      "data": "2026-11-08",
-      "horario": "05:00",
+      "data": "2026-11-07",
+      "horario": "21:00",
       "status": "pendente",
       "origem": {
         "arquivo": "228 - As palavras deste vídeo podem mudar sua vida.mp4",
@@ -8545,7 +8546,8 @@
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
-      }
+      },
+      "reagendado_de": "2026-11-08 05:00"
     },
     {
       "id": "reel-20261108-0900-68063fddb6",
