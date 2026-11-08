@@ -3912,9 +3912,11 @@
             "duracao_segundos": 52.52
           },
           "instagram": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-11-08T12:59:36.790262-03:00",
-            "container_id": "18111485741158499"
+            "container_id": "18111485741158499",
+            "id": "18132373249840453",
+            "publicado_em": "2026-11-08T13:00:32.544246-03:00"
           },
           "facebook": {
             "status": "pendente"
