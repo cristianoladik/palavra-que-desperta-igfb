@@ -8525,7 +8525,7 @@
       "id": "reel-20261108-0500-5ebf09fe28",
       "data": "2026-11-07",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "pulado",
       "origem": {
         "arquivo": "228 - As palavras deste vídeo podem mudar sua vida.mp4",
         "caminho_relativo": "228 - As palavras deste vídeo podem mudar sua vida.mp4",
@@ -8550,12 +8550,13 @@
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
       },
-      "reagendado_de": "2026-11-08 05:00"
+      "reagendado_de": "2026-11-08 05:00",
+      "pulado_em": "2026-11-08T06:11:06.783548-03:00"
     },
     {
       "id": "reel-20261108-0900-68063fddb6",
-      "data": "2026-11-08",
-      "horario": "09:00",
+      "data": "2026-11-07",
+      "horario": "21:00",
       "status": "pendente",
       "origem": {
         "arquivo": "229 - As palavras deste vídeo podem mudar sua vida.mp4",
@@ -8577,7 +8578,8 @@
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
-      }
+      },
+      "reagendado_de": "2026-11-08 09:00"
     },
     {
       "id": "reel-20261108-1300-a8157c6c35",
