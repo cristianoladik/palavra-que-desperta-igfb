@@ -8495,7 +8495,7 @@
       "id": "reel-20261107-2100-874970f0d2",
       "data": "2026-11-07",
       "horario": "21:00",
-      "status": "pendente",
+      "status": "erro_midia",
       "origem": {
         "arquivo": "227 - As palavras deste vídeo podem mudar sua vida.mp4",
         "caminho_relativo": "227 - As palavras deste vídeo podem mudar sua vida.mp4",
@@ -8516,7 +8516,9 @@
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
         "status": "pendente"
-      }
+      },
+      "erro_midia": "Não foi possível baixar o asset 227.-.As.palavras.deste.video.podem.mudar.sua.vida.mp4: HTTP 504",
+      "atualizado_em": "2026-11-08T06:10:01.453537-03:00"
     },
     {
       "id": "reel-20261108-0500-5ebf09fe28",
