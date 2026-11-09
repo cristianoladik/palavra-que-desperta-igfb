@@ -3944,7 +3944,7 @@
       "id": "story-20261109-6ae87af002",
       "data": "2026-11-09",
       "horario": "09:00",
-      "status": "pendente",
+      "status": "publicacao_iniciada",
       "origem": {
         "arquivo": "052 - O Motivo Real de VOCÊ NÃO PODER DESISTIR em 2026! DESCUBRA JÁ.mp4",
         "sha256": "6ae87af002775c1ec9f2d2e7bcc7ca9ba8be5f817b55d4ca37deb498c2ef6259"
@@ -3978,7 +3978,8 @@
         "necessarias": 1,
         "restantes": 98,
         "mensagem": "Cota Instagram: 98 criações restantes; 1 necessárias."
-      }
+      },
+      "publicacao_iniciada_em": "2026-11-09T11:23:10.569052-03:00"
     },
     {
       "id": "story-20261110-91700b6fc4",
