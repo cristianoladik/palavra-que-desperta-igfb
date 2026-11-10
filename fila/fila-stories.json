@@ -4025,10 +4025,12 @@
             "publicado_em": "2026-11-10T10:20:30.622580-03:00"
           },
           "facebook": {
-            "status": "publicacao_iniciada",
+            "status": "publicado",
             "publicacao_iniciada_em": "2026-11-10T10:20:31.940755-03:00",
             "video_id": "1134834166017435",
-            "upload_concluido": true
+            "upload_concluido": true,
+            "id": "2229238180990628",
+            "publicado_em": "2026-11-10T10:20:46.911205-03:00"
           }
         }
       ],
