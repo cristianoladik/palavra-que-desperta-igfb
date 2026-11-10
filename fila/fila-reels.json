@@ -9047,10 +9047,12 @@
       },
       "facebook": {
         "legenda": "siga @palavraquedesperta_br",
-        "status": "publicacao_iniciada",
+        "status": "publicado",
         "publicacao_iniciada_em": "2026-11-10T17:35:38.084478-03:00",
         "video_id": "1923390905294069",
-        "upload_concluido": true
+        "upload_concluido": true,
+        "id": "1923390905294069",
+        "publicado_em": "2026-11-10T17:35:53.887075-03:00"
       }
     }
   ],
