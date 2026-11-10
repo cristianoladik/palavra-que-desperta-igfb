@@ -3997,7 +3997,7 @@
       "id": "story-20261110-91700b6fc4",
       "data": "2026-11-10",
       "horario": "09:00",
-      "status": "publicacao_iniciada",
+      "status": "concluido",
       "origem": {
         "arquivo": "053 - Por Que DEUS NÃO UNGE PERSONAGENS Mas Sim PESSOAS Reais! VEJA AQUI.mp4",
         "sha256": "91700b6fc47c30b7bc3b2972f0f8c96a4c927e539c5a74539bc3c89eb03808aa"
@@ -4042,7 +4042,8 @@
         "restantes": 95,
         "mensagem": "Cota Instagram: 95 criações restantes; 1 necessárias."
       },
-      "publicacao_iniciada_em": "2026-11-10T10:19:46.663759-03:00"
+      "publicacao_iniciada_em": "2026-11-10T10:19:46.663759-03:00",
+      "concluido_em": "2026-11-10T10:20:49.571715-03:00"
     }
   ],
   "estoque_minimo_dias": 30,
